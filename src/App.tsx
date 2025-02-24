@@ -19,18 +19,15 @@ const quizData: QuizData = {
 };
 const App: React.FC = () => {
   const [selectedQuiz, setSelectedQuiz] = useState<Question[] | null>(null);
-  const [quizKey, setQuizKey] = useState<string | null>(null);
   const [quizName, setQuizName] = useState<string | null>(null);
 
   const handleSelectQuiz = (quizKey: string, quizLabel: string) => {
-    setQuizKey(quizKey);
     setQuizName(quizLabel); // Guardar el nombre del quiz
     setSelectedQuiz(quizData[quizKey]);
   };
 
   const handleRestart = () => {
     setSelectedQuiz(null);
-    setQuizKey(null);
     setQuizName(null);
   };
 
