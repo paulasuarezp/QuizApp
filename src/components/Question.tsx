@@ -3,26 +3,59 @@ import { Question } from '../types';
 
 interface QuestionProps {
     question: Question;
-    onAnswer: (selectedOption: number) => void;
+    questionIndex: number;
+    selectedAnswer: number;
+    showResults: boolean;
+    onAnswer: (questionIndex: number, selectedOption: number) => void;
 }
 
-const QuestionComponent: React.FC<QuestionProps> = ({ question, onAnswer }) => {
+const QuestionComponent: React.FC<QuestionProps> = ({
+    question,
+    questionIndex,
+    selectedAnswer,
+    showResults,
+    onAnswer,
+}) => {
+    const handleOptionClick = (optionIndex: number) => {
+        if (!showResults) {
+            onAnswer(questionIndex, optionIndex);
+        }
+    };
+
+    const getOptionClass = (optionIndex: number) => {
+        if (showResults) {
+            if (optionIndex === question.answer) {
+                return 'correct';
+            } else if (optionIndex === selectedAnswer && optionIndex !== question.answer) {
+                return 'incorrect';
+            }
+        }
+        return '';
+    };
+
     return (
-        <div>
-            <h3>{question.question}</h3>
-            {question.options.map((option, index) => (
-                <div key={index}>
-                    <label>
+        <div className="question">
+            <h3>{`${questionIndex + 1}. ${question.question}`}</h3>
+            <ul>
+                {question.options.map((option, optionIndex) => (
+                    <li
+                        key={optionIndex}
+                        className={`answer ${getOptionClass(optionIndex)}`}
+                        onClick={() => handleOptionClick(optionIndex)}
+                    >
                         <input
                             type="radio"
-                            name="option"
-                            value={index}
-                            onChange={() => onAnswer(index)}
+                            name={`question-${questionIndex}`}
+                            checked={selectedAnswer === optionIndex}
+                            readOnly
                         />
-                        {option}
-                    </label>
-                </div>
-            ))}
+                        <label>{option}</label>
+                    </li>
+                ))}
+            </ul>
+            {showResults && question.explanation && (
+                <div className="explanation">{question.explanation}</div>
+            )}
         </div>
     );
 };

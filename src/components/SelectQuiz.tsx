@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface SelectQuizProps {
-    onSelectQuiz: (quizKey: string) => void;
+    onSelectQuiz: (quizKey: string, quizLabel: string) => void;
 }
 
 const SelectQuiz: React.FC<SelectQuizProps> = ({ onSelectQuiz }) => {
@@ -14,7 +14,13 @@ const SelectQuiz: React.FC<SelectQuizProps> = ({ onSelectQuiz }) => {
     };
 
     return (
-        <select onChange={(e) => onSelectQuiz(e.target.value)}>
+        <select
+            id="topic-selector"
+            onChange={(e) => {
+                const selectedLabel = e.target.options[e.target.selectedIndex].text;
+                onSelectQuiz(e.target.value, selectedLabel);
+            }}
+        >
             <option value="">Selecciona un quiz</option>
             {Object.entries(quizOptions).map(([label, value]) => (
                 <option key={value} value={value}>

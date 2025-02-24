@@ -1,40 +1,79 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Question } from '../types';
 import QuestionComponent from './Question';
 
 interface QuizProps {
     questions: Question[];
+    quizName: string; // Nombre del quiz seleccionado
+    onRestart: () => void;
 }
 
-const Quiz: React.FC<QuizProps> = ({ questions }) => {
-    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-    const [score, setScore] = useState(0);
-    const [showResult, setShowResult] = useState(false);
+const Quiz: React.FC<QuizProps> = ({ questions, quizName, onRestart }) => {
+    const [selectedAnswers, setSelectedAnswers] = useState<number[]>(Array(questions.length).fill(-1));
+    const [showResults, setShowResults] = useState(false);
 
-    const handleAnswer = (selectedOption: number) => {
-        if (selectedOption === questions[currentQuestionIndex].answer) {
-            setScore(score + 1);
-        }
+    // Reiniciar el cuestionario cuando cambian las preguntas
+    useEffect(() => {
+        setSelectedAnswers(Array(questions.length).fill(-1));
+        setShowResults(false);
+    }, [questions]);
 
-        if (currentQuestionIndex < questions.length - 1) {
-            setCurrentQuestionIndex(currentQuestionIndex + 1);
-        } else {
-            setShowResult(true);
-        }
+    const handleAnswer = (questionIndex: number, selectedOption: number) => {
+        const newSelectedAnswers = [...selectedAnswers];
+        newSelectedAnswers[questionIndex] = selectedOption;
+        setSelectedAnswers(newSelectedAnswers);
+    };
+
+    const calculateScore = () => {
+        let correctAnswers = 0;
+        questions.forEach((question, index) => {
+            if (selectedAnswers[index] === question.answer) {
+                correctAnswers++;
+            }
+        });
+        return (correctAnswers / questions.length) * 10; // Puntaje sobre 10
+    };
+
+    const handleFinish = () => {
+        setShowResults(true);
+    };
+
+    const handleRestart = () => {
+        setSelectedAnswers(Array(questions.length).fill(-1));
+        setShowResults(false);
+        onRestart();
     };
 
     return (
-        <div>
-            {showResult ? (
+        <div id="app">
+            <h1>{quizName}</h1> {/* Mostrar el nombre del quiz */}
+            <div id="question-container">
+                {questions.map((question, index) => (
+                    <QuestionComponent
+                        key={index}
+                        question={question}
+                        questionIndex={index}
+                        selectedAnswer={selectedAnswers[index]}
+                        showResults={showResults}
+                        onAnswer={handleAnswer}
+                    />
+                ))}
+            </div>
+            {!showResults && (
+                <button className="btn" onClick={handleFinish}>
+                    Finalizar
+                </button>
+            )}
+            {showResults && (
                 <div>
                     <h2>Resultado</h2>
-                    <p>Puntuación: {score} / {questions.length}</p>
+                    <p>
+                        Puntuación: {calculateScore().toFixed(2)} / 10 ({calculateScore().toFixed(2)} preguntas correctas de {questions.length})
+                    </p>
+                    <button className="btn" onClick={handleRestart}>
+                        Reiniciar Cuestionario
+                    </button>
                 </div>
-            ) : (
-                <QuestionComponent
-                    question={questions[currentQuestionIndex]}
-                    onAnswer={handleAnswer}
-                />
             )}
         </div>
     );
