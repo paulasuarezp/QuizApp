@@ -1,0 +1,22 @@
+[
+  {
+    "question": "En muchos casos los proyectos de software engloban en un solo proyecto tres etapas diferenciadas en otros proyectos, ¿cuáles?",
+    "options": [
+      "Financiación, avalaes y garantías post-venta",
+      "Definición, construcción e implantación",
+      "Presupuesto, planos y pliego de condiciones"
+    ],
+    "answer": 1,
+    "explanation": "1.1.1 Concepto de Proyecto. La respuesta correcta es: Definición, construcción e implantación"
+  },
+  {
+    "question": "En Scrum hay varios roles principales:",
+    "options": [
+      "Equipo, Dueño del producto y Scrum master",
+      "Dueño de producto, Equipo y Project manager",
+      "Cliente, Equipo y Jefe de proyecto"
+    ],
+    "answer": 0,
+    "explanation": ""
+  }
+]

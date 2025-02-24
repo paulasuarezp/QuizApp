@@ -1,35 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from 'react';
+import Quiz from './components/Quiz';
+import SelectQuiz from './components/SelectQuiz';
+import CRC from './data/CRC.json';
+import GCAR from './data/GCAR.json';
+import IFRI from './data/IFRI.json';
+import SRAIA from './data/SRAIA.json';
+import SSABD from './data/SSABD.json';
+import { Question, QuizData } from './types';
 
-function App() {
-  const [count, setCount] = useState(0)
+const quizData: QuizData = {
+  SSABD,
+  SRAIA,
+  IFRI,
+  GCAR,
+  CRC
+};
+
+
+const App: React.FC = () => {
+  const [selectedQuiz, setSelectedQuiz] = useState<Question[] | null>(null);
+
+  const handleSelectQuiz = (quizKey: string) => {
+    setSelectedQuiz(quizData[quizKey]);
+  };
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div>
+      <h1>Quiz App</h1>
+      <SelectQuiz onSelectQuiz={handleSelectQuiz} />
+      {selectedQuiz && <Quiz questions={selectedQuiz} />}
+    </div>
+  );
+};
 
-export default App
+export default App;
