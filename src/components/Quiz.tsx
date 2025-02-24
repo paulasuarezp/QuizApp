@@ -11,12 +11,22 @@ interface QuizProps {
 const Quiz: React.FC<QuizProps> = ({ questions, quizName, onRestart }) => {
     const [selectedAnswers, setSelectedAnswers] = useState<number[]>(Array(questions.length).fill(-1));
     const [showResults, setShowResults] = useState(false);
+    const [examMode, setExamMode] = useState(false);
+    const [randomQuestions, setRandomQuestions] = useState<Question[]>([]);
 
     // Reiniciar el cuestionario cuando cambian las preguntas
     useEffect(() => {
         setSelectedAnswers(Array(questions.length).fill(-1));
         setShowResults(false);
-    }, [questions]);
+        if (examMode) {
+            selectRandomQuestions();
+        }
+    }, [questions, examMode]);
+
+    const selectRandomQuestions = () => {
+        const shuffled = [...questions].sort(() => 0.5 - Math.random());
+        setRandomQuestions(shuffled.slice(0, 10));
+    };
 
     const handleAnswer = (questionIndex: number, selectedOption: number) => {
         const newSelectedAnswers = [...selectedAnswers];
@@ -26,12 +36,13 @@ const Quiz: React.FC<QuizProps> = ({ questions, quizName, onRestart }) => {
 
     const calculateScore = () => {
         let correctAnswers = 0;
-        questions.forEach((question, index) => {
+        const questionsToUse = examMode ? randomQuestions : questions;
+        questionsToUse.forEach((question, index) => {
             if (selectedAnswers[index] === question.answer) {
                 correctAnswers++;
             }
         });
-        return (correctAnswers / questions.length) * 10; // Puntaje sobre 10
+        return (correctAnswers / questionsToUse.length) * 10; // Puntaje sobre 10
     };
 
     const handleFinish = () => {
@@ -44,11 +55,27 @@ const Quiz: React.FC<QuizProps> = ({ questions, quizName, onRestart }) => {
         onRestart();
     };
 
+    const handleModeChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+        setExamMode(event.target.value === 'exam');
+        if (event.target.value === 'exam') {
+            selectRandomQuestions();
+        }
+    };
+
+    const questionsToDisplay = examMode ? randomQuestions : questions;
+
     return (
         <div id="app">
             <h1>{quizName}</h1> {/* Mostrar el nombre del quiz */}
+            <div>
+                <label htmlFor="mode">Modo: </label>
+                <select id="mode" onChange={handleModeChange}>
+                    <option value="all">Todas las preguntas</option>
+                    <option value="exam">Modo Examen (10 preguntas)</option>
+                </select>
+            </div>
             <div id="question-container">
-                {questions.map((question, index) => (
+                {questionsToDisplay.map((question, index) => (
                     <QuestionComponent
                         key={index}
                         question={question}
@@ -68,7 +95,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, quizName, onRestart }) => {
                 <div>
                     <h2>Resultado</h2>
                     <p>
-                        Puntuación: {calculateScore().toFixed(2)} / 10 ({calculateScore().toFixed(2)} preguntas correctas de {questions.length})
+                        Puntuación: {calculateScore().toFixed(2)} / 10 ({calculateScore().toFixed(2)} preguntas correctas de {questionsToDisplay.length})
                     </p>
                     <button className="btn" onClick={handleRestart}>
                         Reiniciar Cuestionario
