@@ -1,22 +1,413 @@
 [
   {
-    "question": "En muchos casos los proyectos de software engloban en un solo proyecto tres etapas diferenciadas en otros proyectos, ¿cuáles?",
+    "question": "De las siguientes afirmaciones, ¿Cuál no es un objetivo de un análisis forense?",
     "options": [
-      "Financiación, avalaes y garantías post-venta",
-      "Definición, construcción e implantación",
-      "Presupuesto, planos y pliego de condiciones"
+      "Averiguar QUÉ se ha alterado",
+      "Descubrir CÓMO se ha realizado la alteración",
+      "Saber QUIÉN ha realizado dicha alteración",
+      "Indicar POR QUÉ se ha realizado la alteración"
     ],
-    "answer": 1,
-    "explanation": "1.1.1 Concepto de Proyecto. La respuesta correcta es: Definición, construcción e implantación"
+    "answer": 3,
+    "explanation": "El análisis forense se centra en descubrir qué, cómo y quién realizó la alteración, pero no en determinar el motivo (por qué)."
   },
   {
-    "question": "En Scrum hay varios roles principales:",
+    "question": "Las etapas de un análisis forense son:",
     "options": [
-      "Equipo, Dueño del producto y Scrum master",
-      "Dueño de producto, Equipo y Project manager",
-      "Cliente, Equipo y Jefe de proyecto"
+      "Recolectar, reservar, analizar y presentar.",
+      "Recolectar, preservar y analizar.",
+      "Recolectar, preservar, analizar y presentar.",
+      "Recolectar, preservar y presentar."
+    ],
+    "answer": 2,
+    "explanation": "Las etapas de un análisis forense incluyen recolectar, preservar, analizar y presentar la evidencia."
+  },
+  {
+    "question": "¿Qué información sería posible recuperar tras la eliminación de un archivo si además, también se vacía la papelera de reciclaje (o carpeta similar)?",
+    "options": [
+      "Si se elimina el enlace o su definición en la tabla índice, solo el archivo, sin los datos asociados al mismo",
+      "No es posible recuperar información sobre el archivo, sólo sus metadatos",
+      "Es posible recuperar únicamente la definición del archivo en la tabla índice",
+      "Ninguna de las anteriores es correcta"
     ],
     "answer": 0,
     "explanation": ""
+  },
+  {
+    "question": "Durante el análisis de los componentes de red",
+    "options": [
+      "En un análisis forense, los componentes de red no son analizados",
+      "Obtenemos la lista de programas utilizados por el usuario",
+      "Obtenemos la lista de dispositivos USB conectados al equipo",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 3,
+    "explanation": "El análisis de componentes de red no se limita a programas o dispositivos USB, sino que incluye tráfico, logs y configuraciones."
+  },
+  {
+    "question": "¿Cuál de las siguientes evidencias es de mayor volatilidad?",
+    "options": [
+      "Los archivos temporales de Internet",
+      "La caché ARP",
+      "El espacio de intercambio",
+      "Los datos almacenados en el disco duro del equipo"
+    ],
+    "answer": 1,
+    "explanation": "La caché ARP es altamente volátil, ya que se almacena en la memoria RAM y se pierde al reiniciar el sistema."
+  },
+  {
+    "question": "En un informe pericial, ¿Qué debemos detallar?",
+    "options": [
+      "Los resultados obtenidos, el procedimiento no se detalla.",
+      "El procedimiento realizado y sus resultados",
+      "El procedimiento realizado por los peritos únicamente",
+      "El equipo utilizado y los resultados, no el procedimiento realizado"
+    ],
+    "answer": 1,
+    "explanation": "Un informe pericial debe incluir tanto el procedimiento realizado como los resultados obtenidos para garantizar transparencia y reproducibilidad."
+  },
+  {
+    "question": "El Sistema Operativo Android está basado en Linux",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0,
+    "explanation": "Android está basado en el kernel de Linux, aunque con modificaciones y capas adicionales."
+  },
+  {
+    "question": "Las adquisiciones mediante ADB o Custom Recovery...",
+    "options": [
+      "Sólo las podremos realizar sobre terminales iOS",
+      "Sólo las podremos realizar sobre terminales Android",
+      "Sólo las podremos realizar sobre terminales Windows",
+      "Las podremos realizar sobre terminales Android e iOS"
+    ],
+    "answer": 1,
+    "explanation": "ADB (Android Debug Bridge) y Custom Recovery son herramientas específicas para dispositivos Android."
+  },
+  {
+    "question": "¿Podemos realizar la adquisición de un terminal sin conocer el patrón (PIN, contraseña, etc.) de desbloqueo?",
+    "options": [
+      "Sí, siempre será posible acceder al terminal",
+      "No, salvo que aprovechemos vulnerabilidades conocidas o utilicemos herramientas comerciales que exploten estas vulnerabilidades",
+      "Sí, si utilizamos algún método avanzado de adquisición, aunque nos podríamos llevar la información cifrada",
+      "Las respuestas B y C son correctas"
+    ],
+    "answer": 3,
+    "explanation": "Es posible acceder a un terminal sin el patrón de desbloqueo utilizando vulnerabilidades o herramientas avanzadas, aunque la información podría estar cifrada."
+  },
+  {
+    "question": "¿Cuál de los siguientes no es un apartado de los indicados por la normativa UNE 197010 que deben aparecer en todos los informes periciales?",
+    "options": [
+      "Identificación",
+      "Declaración de imparcialidad",
+      "Reverso",
+      "Conclusiones"
+    ],
+    "answer": 2,
+    "explanation": "El 'Reverso' no es un apartado requerido por la normativa UNE 197010 para los informes periciales."
+  },
+  {
+    "question": "Al realizar una recuperación 'en bruto'...",
+    "options": [
+      "No existe ningún tipo de recuperación con esa denominación",
+      "Se recuperan los archivos borrados en función del nombre de los mismos",
+      "Se realiza una búsqueda de firmas de archivos conocidas por todo el espacio del disco duro",
+      "Se recuperan los archivos contenidos en la papelera de reciclaje o similares"
+    ],
+    "answer": 2,
+    "explanation": "La recuperación 'en bruto' implica buscar firmas de archivos conocidas en todo el espacio del disco, sin depender de estructuras del sistema de archivos."
+  },
+  {
+    "question": "¿Cuáles son las preguntas a las que debe dar respuesta un análisis forense?",
+    "options": [
+      "¿Qué se ha alterado?, ¿Dónde se ha alterado? y ¿Por qué se ha alterado?",
+      "¿Qué se ha alterado?, ¿Cómo se ha alterado? y ¿Quién ha realizado dicha alteración?",
+      "¿Qué se ha alterado? y ¿Cómo se ha alterado?",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 1,
+    "explanation": "Un análisis forense debe responder a qué se alteró, cómo se alteró y quién realizó la alteración."
+  },
+  {
+    "question": "Los sistemas de Ficheros más comunes según el Sistema Operativo son:",
+    "options": [
+      "NTFS y HFS para Sistemas Operativos Windows",
+      "HFS+ para Sistemas Operativos Mac OS",
+      "NTFS+ y ExtHFS para Sistemas Operativos Linux",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 1,
+    "explanation": "HFS+ es el sistema de archivos común en sistemas Mac OS aunque ahora es APFS, mientras que NTFS es para Windows y ext4 para Linux."
+  },
+  {
+    "question": "¿Qué información sería posible recuperar tras la eliminación de un archivo, el vaciado de la papelera (o carpeta similar) y la sobrescritura de los datos?",
+    "options": [
+      "En función de la cantidad de información sobrescrita, es posible recuperar una parte del archivo o no recuperar nada",
+      "Toda (el archivo eliminado y los datos asociados al mismo)",
+      "El archivo completo, sin los datos asociados al mismo",
+      "Únicamente los datos asociados al archivo"
+    ],
+    "answer": 0,
+    "explanation": "Si los datos han sido sobrescritos, la recuperación depende de la cantidad de información sobrescrita; en algunos casos, no es posible recuperar nada."
+  },
+  {
+    "question": "Con respecto a las evidencias volátiles...",
+    "options": [
+      "Son aquellas cuya información no se modifica fácilmente",
+      "Son aquellas evidencias que se conservan tras el apagado del equipo",
+      "No se ven alteradas por las acciones de los usuarios",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 3,
+    "explanation": "Las evidencias volátiles son aquellas que se pierden al apagar el equipo, como la memoria RAM o la caché."
+  },
+  {
+    "question": "Una adquisición física",
+    "options": [
+      "Es aquella en la que toda la información contenida en el disco, salvo el sector de arranque, se copia exactamente igual de origen a destino",
+      "Es aquella en la que toda la información contenida en el disco, incluido el sector de arranque, se copia exactamente igual de origen a destino",
+      "Es aquella en la que únicamente se copia un volumen o partición concreto del dispositivo",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 1,
+    "explanation": "Una adquisición física copia toda la información del disco, incluyendo el sector de arranque, bit a bit."
+  },
+  {
+    "question": "La estructura de particiones en Sistemas Operativos iOS es similar a la utilizada en sistemas Android",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1,
+    "explanation": "La estructura de particiones en iOS y Android es diferente, ya que cada sistema operativo tiene su propio diseño y organización."
+  },
+  {
+    "question": "La adquisición mediante Custom Recovery",
+    "options": [
+      "Se basa en modificar la partición de recuperación del dispositivo e instalar en ella una distribución específica",
+      "Se basa en modificar la partición de usuario del dispositivo e instalar en ella una distribución específica",
+      "Se basa en modificar la partición de sistema del dispositivo e instalar en ella una distribución específica",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 0,
+    "explanation": "La adquisición mediante Custom Recovery implica modificar la partición de recuperación para instalar una distribución personalizada."
+  },
+  {
+    "question": "¿Qué necesitaremos para adquirir la tarjeta SIM de un terminal?",
+    "options": [
+      "Un lector de tarjetas SIM",
+      "El software específico de adquisición",
+      "El PIN y/o PUK de la tarjeta",
+      "Todas las anteriores son correctas"
+    ],
+    "answer": 3,
+    "explanation": "Para adquirir la tarjeta SIM, se necesita un lector de tarjetas SIM, software específico y el PIN/PUK de la tarjeta."
+  },
+  {
+    "question": "En los anexos del informe pericial:",
+    "options": [
+      "Se recogerá toda la información que creamos necesario adjuntar como complemento",
+      "Se recogerá únicamente la información técnica que no se ha incluido en el cuerpo del informe",
+      "Se incluirán capturas de pantalla de todo el proceso de análisis realizado",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 0,
+    "explanation": "Los anexos del informe pericial incluyen información complementaria que se considera relevante para el caso."
+  },
+  {
+    "question": "¿Qué fases podemos diferenciar durante la realización de un análisis forense?",
+    "options": [
+      "Solo tenemos una fase y es la fase de análisis propiamente dicha",
+      "La fase de pre-análisis, la fase de análisis, la fase de post-análisis y la fase de redacción",
+      "La fase de pre-análisis y la fase de análisis propiamente dicha",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 2,
+    "explanation": "Test Tema 6. Esquema general de análisis."
+  },
+  {
+    "question": "¿Cuál de las siguientes evidencias es la de menor volatilidad?",
+    "options": [
+      "La memoria RAM",
+      "La tabla ARP",
+      "La caché de la CPU",
+      "El espacio de intercambio"
+    ],
+    "answer": 3,
+    "explanation": "El espacio de intercambio (swap) es menos volátil que la memoria RAM, la tabla ARP o la caché de la CPU, ya que se almacena en el disco."
+  },
+  {
+    "question": "¿Cuál de estos NO es un objetivo de un análisis forense?",
+    "options": [
+      "Averiguar QUÉ se ha alterado.",
+      "Descubrir POR QUÉ se ha realizado la alteración.",
+      "Saber CÓMO se ha realizado la alteración.",
+      "Descubrir QUIÉN ha realizado la alteración."
+    ],
+    "answer": 1,
+    "explanation": "El análisis forense no busca determinar el motivo (por qué) de la alteración, sino qué, cómo y quién la realizó."
+  },
+  {
+    "question": "¿Cuáles son los objetivos que se busca conseguir mediante el uso de la cadena de custodia? (Seleccione la respuesta que considere más completa)",
+    "options": [
+      "Garantizar la integridad, inamobilidad, autenticidad, localización, trazabilidad y preservación de la evidencia.",
+      "Garantizar la integridad, inamobilidad, autenticidad, trazabilidad y preservación de la evidencia.",
+      "Garantizar la inamobilidad, autenticidad, trazabilidad, preservación y localización de la evidencia.",
+      "Garantizar la integridad, autenticidad, localización, trazabilidad y preservación de la evidencia."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Indique cuál de los siguientes archivos no se considera, en principio, un archivo de interés dentro de un Sistema Operativo Windows:",
+    "options": [
+      "El registro de Windows",
+      "Los archivos de eventos del Sistema",
+      "Los archivos de paginación e hibernación",
+      "Todas las anteriores se consideran archivos de interés"
+    ],
+    "answer": 3,
+    "explanation": "Todos los archivos mencionados (registro de Windows, archivos de eventos y archivos de paginación/hibernación) son de interés en un análisis forense."
+  },
+  {
+    "question": "El Sistema Operativo Android está basado en Windows:",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1,
+    "explanation": "Android está basado en el kernel de Linux, no en Windows."
+  },
+  {
+    "question": "Sobre la herramienta de adquisición Magnet Acquire:",
+    "options": [
+      "Es una herramienta que nos permite analizar terminales Android",
+      "Es una herramienta para la adquisición de terminales Android únicamente",
+      "Es una herramienta para el análisis de terminales iOS",
+      "Es una herramienta que permite la adquisición de terminales Android e iOS"
+    ],
+    "answer": 3,
+    "explanation": "Magnet Acquire es una herramienta que permite la adquisición de datos en dispositivos Android e iOS."
+  },
+  {
+    "question": "Antes de rootear un dispositivo móvil dentro de un procedimiento judicializado...",
+    "options": [
+      "Es necesario solicitar permiso expreso al juez",
+      "No será necesario solicitar ningún tipo de autorización",
+      "Basta con la autorización del propietario del terminal",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 0,
+    "explanation": "En un procedimiento judicializado, es necesario solicitar permiso expreso al juez antes de rootear un dispositivo."
+  },
+  {
+    "question": "El cuerpo del informe pericial suele incluir:",
+    "options": [
+      "Resumen ejecutivo, Objeto del encargo, Antecedentes, Fuentes de información y Análisis",
+      "Resumen ejecutivo, Objeto del encargo, Antecedentes, Fuentes de información, Procedimiento de trabajo y fundamentación",
+      "Resumen ejecutivo, Objeto del encargo, Antecedentes, Fuentes de información, Procedimiento de trabajo y fundamentación y Análisis",
+      "Resumen ejecutivo, Objeto del encargo, Fuentes de información, Procedimiento de trabajo y fundamentación y Análisis"
+    ],
+    "answer": 2,
+    "explanation": "El cuerpo del informe pericial incluye resumen ejecutivo, objeto del encargo, antecedentes, fuentes de información, procedimiento de trabajo, fundamentación y análisis."
+  },
+  {
+    "question": "Respecto a la recolección de evidencias",
+    "options": [
+      "Es el primer paso a la hora de realizar un análisis forense",
+      "No precisa de medios que aseguren la no modificación de las mismas",
+      "Los cambios que se hayan podido realizar no se documentan, solo se documentan los cambios durante el análisis de las mismas",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 0,
+    "explanation": "La recolección de evidencias es el primer paso en un análisis forense y debe realizarse con medios que aseguren su integridad."
+  },
+  {
+    "question": "Según el NIST, ¿Cuál de las siguientes no sería una etapa de un análisis forense?",
+    "options": [
+      "Presentar",
+      "Preservar",
+      "Destruir",
+      "Analizar"
+    ],
+    "answer": 2,
+    "explanation": "La destrucción no es una etapa del análisis forense según el NIST, que define las etapas como recolección, preservación, análisis y presentación."
+  },
+  {
+    "question": "¿Cuáles son los objetivos que se busca conseguir mediante el uso de la cadena de custodia? (Seleccione la respuesta que considere más completa)",
+    "options": [
+      "Garantizar la integridad, autenticidad, escalabilidad, localización, trazabilidad y preservación de la evidencia.",
+      "Garantizar la integridad, autenticidad, localización, trazabilidad y preservación de la evidencia.",
+      "Garantizar la integridad, autenticidad y preservación de la evidencia.",
+      "Garantizar la integridad, autenticidad, escalabilidad, trazabilidad y preservación de la evidencia."
+    ],
+    "answer": 1,
+    "explanation": "La cadena de custodia garantiza la integridad, autenticidad, localización, trazabilidad y preservación de la evidencia."
+  },
+  {
+    "question": "Con respecto a las evidencias no volátiles...",
+    "options": [
+      "Son aquellas que cambian con facilidad",
+      "Deben ser las primeras en ser adquiridas",
+      "Desaparecen al apagar el equipo",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 3,
+    "explanation": "Las evidencias no volátiles no cambian con facilidad, no desaparecen al apagar el equipo y no necesariamente deben ser las primeras en adquirirse."
+  },
+  {
+    "question": "Con respecto a la responsabilidad penal del perito...",
+    "options": [
+      "Se da únicamente por la realización del hecho con dolo",
+      "Un perito no tiene responsabilidad penal al considerarse su figura como la del testigo",
+      "Se da únicamente cuando existe voluntad de engañar",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 3,
+    "explanation": "La responsabilidad penal del perito puede darse en casos de negligencia grave o dolo, no solo por voluntad de engañar."
+  },
+  {
+    "question": "La estructura de particiones en Sistemas Operativos iOS es bastante diferente de la utilizada en sistemas Android",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0,
+    "explanation": "La estructura de particiones en iOS y Android es diferente, ya que cada sistema operativo tiene su propio diseño y organización."
+  },
+  {
+    "question": "Para realizar la adquisición mediante ADB es necesario:",
+    "options": [
+      "Que el equipo tenga los drivers ADB necesarios y las Android SDK Platform Tools",
+      "Que el terminal tenga habilitada la depuración por USB",
+      "Que seamos root en el terminal y que la aplicación busybox esté instalada en el dispositivo",
+      "Todas las anteriores son correctas"
+    ],
+    "answer": 3,
+    "explanation": "Para la adquisición mediante ADB, se necesitan los drivers ADB, las Android SDK Platform Tools, la depuración por USB habilitada y, en algunos casos, permisos root y la aplicación busybox."
+  },
+  {
+    "question": "¿Cuál de las siguientes no es una particularidad de las tarjetas SIM?",
+    "options": [
+      "Poca capacidad de almacenamiento de información",
+      "Puede contener contactos",
+      "Contiene datos multimedia",
+      "Podemos obtener los códigos ICCID"
+    ],
+    "answer": 2,
+    "explanation": "Las tarjetas SIM no suelen contener datos multimedia, ya que su capacidad de almacenamiento es limitada y se usa principalmente para contactos y códigos ICCID."
+  },
+  {
+    "question": "En las conclusiones de nuestro informe pericial:",
+    "options": [
+      "Vincularemos nuestros resultados con aquellas cuestiones que debíamos de resolver en nuestra investigación",
+      "Es conveniente contestar a las preguntas en el mismo orden y numeración con el que fueron planteadas",
+      "Es habitual también establecer una conclusión final a modo de resumen",
+      "Todas las anteriores son correctas"
+    ],
+    "answer": 3,
+    "explanation": "Las conclusiones del informe pericial deben vincular los resultados con las preguntas planteadas, seguir un orden coherente y ofrecer un resumen final."
   }
+
 ]
