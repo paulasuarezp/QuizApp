@@ -1,3 +1,4 @@
+/* Estilos generales */
 :root {
   --c-app1: #ffffff;
   --c-app2: #dddddd;
@@ -22,79 +23,12 @@ body {
 }
 
 #app {
-  max-width: 45%;
-  margin: 5px auto;
+  max-width: 800px;
+  margin: 20px auto;
   padding: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  position: relative;
-  min-height: 100vh;
   background-color: var(--c-app1);
-}
-
-#traversal {
-  position: fixed;
-  left: 5px;
-  top: 5px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  padding: 20px;
-  min-height: 25vh;
-  max-width: 18%;
-  content: "";
-  background-color: #fff;
-}
-
-#traversal-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.traversal-element {
-  width: 2em;
-  margin: 2px;
-  height: 2em;
-  border: 1px solid black;
-  border-radius: 0.5rem;
-  align-items: center;
-  transition: all 300ms ease;
-}
-
-.traversal-element:hover,
-.traversal-element:focus-within {
-  transform: scale(1.02);
-  background-color: var(--c-app2);
-}
-
-.traversal-button {
-  width: 100%;
-  height: 100%;
-  background-color: var(--c-app);
-  border-radius: 0.5rem;
-  text-decoration: none;
-  color: black;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-}
-
-.traversal-text {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-}
-
-.incorrect {
-  background-color: var(--c-incorrect);
-}
-
-.correct {
-  background-color: var(--c-correct);
-}
-
-.answered {
-  background-color: var(--c-main1);
 }
 
 h1 {
@@ -102,17 +36,6 @@ h1 {
   color: #333;
   padding-bottom: 20px;
   border-bottom: 1px solid var(--c-app2);
-}
-
-#topic-selector {
-  width: 100%;
-  margin: 20px 0;
-  padding: 10px;
-  border: 1px solid var(--c-app2);
-  border-radius: 5px;
-  font-size: 16px;
-  background-color: var(--c-app1);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #question-container {
@@ -123,10 +46,6 @@ h1 {
   margin-top: 10px;
   padding-bottom: 5px;
   position: relative;
-}
-
-ul {
-  margin: 0;
 }
 
 .question::before {
@@ -181,38 +100,6 @@ ul {
   margin: 10px;
 }
 
-#buttons-container {
-  display: flex;
-  flex-direction: row;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  padding: 20px;
-  border-top-left-radius: 10px;
-  background: transparent;
-}
-
-button.btn {
-  padding: 10px 20px;
-  border: none;
-  background-color: var(--c-btn1);
-  color: white;
-  font-size: 16px;
-  border-radius: 5px;
-  margin: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button.btn:hover,
-button.btn:focus-within {
-  background-color: var(--c-btn2);
-}
-
-button.btn:disabled {
-  background-color: var(--c-btn-disabled);
-}
-
 .explanation {
   background-color: var(--c-explanation1);
   padding: 10px;
@@ -227,4 +114,55 @@ button.btn:disabled {
 
 .incorrect {
   background-color: var(--c-incorrect);
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  #app {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .question label {
+    font-size: 16px;
+  }
+
+  .answer {
+    padding: 8px;
+  }
+
+  .answer label {
+    font-size: 14px;
+  }
+
+  .explanation {
+    font-size: 14px;
+  }
+}
+
+/* Estilos para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #app {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .question label {
+    font-size: 18px;
+  }
+
+  .answer label {
+    font-size: 16px;
+  }
+
+  .explanation {
+    font-size: 16px;
+  }
 }

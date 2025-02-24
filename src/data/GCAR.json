@@ -1,22 +1,676 @@
 [
   {
-    "question": "En muchos casos los proyectos de software engloban en un solo proyecto tres etapas diferenciadas en otros proyectos, ¿cuáles?",
+    "question": "Un ataque de denegación de servicio (DoS) es propio de:",
     "options": [
-      "Financiación, avalaes y garantías post-venta",
-      "Definición, construcción e implantación",
-      "Presupuesto, planos y pliego de condiciones"
+      "Hackers",
+      "Crackers",
+      "Administradores",
+      "Testers"
     ],
     "answer": 1,
-    "explanation": "1.1.1 Concepto de Proyecto. La respuesta correcta es: Definición, construcción e implantación"
+    "explanation": "Los crackers son quienes realizan ataques de denegación de servicio (DoS) con intenciones maliciosas."
   },
   {
-    "question": "En Scrum hay varios roles principales:",
+    "question": "¿Qué mitigaría una correcta concienciación de los usuarios finales?",
     "options": [
-      "Equipo, Dueño del producto y Scrum master",
-      "Dueño de producto, Equipo y Project manager",
-      "Cliente, Equipo y Jefe de proyecto"
+      "Los ataques de denegación de servicio.",
+      "El nivel de éxito de los casos de phishing e ingeniería social.",
+      "La explotación de vulnerabilidades técnicas.",
+      "Los ataques de fuerza bruta en servicios autenticados publicados al exterior."
+    ],
+    "answer": 1,
+    "explanation": "La concienciación de los usuarios reduce el éxito de ataques de phishing e ingeniería social, ya que los usuarios estarán más alerta."
+  },
+  {
+    "question": "¿Qué es cierto respecto a la ISO/IEC 27002:2013?",
+    "options": [
+      "El orden de los capítulos implica orden de importancia.",
+      "Da pautas de obligado cumplimiento a la hora de implementar los requisitos recogidos en la ISO 27001.",
+      "No ha evolucionado desde su última publicación en el año 2005.",
+      "Es una guía de referencia estructurada en 14 capítulos y 114 controles."
+    ],
+    "answer": 3,
+    "explanation": "La ISO/IEC 27002:2013 es una guía de referencia estructurada en 14 capítulos y 114 controles para la implementación de un SGSI."
+  },
+  {
+    "question": "¿En qué consiste el principio de Necesidad de saber?",
+    "options": [
+      "Otorgar siempre los usuarios de red o de aplicación bajo justificación.",
+      "Confirmación positiva de que una persona requiere acceso a una información para desempeñar una tarea.",
+      "Garantizar a nivel técnico que todas las cuentas de red y de aplicación acceden únicamente a la información necesaria para llevar a cabo las tareas encomendadas.",
+      "Restringir el acceso a la información mediante workflows."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "¿Cuál no es un aspecto fundamental al definir la estrategia de un programa de concienciación?",
+    "options": [
+      "El mensaje a transmitir y el canal para difundirlo.",
+      "Identificar a quién irá dirigido y adecuar el mensaje en función de su rol en la organización.",
+      "Decidir el calendario en el cual se llevarán a cabo las iniciativas.",
+      "Identificar un interlocutor en cada uno de los departamentos o áreas de la organización en el alcance del programa."
+    ],
+    "answer": 3,
+    "explanation": "Identificar un interlocutor en cada departamento no es un aspecto fundamental, sino más bien una estrategia de implementación."
+  },
+  {
+    "question": "Un proceso de gestión del riesgo implantado según los principios y directrices de la UNE-ISO 31000, es una herramienta que ayuda a una organización a:",
+    "options": [
+      "Mejorar la prevención de pérdidas y la gestión de incidentes.",
+      "Minimizar las pérdidas.",
+      "Mejorar la resiliencia de la organización.",
+      "Todas las anteriores."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "En ISO 31000 la apreciación del riesgo comprende:",
+    "options": [
+      "El establecimiento del contexto, la identificación, el análisis y la evaluación del riesgo.",
+      "La identificación, el análisis y la evaluación del riesgo.",
+      "La identificación, el análisis, la evaluación y el tratamiento del riesgo.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "La legislación española de Medidas de Impulso de la Sociedad de la Información (LISI):",
+    "options": [
+      "Carece de validez legal, porque no es práctica y nadie la está aplicando.",
+      "Promueve el uso de medios electrónicos en la contratación, así como la facturación electrónica.",
+      "Obliga a todas las empresas españolas, grandes, medianas y pequeñas.",
+      "Ninguna es falsa."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "¿Cuál de los siguientes forma parte de los objetivos específicos de la gestión del riesgo en CMMI?",
+    "options": [
+      "Determinar Fuentes y Categorías de Riesgo.",
+      "Determinar Planes de Migración de Riesgo.",
+      "Identificar y Analizar Riesgos.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 2,
+    "explanation": "En CMMI, uno de los objetivos específicos de la gestión del riesgo es identificar y analizar riesgos."
+  },
+  {
+    "question": "Respecto a las salvaguardas, ¿cuál de las siguientes afirmaciones es incorrecta?",
+    "options": [
+      "Reducen la probabilidad de materialización de la amenaza.",
+      "Disminuyen el impacto.",
+      "Proporcionan alerta temprana.",
+      "Elimina el riesgo."
+    ],
+    "answer": 3,
+    "explanation": "Las salvaguardas no eliminan el riesgo, sino que lo reducen o mitigan."
+  },
+  {
+    "question": "Los proyectos de Desarrollo de cuerpo normativo entrarían en la categoría de:",
+    "options": [
+      "Auditoría técnica",
+      "Cumplimiento",
+      "Resiliencia",
+      "Formación y concienciación"
+    ],
+    "answer": 1,
+    "explanation": "El desarrollo de cuerpo normativo está relacionado con el cumplimiento de normativas y regulaciones."
+  },
+  {
+    "question": "La certificación CISM (Certified Information Security Manager) comprende los siguientes dominios de conocimiento:",
+    "options": [
+      "Gobierno, Gestión de riesgos, Desarrollo y gestión del programa de seguridad y Gestión de incidentes de seguridad de la información.",
+      "Gobierno, Auditoría, Gestión de riesgos y Gestión de incidentes.",
+      "Gobierno, Gestión de riesgos, Auditoría, Desarrollo y gestión del programa de seguridad y Gestión de incidentes de seguridad de la información.",
+      "Gobierno, Auditoría, Desarrollo y gestión del programa de seguridad y Gestión de incidentes de seguridad de la información."
+    ],
+    "answer": 0,
+    "explanation": "CISM cubre gobierno, gestión de riesgos, desarrollo y gestión del programa de seguridad, y gestión de incidentes."
+  },
+  {
+    "question": "El coste de ruptura:",
+    "options": [
+      "Es un coste que debe calcularse para la defensa del ataque.",
+      "Es directamente proporcional al coste de protección.",
+      "Es inversamente proporcional al coste de protección.",
+      "Es un coste que debe calcularse para la ejecución del ataque."
+    ],
+    "answer": 2,
+    "explanation": "El coste de ruptura es inversamente proporcional al coste de protección; a mayor protección, menor coste de ruptura."
+  },
+  {
+    "question": "Para la renovación de la certificación CISM (Certified Information Security Manager) debes:",
+    "options": [
+      "Aprobar el examen, cumplir con la política de CPEs y pagar el mantenimiento.",
+      "Cumplir con la política de CPEs y pagar el mantenimiento.",
+      "Aprobar el examen y pagar el mantenimiento.",
+      "Pagar el mantenimiento."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Un indicador es:",
+    "options": [
+      "Objeto tangible o intangible que será caracterizado a través de la medición de sus atributos.",
+      "Propiedad o característica de un objeto de medida, que puede ser distinguida cuantitativa o cualitativamente, por una persona o sistema automatizado.",
+      "Variable a la que se le asigna un valor como resultado de una medición.",
+      "Medida que ofrece una estimación o evaluación de atributos específicos en un modelo de referencia de acuerdo a unas necesidades de información definidas."
+    ],
+    "answer": 3,
+    "explanation": "Un indicador es una medida que ofrece una estimación o evaluación de atributos específicos en un modelo de referencia."
+  },
+  {
+    "question": "Las opciones de tratamiento del riesgo:",
+    "options": [
+      "Se excluyen necesariamente unas a otras.",
+      "Son apropiadas en todas las circunstancias.",
+      "Incluyen la modificación de la probabilidad y de las consecuencias.",
+      "A y C."
+    ],
+    "answer": 2,
+    "explanation": "Las opciones de tratamiento del riesgo incluyen modificar la probabilidad y las consecuencias del riesgo."
+  },
+  {
+    "question": "La norma ISO 31000:",
+    "options": [
+      "Está orientada a organizaciones de todos los tipos y tamaños.",
+      "Está orientada a organizaciones del sector Tecnologías de la Información y Comunicaciones (TIC).",
+      "Está orientada a organizaciones de tamaño medio (pymes).",
+      "Está orientada a organizaciones con un nivel de seguridad de la información medio."
+    ],
+    "answer": 0,
+    "explanation": "La norma ISO 31000 está diseñada para organizaciones de todos los tipos y tamaños."
+  },
+  {
+    "question": "Una amenaza es:",
+    "options": [
+      "La materialización de una vulnerabilidad.",
+      "Cualquier circunstancia potencial que puede afectar a la seguridad de los activos de información.",
+      "El impacto de un incidente.",
+      "Es una debilidad del sistema informático que puede ser utilizada para causar un daño."
+    ],
+    "answer": 1,
+    "explanation": "Una amenaza es cualquier circunstancia potencial que puede afectar negativamente a la seguridad de los activos de información."
+  },
+  {
+    "question": "Las opciones de tratamiento del riesgo:",
+    "options": [
+      "No se excluyen necesariamente unas a otras.",
+      "Son apropiadas en todas las circunstancias.",
+      "Incluyen la modificación de la probabilidad pero no de las consecuencias.",
+      "Todas las anteriores."
+    ],
+    "answer": 0,
+    "explanation": "Las opciones de tratamiento del riesgo no se excluyen necesariamente y pueden combinarse según el contexto."
+  },
+  {
+    "question": "¿Cuándo hay que proteger la información?",
+    "options": [
+      "Durante su procesamiento y almacenamiento.",
+      "Durante la transmisión hasta su destrucción.",
+      "Durante el procesamiento principalmente.",
+      "Durante todo el ciclo de vida."
+    ],
+    "answer": 3,
+    "explanation": "La información debe protegerse durante todo su ciclo de vida, desde su creación hasta su destrucción. Durante la captura, el almacenamiento, proceso, transmisión y utilización."
+  },
+  {
+    "question": "Según la ISO 27005, ¿cuál de las siguientes no es una característica de los análisis de riesgos realizados con una perspectiva de alto nivel?",
+    "options": [
+      "Se obtienen riesgos más generales.",
+      "Proporciona controles de tipo organizativo.",
+      "Dificulta la priorización de la protección de los sistemas más críticos.",
+      "Facilita la aceptación del programa de apreciación de riesgos."
+    ],
+    "answer": 2,
+    "explanation": "Los análisis de riesgos de alto nivel no dificultan la priorización de la protección de sistemas críticos, sino que ayudan a identificar y priorizar riesgos."
+  },
+  {
+    "question": "¿Cuál de las siguientes no forma parte del contexto interno de una organización?",
+    "options": [
+      "Misión, visión y valores.",
+      "Política de recursos humanos.",
+      "Huelga sectorial.",
+      "Conflicto del comité de empresa."
+    ],
+    "answer": 2,
+    "explanation": "Una huelga sectorial es parte del contexto externo, no interno, de una organización."
+  },
+  {
+    "question": "Según la NIST 800-30 Rev. 1, las aproximaciones al análisis de riesgos pueden estar orientadas a:",
+    "options": [
+      "Las amenazas, al impacto en el activo o a la probabilidad.",
+      "Las amenazas, al impacto en el activo o a la vulnerabilidad.",
+      "Al activo, vulnerabilidades o a las amenazas.",
+      "Al activo, al riesgo o la probabilidad."
+    ],
+    "answer": 2,
+    "explanation": "La NIST 800-30 Rev. 1 sugiere que el análisis de riesgos puede orientarse al activo, vulnerabilidades o amenazas."
+  },
+  {
+    "question": "Magerit es:",
+    "options": [
+      "Una metodología centrada en la amenaza.",
+      "Una metodología centrada en el activo.",
+      "Una metodología centrada en las partes interesadas.",
+      "Una metodología centrada en la vulnerabilidad."
+    ],
+    "answer": 1,
+    "explanation": "Magerit es una metodología de análisis de riesgos centrada en el activo."
+  },
+  {
+    "question": "Cuando se habla del concepto de separación de obligaciones, se hace referencia a:",
+    "options": [
+      "Para una determinada tarea, no haya nunca un solo usuario responsable de realizarla.",
+      "Solo se debe dar acceso a los usuarios a aquellos recursos de información que les sean absolutamente imprescindibles para realizar su trabajo.",
+      "Propone que las tareas asignadas a los empleados cambien de responsable de vez en cuando.",
+      "Condición de la información de encontrarse a disposición de quienes deben acceder a ella como usuarios autorizados."
+    ],
+    "answer": 0,
+    "explanation": "La separación de obligaciones implica que ninguna tarea crítica sea realizada por un solo usuario para prevenir fraudes o errores."
+  },
+  {
+    "question": "¿Cuál de los siguientes NO es un principio fundamental de ITIL?",
+    "options": [
+      "ITIL no es propietario.",
+      "ITIL es prescriptivo.",
+      "ITIL consiste en las mejores prácticas.",
+      "ITIL no es un estándar."
+    ],
+    "answer": 1,
+    "explanation": "ITIL no es prescriptivo; es un marco de mejores prácticas que puede adaptarse según las necesidades de la organización."
+  },
+  {
+    "question": "¿Para qué sirve un modelo de madurez?",
+    "options": [
+      "Para obtener el apoyo y el compromiso de la Dirección en la gestión de la seguridad de una organización.",
+      "Para alinear la definición de los procesos y sus interacciones con las mejores prácticas de los SG.",
+      "Para reducir el riesgo de una organización.",
+      "Para situar y evaluar el grado de desarrollo de una gestión sistemática, predecible y optimizable."
+    ],
+    "answer": 3,
+    "explanation": "Un modelo de madurez evalúa el grado de desarrollo de una gestión sistemática y optimizable."
+  },
+  {
+    "question": "Los controles de gestión:",
+    "options": [
+      "Identifican y registran cualquier ataque o intento de ataque que se produzca contra los sistemas de información.",
+      "Se corresponden con medidas de carácter técnico implementadas en todos los niveles que conforman los sistemas de información.",
+      "Definen el modo de comportamiento a seguir para garantizar la seguridad. Políticas, procedimientos, etc.",
+      "Son llevados a cabo a través de sistemas de información o procesos automatizados en cualquier circunstancia."
+    ],
+    "answer": 2,
+    "explanation": "Los controles de gestión definen políticas y procedimientos para garantizar la seguridad."
+  },
+  {
+    "question": "Una vez se ha aprobado el examen de la certificación CISSP, para mantener la misma es necesario:",
+    "options": [
+      "Cumplir con la política de CPE y con el código de ética.",
+      "Cumplir con la política de CPE, con el código de ética y pagar las tasas de mantenimiento.",
+      "Pagar las tasas de mantenimiento.",
+      "Cumplir con el código de ética y pagar las tasas de mantenimiento. Los CPE son validados una única vez tras la aprobación del examen con la acreditación de experiencia profesional en los dominios."
+    ],
+    "answer": 1,
+    "explanation": "Para mantener la certificación CISSP, es necesario cumplir con la política de CPE, el código de ética y pagar las tasas de mantenimiento."
+  },
+  {
+    "question": "Las dimensiones básicas de la seguridad son:",
+    "options": [
+      "Confidencialidad, no repudio y trazabilidad.",
+      "Confidencialidad, disponibilidad y trazabilidad.",
+      "Confidencialidad, integridad y trazabilidad.",
+      "Confidencialidad, integridad y disponibilidad."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "La aplicación de medidas normativas:",
+    "options": [
+      "Garantiza la aplicación de medidas técnicas.",
+      "Debe hacerse después de la aplicación de medidas técnicas.",
+      "Debe hacerse después de la aplicación de medidas organizativas.",
+      "Debe complementar la aplicación de medidas organizativas y técnicas."
+    ],
+    "answer": 3,
+    "explanation": "Las medidas normativas deben complementar las medidas organizativas y técnicas para una protección integral."
+  },
+  {
+    "question": "La ingeniería social es principalmente una amenaza para:",
+    "options": [
+      "La preservación de la confidencialidad.",
+      "La preservación de la disponibilidad.",
+      "La preservación de la integridad.",
+      "La preservación de la trazabilidad."
+    ],
+    "answer": 0,
+    "explanation": "La ingeniería social amenaza principalmente la confidencialidad al engañar a los usuarios para obtener información sensible."
+  },
+  {
+    "question": "El nivel de riesgo se determina en función de:",
+    "options": [
+      "El activo y la probabilidad de ocurrencia.",
+      "El activo y las consecuencias.",
+      "El impacto y la probabilidad de ocurrencia.",
+      "El activo y el impacto."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "La protección integral de un sistema de información requiere:",
+    "options": [
+      "La implantación de salvaguardas de un tipo.",
+      "La implantación de una combinación de salvaguardas de carácter técnico.",
+      "La implantación de salvaguardas de carácter técnico.",
+      "La implantación de una combinación de salvaguardas de diferentes tipos."
+    ],
+    "answer": 3,
+    "explanation": "La protección integral requiere una combinación de salvaguardas técnicas, organizativas y normativas."
+  },
+  {
+    "question": "¿Qué es la declaración de aplicabilidad (también conocida como SoA)?",
+    "options": [
+      "Un documento que contiene únicamente los controles incluidos en el alcance del SGSI.",
+      "Un documento que contiene los controles definidos en el estándar ISO 27001, su aplicabilidad y la justificación de su inclusión o exclusión en el SGSI.",
+      "Un documento que define de qué forma se aplicarán e implementarán los controles definidos en el estándar ISO 27001.",
+      "Una declaración de intenciones para la implantación del SGSI por parte de la Alta Dirección."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "¿Cuál no es un dominio de la ISO 27001:2013?",
+    "options": [
+      "Gestión de los activos.",
+      "Relación con los clientes.",
+      "Adquisición, desarrollo y mantenimiento de los sistemas de la información.",
+      "Cumplimiento."
+    ],
+    "answer": 1,
+    "explanation": "La relación con los clientes no es un dominio específico de la ISO 27001:2013."
+  },
+  {
+    "question": "La diferencia fundamental entre la seguridad informática y la seguridad de la información está en:",
+    "options": [
+      "La seguridad de la información no tiene en cuenta el soporte o formato de la información a diferencia de la seguridad informática.",
+      "La seguridad de la información no tiene en cuenta la dimensión técnica de la protección.",
+      "La visión de la seguridad de la información es a más alto nivel que la que ofrece la seguridad informática.",
+      "Realmente no hay diferencia alguna y se pueden usar indistintamente."
+    ],
+    "answer": 2,
+    "explanation": "Tema 1, Pág. 7. La seguridad de la información tiene un enfoque más amplio y estratégico, protegiendo la información en cualquier formato y abarcando aspectos técnicos, normativos y organizativos, mientras que la seguridad informática se centra solo en la protección de sistemas y tecnologías."
+  },
+  {
+    "question": "¿Cuál de las siguientes no forma parte del contexto externo de una organización?",
+    "options": [
+      "La situación internacional",
+      "Una situación de sequía permanente",
+      "Un conflicto laboral sectorial",
+      "Ninguna de las anteriores"
+    ],
+    "answer": 2,
+    "explanation": "Un conflicto laboral sectorial (c), aunque puede estar influenciado por factores externos, se considera parte del contexto interno cuando afecta directamente a la organización, ya que involucra a sus empleados, sindicatos y políticas internas de gestión laboral."
+  },
+  {
+    "question": "Se considera que hay “materialización de riesgos legales”, cuando:",
+    "options": [
+      "Se produce una pérdida cuyo origen se sitúa en el incumplimiento o disconformidad con aquello prescrito por la ley o el derecho.",
+      "Cuando su probabilidad es muy alta.",
+      "Cuando su impacto es muy elevado.",
+      "Ninguna de las anteriores."
     ],
     "answer": 0,
     "explanation": ""
+  },
+  {
+    "question": "La gestión del riesgo:",
+    "options": [
+      "Trata explícitamente la incertidumbre",
+      "Debe ser parte de la toma de decisiones",
+      "Debe ser sistemática, estructurada y oportuna",
+      "Todas las anteriores"
+    ],
+    "answer": 3,
+    "explanation": "La gestión del riesgo aborda la incertidumbre, es parte de la toma de decisiones y debe ser sistemática, estructurada y oportuna."
+  },
+  {
+    "question": "La protección integral de un sistema de información requiere:",
+    "options": [
+      "La implantación de salvaguardas de diferentes tipos",
+      "La implantación de una combinación de salvaguardas de carácter técnico",
+      "La implantación de salvaguardas de carácter técnico",
+      "La implantación de una combinación de salvaguardas de diferentes tipos"
+    ],
+    "answer": 3,
+    "explanation": "La protección integral requiere una combinación de salvaguardas técnicas, organizativas y normativas."
+  },
+  {
+    "question": "Seleccione la respuesta correcta sobre los escenarios de riesgos:",
+    "options": [
+      "Pueden adoptar un enfoque top-down o bottom-up",
+      "Depende de tamaño de la Organización y tiene un coste elevado",
+      "Requiere de mucho tiempo y actualizaciones continuas",
+      "Ninguna de las anteriores"
+    ],
+    "answer": 0,
+    "explanation": "Los escenarios de riesgos pueden adoptar un enfoque top-down (de arriba hacia abajo) o bottom-up (de abajo hacia arriba)."
+  }, 
+  {
+    "question": "Según la NIST 800-30 Rev. 1, un enfoque cualitativo:",
+    "options": [
+      "La subjetividad es difícil de plasmar.",
+      "Es un buen enfoque para la comunicación de los resultados.",
+      "Utiliza métodos en función de valores numéricos.",
+      "Puede que requiera una interpretación y explicación."
+    ],
+    "answer": 1,
+    "explanation": "El enfoque cualitativo es útil para comunicar los resultados del análisis de riesgos de forma sencilla y comprensible."
+  },
+  {
+    "question": "Según la ISO 27005, un análisis de riesgos de alto nivel es mejor para:",
+    "options": [
+      "Identificar controles de tipo técnico.",
+      "Identificar controles de tipo organizativo.",
+      "Identificar vulnerabilidades técnicas.",
+      "Identificar vulnerabilidades y controles de tipo técnico y organizativo."
+    ],
+    "answer": 1,
+    "explanation": "Un análisis de riesgos de alto nivel se enfoca en identificar controles de tipo organizativo, que son más estratégicos y generales."
+  },
+  {
+    "question": "En función de cómo actúen las salvaguardas, estas pueden ser:",
+    "options": [
+      "Preventivas y reactivas",
+      "Preventivas y correctivas",
+      "Preventivas y adaptativas",
+      "Correctivas y reactivas"
+    ],
+    "answer": 1,
+    "explanation": "Las salvaguardas pueden ser preventivas (evitan incidentes) y correctivas (mitigan el impacto de incidentes)."
+  },
+  {
+    "question": "¿Cuál de las siguientes NO es una fase en la elaboración de un Plan Director de Seguridad?",
+    "options": [
+      "Análisis de la situación actual",
+      "Seguimiento del plan y objetivos",
+      "Realización de un análisis de riesgos",
+      "Realización de un análisis de GAP"
+    ],
+    "answer": 2,
+    "explanation": "La realización de un análisis de riesgos no es una fase específica en la elaboración de un Plan Director de Seguridad, aunque puede ser parte del análisis de la situación actual."
+  },
+  {
+    "question": "¿Cuál de las siguientes NO es una definición de SGSI?",
+    "options": [
+      "Un sistema de gestión que comprende la política, la estructura organizativa, los procedimientos, los procesos y los recursos necesarios para implantar la gestión de la seguridad de la información",
+      "Es la herramienta de que dispone la Dirección de las organizaciones para llevar a cabo las políticas y los objetivos de seguridad",
+      "Proporciona mecanismos para la salvaguarda de los activos de información y de los sistemas que lo procesan, en concordancia con las políticas de seguridad y planes estratégicos de la Organización",
+      "Sirve para situar y evaluar el grado de desarrollo de una gestión de la seguridad sistemática, predecible y optimizable"
+    ],
+    "answer": 3,
+    "explanation": "La definición de SGSI no incluye evaluar el grado de desarrollo de una gestión de la seguridad, sino que se enfoca en la implementación y operación de controles."
+  },
+  {
+    "question": "Atendiendo a su naturaleza, la tipología de controles puede clasificarse en:",
+    "options": [
+      "Obligatorios, voluntarios, manuales y automáticos",
+      "Preventivos, disuasorios, de detección, correctivos y alternativos",
+      "Administrativos, técnicos y físicos",
+      "Eficaces y eficientes"
+    ],
+    "answer": 2,
+    "explanation": "Los controles se clasifican en administrativos (políticas y procedimientos), técnicos (software y hardware) y físicos (barreras físicas)."
+  },
+  {
+    "question": "¿Qué certificación acredita especialistas profesionales en seguridad informática y ethical hacking?",
+    "options": [
+      "CISA",
+      "CISSP",
+      "CISM",
+      "CEH"
+    ],
+    "answer": 3,
+    "explanation": "La certificación CEH (Certified Ethical Hacker) está específicamente diseñada para acreditar habilidades en ethical hacking y seguridad ofensiva."
+  },
+  {
+    "question": "¿Cuál de las siguientes es una norma certificable?",
+    "options": [
+      "ISO27000",
+      "ISO27001",
+      "ISO27002",
+      "ISO27003"
+    ],
+    "answer": 1,
+    "explanation": "La norma ISO/IEC 27001 es certificable, ya que establece los requisitos para implementar un Sistema de Gestión de Seguridad de la Información (SGSI) y permite a las organizaciones obtener una certificación oficial."
+  },
+  {
+    "question": "Un plan director de seguridad trata de determinar:",
+    "options": [
+      "El estado actual de la seguridad.",
+      "El resultado deseado que se pretenden alcanzar.",
+      "El plan de proyecto para alcanzar los objetivos.",
+      "Todas son correctas."
+    ],
+    "answer": 3,
+    "explanation": "Un plan director de seguridad abarca el análisis del estado actual, los objetivos deseados y el plan de proyecto para alcanzar dichos objetivos."
+  },
+  {
+    "question": "¿Qué NO atiende el proceso de Gestión de peticiones definido en ITILv3?",
+    "options": [
+      "Peticiones de servicio estándar.",
+      "Sugerencias y quejas.",
+      "Peticiones de información sobre la disponibilidad de los servicios.",
+      "La entrega de componentes fuera del alcance definido en los servicios."
+    ],
+    "answer": 1,
+    "explanation": "El proceso de Gestión de peticiones en ITILv3 no incluye sugerencias y quejas, ya que estas suelen manejarse en otros procesos como el de Gestión de Quejas o Mejora Continua."
+  },
+  {
+    "question": "¿Cuál es la definición correcta de FUNCIÓN en el contexto de ITIL?",
+    "options": [
+      "Equipo y recursos o capacidades que son utilizados para llevar a cabo un proceso o las actividades de un proceso.",
+      "Conjunto de capacidades que permiten proveer de valor a sus clientes.",
+      "Medio de entregar valor a los clientes sin que tengan la propiedad de los costes y riesgos específicos.",
+      "Conjunto de capacidades relacionadas lógicamente para alcanzar un objetivo."
+    ],
+    "answer": 0,
+    "explanation": "En ITIL, una FUNCIÓN se define como un equipo, recursos o capacidades utilizados para llevar a cabo un proceso o actividades específicas."
+  },
+  {
+    "question": "¿Cuál de las siguientes es incorrecta respecto a los beneficios o características de la gestión del riesgo?",
+    "options": [
+      "Mejorar el gobierno",
+      "Mejorar la seguridad y la confianza de las partes interesadas",
+      "Estimular una gestión reactiva",
+      "Mejorar la eficacia y la eficiencia operacional"
+    ],
+    "answer": 2,
+    "explanation": "La gestión del riesgo no estimula una gestión reactiva, sino que promueve un enfoque proactivo para identificar y mitigar riesgos antes de que ocurran."
+  },
+  {
+    "question": "La disponibilidad consiste en:",
+    "options": [
+      "Garantizar que en todo momento se podrá determinar quién hizo qué y en qué momento lo hizo.",
+      "Garantizar la identidad del usuario que origina una información.",
+      "Garantizar que la información es accesible en el momento en el que los usuarios autorizados (personas, organizaciones o procesos) tienen necesidad de acceder a ella.",
+      "Garantizar que la información no se ha transformado ni modificado de forma no autorizada durante su procesamiento, transporte o almacenamiento."
+    ],
+    "answer": 2,
+    "explanation": "La disponibilidad asegura que la información esté accesible para los usuarios autorizados cuando la necesiten."
+  },
+  {
+    "question": "En el contexto del cuerpo normativo de seguridad, las baselines hacen referencia a:",
+    "options": [
+      "Un punto en el tiempo utilizado para comparación ante cambios en el futuro",
+      "Un conjunto ordenado de pasos en relación con la ejecución de un proceso o actividad",
+      "Las acciones o tareas necesarias para completar una actividad o proceso de un procedimiento concreto sobre una parte concreta de un sistema de información.",
+      "Aspectos concretos de la política de seguridad"
+    ],
+    "answer": 3,
+    "explanation": "Las baselines en este contexto se refieren a aspectos concretos de la política de seguridad, como configuraciones, controles o procedimientos."
+  },
+  {
+    "question": "¿Cuál de los siguientes NO es uno de los tres grupos principales de prácticas de seguridad en la gestión de servicios TI en el contexto de ITIL v4?",
+    "options": [
+      "Prácticas de gestión general",
+      "Prácticas de gestión de servicios",
+      "Prácticas de gestión técnica",
+      "Prácticas de gestión estratégica"
+    ],
+    "answer": 3,
+    "explanation": "ITIL v4 no incluye 'Prácticas de gestión estratégica' como uno de los tres grupos principales de prácticas de seguridad."
+  },
+  {
+    "question": "El coste de protección:",
+    "options": [
+      "Hace referencia al coste de mitigar vulnerabilidades",
+      "Incluye la configuración de medidas de seguridad",
+      "Debe calcularse para la ejecución de un ataque",
+      "Se denomina cost to build."
+    ],
+    "answer": 0,
+    "explanation": "El coste de protección se refiere al coste asociado con la mitigación de vulnerabilidades y la implementación de medidas de seguridad."
+  },
+  {
+    "question": "Las amenazas:",
+    "options": [
+      "Sólo pueden ser errores, nunca ataques deliberados.",
+      "Pueden ser errores o ataques deliberados.",
+      "Pueden ser errores, ataques deliberados o de otros tipos.",
+      "Nunca son errores: siempre son ataques deliberados."
+    ],
+    "answer": 2,
+    "explanation": "Las amenazas pueden ser errores, ataques deliberados o de otros tipos, como desastres naturales o fallos técnicos."
+  },
+  {
+    "question": "Un proceso de gestión del riesgo implantado según los principios y directrices de la UNE-ISO 31000, es una herramienta que ayuda a una organización a:",
+    "options": [
+      "Garantiza la eficacia y la eficiencia operacional",
+      "Conseguir una gestión reactiva",
+      "Ser consciente de la necesidad de identificar y tratar el riesgo en toda la organización",
+      "Todas la anteriores"
+    ],
+    "answer": 2,
+    "explanation": "La gestión del riesgo según ISO 31000 fomenta la conciencia de la necesidad de identificar y tratar riesgos en toda la organización."
+  },
+  {
+    "question": "Respecto al tratamiento del riesgo, ¿cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Hay dos formas básicas de compartir riesgo: financiando y transfiriendo",
+      "Solo se comparte el riesgo cualitativo",
+      "Para mitigar el riesgo existen tres opciones",
+      "La eliminación de la fuente de riesgo es una opción frente a un riesgo que no es aceptable."
+    ],
+    "answer": 3,
+    "explanation": "Eliminar la fuente de riesgo es una opción válida cuando el riesgo no es aceptable para la organización."
   }
+
+
+
 ]
