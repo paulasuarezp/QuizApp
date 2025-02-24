@@ -1,22 +1,908 @@
 [
   {
-    "question": "En muchos casos los proyectos de software engloban en un solo proyecto tres etapas diferenciadas en otros proyectos, ¿cuáles?",
+    "question": "¿Qué herramienta se puede utilizar para ataques de fuerza bruta basados en diccionario offline?",
     "options": [
-      "Financiación, avalaes y garantías post-venta",
-      "Definición, construcción e implantación",
-      "Presupuesto, planos y pliego de condiciones"
+        "Brutus",
+        "John the Ripper",
+        "Hydra",
+        "Firesheep"
     ],
     "answer": 1,
-    "explanation": "1.1.1 Concepto de Proyecto. La respuesta correcta es: Definición, construcción e implantación"
+    "explanation": ""
   },
   {
-    "question": "En Scrum hay varios roles principales:",
+    "question": "Cada servidor recibirá las configuraciones de seguridad a través de directivas de grupo en el nivel de Referencia:",
     "options": [
-      "Equipo, Dueño del producto y Scrum master",
-      "Dueño de producto, Equipo y Project manager",
-      "Cliente, Equipo y Jefe de proyecto"
+      "Para cumplir los requisitos comunes de seguridad.",
+      "Para cumplir los requisitos de seguridad específicos del servidor.",
+      "Para cumplir los requisitos de seguridad de los roles específicos del servidor.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 1,
+    "explanation": "Nivel de Referencia. Para cumplir los requisitos de seguridad específicos del servidor que son comunes a todos los servidores miembros del dominio."
+  },
+  {
+    "question": "Cada servidor recibirá las configuraciones de seguridad a través de directivas de grupo en el nivel de Rol:",
+    "options": [
+      "Para cumplir los requisitos comunes de seguridad.",
+      "Para cumplir los requisitos de seguridad específicos del servidor.",
+      "Para cumplir los requisitos de seguridad de los roles específicos del servidor.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 2,
+    "explanation": "Nivel de Rol. Para cumplir los requisitos de seguridad de los roles específicos del servidor."
+  },
+  {
+    "question": "XSS DOM es más típico en:",
+    "options": [
+      "Servicios web.",
+      "Aplicaciones AJAX.",
+      "Aplicaciones C/S.",
+      "Aplicaciones web tradicionales."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones sobre una suscripción de Azure es válida?",
+    "options": [
+      "El uso de Azure no requiere una suscripción.",
+      "Una suscripción de Azure es una unidad lógica de servicios de Azure.",
+      "Se puede requerir suscripción o no.",
+      "Todas las anteriores son ciertas."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Un WAF...",
+    "options": [
+      "No puede tener falsos negativos.",
+      "Bloquea en modo reverse proxy.",
+      "No puede tener falsos positivos.",
+      "Bloquea en modo pasivo."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "HTTP RESPONSE SPLITTING...",
+    "options": [
+      "Script.",
+      "Union select.",
+      "Los caracteres CR LF.",
+      "Cualquier payload."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Ataques debidos a vulnerabilidades de SQL injection, señalar la afirmación incorrecta:",
+    "options": [
+      "Pueden ser debidos a campos de entrada sin validar en las aplicaciones web.",
+      "Se pueden evitar ataques aplicando parches en el SGBD y actualizando la aplicación.",
+      "Es una de las vulnerabilidades más frecuentes.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "OPENID-CONNECT es...",
+    "options": [
+      "Un método de autenticación SSO.",
+      "Un protocolo de cifrado.",
+      "Ninguna de las anteriores.",
+      "Un mecanismo de firma."
     ],
     "answer": 0,
     "explanation": ""
+  },
+  {
+    "question": "Respecto a las actividades y buenas prácticas de seguridad en el ciclo de vida de desarrollo seguro de aplicaciones o sistemas, señalar la opción incorrecta:",
+    "options": [
+      "Las actividades de seguridad del SSDLC hay que repetirlas a lo largo del ciclo de vida, lo que supone un ciclo continuo.",
+      "Hay que realizar antes las pruebas de penetración que la revisión de código.",
+      "Hay que realizar una derivación de requisitos de seguridad y de casos de abuso.",
+      "Nuevos defectos de implementación de partes que se modifican con arreglo a nuevas especificaciones o cambios en las mismas implican nueva revisión de código y nuevas pruebas de seguridad en operación del sistema."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+    {
+    "question": "Un ataque de denegación de servicio es debido a un problema de:",
+    "options": [
+      "Operación",
+      "Implementación",
+      "Diseño",
+      "Ninguna de las anteriores"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "¿Cuál es el primer pilar de la seguridad para las aplicaciones online?",
+    "options": [
+      "Monitorización continua",
+      "SGSI",
+      "Política de seguridad",
+      "SSDLC"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "TRACE tiene la vulnerabilidad...",
+    "options": [
+      "XSS",
+      "XST",
+      "SQLI",
+      "CSRF"
+    ],
+    "answer": 1,
+    "explanation": "XST = Cross Site Tracing"
+  },
+  {
+    "question": "¿Cuál es la principal diferencia entre la arquitectura de una aplicación web tradicional y una aplicación AJAX?",
+    "options": [
+      "En una aplicación web tradicional la lógica de presentación puede estar en lado.",
+      "En una aplicación AJAX la lógica de presentación reside en el lado servidor.",
+      "En una aplicación AJAX la lógica de presentación reside en el cliente.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Señalar la opción más correcta en cuanto a los firewalls de aplicaciones del tipo proxy inverso:",
+    "options": [
+      "Se configura publicando la dirección de la interfaz externa del cortafuegos para redirigir el tráfico al servidor de aplicaciones.",
+      "El dispositivo examina todo el tráfico de red bloqueándolo si detecta algún ataque o reenviando la petición al servidor.",
+      "Se instala de forma que recibe un duplicado del tráfico vía network tap, de forma que pueda ser analizado y detectar ataques pero sin posibilidad de bloquear.",
+      "La A y B son correctas."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "¿Cuál de opciones siguientes es una unidad lógica de servicios de Azure asociada a una cuenta de Azure?",
+    "options": [
+      "Subscripción de Azure",
+      "Grupo de Administración",
+      "Grupo de recursos",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "¿Qué componentes incorpora Azure Key Vault?",
+    "options": [
+      "Almacenes",
+      "Secretos",
+      "Claves",
+      "Todas las anteriores"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "La derivación de requisitos de seguridad se basa en:",
+    "options": [
+      "Modelado de amenazas",
+      "Análisis de riesgos",
+      "Análisis de seguridad del código fuente",
+      "La A y la B."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "La novedad Virtual Secure Mode es una característica de Windows Server introducida en la versión…",
+    "options": [
+      "2019",
+      "2016",
+      "2022",
+      "Ninguna de las anteriores"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "La vulnerabilidad que permite acceder a recursos locales del servidor se denomina:",
+    "options": [
+      "XSS",
+      "REDIRECT",
+      "LFI",
+      "Ninguna de las anteriores"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Señalar la afirmación falsa.",
+    "options": [
+      "Las herramientas DAST encuentran menos vulnerabilidades que las de tipo SAST.",
+      "Las herramientas de tipo DAST no pueden encontrar ciertos tipos de vulnerabilidades ya que realizan un análisis sintáctico de la aplicación.",
+      "El análisis DAST solo puede testear las partes de la aplicación accesibles externamente.",
+      "Todas las anteriores son falsas."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "¿Cuáles de estas medidas han de adoptarse para dotar de seguridad a un identificador de sesión?",
+    "options": [
+      "Tiempo máximo de duración de sesión.",
+      "Tiempo máximo de inactividad.",
+      "Invalidar o eliminar el identificador de sesión cuando el usuario termina la sesión.",
+      "Todas las anteriores son correctas."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "¿Dónde puede ubicarse el ID de sesión?",
+    "options": [
+      "CABECERA SET COOKIE",
+      "PARÁMETRO GET",
+      "PARÁMETRO POST",
+      "TODAS LAS ANTERIORES SON CIERTAS"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "CWE...",
+    "options": [
+      "Definición de un tipo de vulnerabilidad de forma genérica (diccionario).",
+      "Un tipo de ataque.",
+      "Publicación de la existencia de una vulnerabilidad concreta en un software concreto.",
+      "Un proyecto OWASP."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "DAC con respecto al servicio de autorización significa:",
+    "options": [
+      "Gestión de autorización delegada.",
+      "Gestión de autorización centralizada.",
+      "Gestión de autorización mixta.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Defensas de cabecera Set-Cookie...",
+    "options": [
+      "TLS",
+      "PATH",
+      "HTTPONLY",
+      "TODAS LAS ANTERIORES"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "KERBEROS usa...",
+    "options": [
+      "Token",
+      "Ticket",
+      "Assertion",
+      "Token y Assertion"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Para explotar HTTP RESPONSE SPLITTING hay que usar los caracteres...",
+    "options": [
+      "//",
+      "COMILLA",
+      "CR LF",
+      "./"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "¿Cómo se puede implementar el código de autorización?",
+    "options": [
+      "Desarrollo propio como otra función de la aplicación.",
+      "Desarrollo propio con procedimientos almacenados.",
+      "Librerías del framework de desarrollo.",
+      "Todas las anteriores son ciertas."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "¿Qué método de autenticación NO es recomendable?",
+    "options": [
+      "DIGEST",
+      "BASIC",
+      "NTLM",
+      "KERBEROS"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "¿Qué método HTTP devuelve solo las cabeceras de la respuesta del servidor?",
+    "options": [
+      "POST",
+      "TRACE",
+      "HEAD",
+      "CONNECT"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Los firewalls de aplicaciones web pueden instalarse de forma que inspeccionan pero no bloquean el tráfico. Esta forma de instalación se denomina:",
+    "options": [
+      "Modo proxy inverso.",
+      "Modo pasivo.",
+      "Modo bridge.",
+      "Modo embebido."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Autenticación de MÚLTIPLES FACTORES significa utilizar algo que se sabe, algo que se es y...",
+    "options": [
+      "NONCE",
+      "ALGO QUE SE TIENE",
+      "CONTRASEÑA",
+      "ASSERTION"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "¿Qué método HTTP sirve para saber qué otros métodos implementa el servidor?",
+    "options": [
+      "GET",
+      "POST",
+      "OPTIONS",
+      "TRACE"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "¿Cuál de las opciones siguientes se puede utilizar para administrar la gobernanza en varias suscripciones de Azure?",
+    "options": [
+      "Recursos",
+      "Grupos de recursos",
+      "Grupos de administración",
+      "Ninguna de las anteriores"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "¿Qué es una definición de roles en Azure?",
+    "options": [
+      "Una colección de permisos con un nombre que se puede asignar a un usuario, grupo o aplicación.",
+      "La colección de usuarios, grupos o aplicaciones que tienen permisos para un rol.",
+      "El enlace de un rol a una entidad de seguridad en un ámbito específico para conceder acceso.",
+      "Todas las anteriores."
+    ],
+    "answer": 3,
+    "explanation": "Una definición de roles en Azure es una colección de permisos con un nombre que se puede asignar a usuarios, grupos o aplicaciones."
+  },
+  {
+    "question": "Mejor defensa contra CSRF...",
+    "options": [
+      "HTTPONLY",
+      "TLS",
+      "CONTRASEÑA",
+      "TOKEN ANTI-CSRF"
+    ],
+    "answer": 3,
+    "explanation": "El uso de tokens anti-CSRF es la mejor defensa contra ataques CSRF, ya que valida la autenticidad de las solicitudes."
+  },
+  {
+    "question": "La cabecera de seguridad X-FRAME-OPTIONS...",
+    "options": [
+      "Se debe configurar con parámetro TLS",
+      "Se debe configurar con parámetro DENY",
+      "Se debe configurar con parámetro HTTPONLY",
+      "Se debe configurar con parámetro ALL"
+    ],
+    "answer": 1,
+    "explanation": "La cabecera X-FRAME-OPTIONS debe configurarse con DENY para evitar que la página se cargue en un iframe, previniendo ataques de clickjacking."
+  },
+  {
+    "question": "¿Qué se recomienda para NONCE en el método de autenticación DIGEST?",
+    "options": [
+      "UN SOLO USO",
+      "UNA VENTANA DE TIEMPO GRANDE",
+      "NONCE NO ES NECESARIO",
+      "NINGUNA DE LAS ANTERIORES"
+    ],
+    "answer": 0,
+    "explanation": "El NONCE en el método DIGEST debe ser de un solo uso para evitar ataques de repetición."
+  },
+  {
+    "question": "GOOGLE CHROME tiene una arquitectura...",
+    "options": [
+      "MONOLÍTICA",
+      "MODULAR",
+      "MIXTA",
+      "NINGUNA DE LAS ANTERIORES"
+    ],
+    "answer": 1,
+    "explanation": "Google Chrome tiene una arquitectura modular, con procesos separados para cada pestaña y extensión."
+  },
+  {
+    "question": "Los ataques pueden ser debidos a diversos tipos de vulnerabilidades, en función de la fase del ciclo de vida de desarrollo del software y sistemas, donde se ha producido el problema:",
+    "options": [
+      "Vulnerabilidades de operación, implementación y diseño",
+      "Vulnerabilidades de operación, implementación y definición",
+      "Vulnerabilidades de pruebas, implementación y diseño",
+      "Ninguna de las anteriores"
+    ],
+    "answer": 0,
+    "explanation": "Las vulnerabilidades pueden ocurrir en las fases de operación, implementación y diseño del ciclo de vida del software."
+  },
+  {
+    "question": "¿Cómo se llama la cabecera que aloja normalmente el ID de sesión?",
+    "options": [
+      "REFERER",
+      "AUTENTICATION",
+      "AUTHORIZATION",
+      "SET-COOKIE"
+    ],
+    "answer": 3,
+    "explanation": "El ID de sesión normalmente se almacena en la cabecera SET-COOKIE."
+  },
+  {
+    "question": "NTLM...",
+    "options": [
+      "Cifra las credenciales en todas las peticiones",
+      "Codifica las credenciales en todas las peticiones",
+      "HASH de las credenciales en todas las peticiones",
+      "Cifra y codifica las credenciales en todas las peticiones"
+    ],
+    "answer": 2,
+    "explanation": "NTLM utiliza un hash de las credenciales en las peticiones para autenticación."
+  },
+  {
+    "question": "Un administrador quiere asignar un rol para permitir a un usuario crear y administrar recursos de Azure, pero sin poder conceder acceso a otros usuarios. ¿Cuál de los siguientes roles integrados admitiría esta posibilidad?",
+    "options": [
+      "Propietario",
+      "Colaborador",
+      "Lector",
+      "Ninguna de las anteriores"
+    ],
+    "answer": 1,
+    "explanation": "El rol 'Colaborador' permite crear y administrar recursos, pero no concede permisos para asignar roles a otros usuarios."
+  },
+  {
+    "question": "La vulnerabilidad que permite ejecutar scripts remotos en el navegador de la víctima se denomina:",
+    "options": [
+      "XSS",
+      "SQLI",
+      "LFI",
+      "LDAPI"
+    ],
+    "answer": 0,
+    "explanation": "XSS (Cross-Site Scripting) permite ejecutar scripts remotos en el navegador de la víctima."
+  },
+  {
+    "question": "La vulnerabilidad que permite inyectar código en el servidor de aplicaciones se denomina:",
+    "options": [
+      "XSS",
+      "SQLI",
+      "LFI",
+      "HTTPI"
+    ],
+    "answer": 1,
+    "explanation": "SQL Injection (SQLI) permite inyectar código malicioso en el servidor de aplicaciones."
+  },
+  {
+    "question": "La vulnerabilidad que permite acceder a recursos locales del servidor se denomina:",
+    "options": [
+      "XSS",
+      "SQLI",
+      "LFI, XXE",
+      "HTTPI"
+    ],
+    "answer": 2,
+    "explanation": "LFI (Local File Inclusion) y XXE (XML External Entity) permiten acceder a recursos locales del servidor."
+  },
+  {
+    "question": "C/C++ son lenguajes seguros:",
+    "options": [
+      "CIERTO",
+      "FALSO",
+      "DEPENDE DEL COMPILADOR",
+      "C no, C++ sí"
+    ],
+    "answer": 1,
+    "explanation": "C/C++ no son considerados lenguajes seguros debido a la falta de manejo automático de memoria y vulnerabilidades comunes como desbordamientos de búfer."
+  },
+  {
+    "question": "¿Cuál de estos lenguajes se considera seguro?",
+    "options": [
+      "Java",
+      "C#",
+      "Ccure",
+      "Todos los anteriores"
+    ],
+    "answer": 3,
+    "explanation": "Java, C# y Ccure son considerados lenguajes seguros debido a sus mecanismos de manejo de memoria y seguridad integrada."
+  },
+  {
+    "question": "¿Por qué el lenguaje Java se considera más seguro?",
+    "options": [
+      "Comprueba la longitud de variables en tiempo de ejecución.",
+      "Comprueba la longitud de variables en tiempo de compilación.",
+      "No es considerado seguro",
+      "Ninguna de las anteriores"
+    ],
+    "answer": 0,
+    "explanation": "Java es más seguro porque realiza verificaciones en tiempo de ejecución, como la comprobación de límites de arrays."
+  },
+  {
+    "question": "¿Qué es MVC?",
+    "options": [
+      "Una vulnerabilidad",
+      "Un ataque",
+      "Un patrón de diseño lógico del código fuente",
+      "Ninguna de las anteriores"
+    ],
+    "answer": 2,
+    "explanation": "MVC (Model-View-Controller) es un patrón de diseño utilizado para organizar el código fuente en aplicaciones."
+  },
+  {
+    "question": "Un análisis de riesgos...",
+    "options": [
+      "Examina los riesgos intrínsecos de las capas de una aplicación web",
+      "Examina los riesgos de los activos de una organización",
+      "Tiene como objetivo determinar controles de seguridad",
+      "La B y la C"
+    ],
+    "answer": 3,
+    "explanation": "Un análisis de riesgos examina los riesgos de los activos de una organización y determina controles de seguridad para mitigarlos."
+  },
+  {
+    "question": "Un test de penetración se lleva a cabo en la fase de …",
+    "options": [
+      "Análisis",
+      "Producción",
+      "Despliegue",
+      "Desarrollo"
+    ],
+    "answer": 1,
+    "explanation": "Un test de penetración se realiza en la fase de producción para evaluar la seguridad del sistema en un entorno real."
+  },
+  {
+    "question": "Un test funcional de seguridad se lleva a cabo en la fase de …",
+    "options": [
+      "Análisis",
+      "Producción",
+      "Despliegue",
+      "Desarrollo"
+    ],
+    "answer": 3,
+    "explanation": "Los tests funcionales de seguridad se realizan durante la fase de desarrollo para asegurar que las funcionalidades cumplen con los requisitos de seguridad."
+  },
+  {
+    "question": "Un análisis de seguridad del código fuente se lleva a cabo en la fase de …",
+    "options": [
+      "Análisis",
+      "Producción",
+      "Despliegue",
+      "Desarrollo"
+    ],
+    "answer": 3,
+    "explanation": "El análisis de seguridad del código fuente se realiza en la fase de desarrollo para identificar vulnerabilidades en el código antes de su despliegue."
+  },
+  {
+    "question": "El modelado de amenazas/casos de abuso se lleva a cabo en la fase de …",
+    "options": [
+      "Análisis",
+      "Producción",
+      "Despliegue",
+      "Desarrollo"
+    ],
+    "answer": 0,
+    "explanation": "El modelado de amenazas se realiza en la fase de análisis para identificar posibles riesgos y diseñar controles de seguridad."
+  },
+  {
+    "question": "El análisis de seguridad de código fuente es una actividad de…",
+    "options": [
+      "Caja negra",
+      "Caja blanca",
+      "Caja gris",
+      "Caja gris-blanca"
+    ],
+    "answer": 1,
+    "explanation": "El análisis de seguridad de código fuente es una actividad de caja blanca, ya que requiere acceso al código interno."
+  },
+  {
+    "question": "El análisis dinámico es una actividad de…",
+    "options": [
+      "Caja negra",
+      "Caja blanca",
+      "Caja gris",
+      "Todas las anteriores"
+    ],
+    "answer": 0,
+    "explanation": "El análisis dinámico es una actividad de caja negra, ya que se realiza sin conocimiento del código interno, probando la aplicación en ejecución."
+  },
+  {
+    "question": "La derivación de requisitos de seguridad se basa en …",
+    "options": [
+      "Modelado de amenazas",
+      "Análisis de riesgos",
+      "Análisis de seguridad del código fuente",
+      "La A y la B"
+    ],
+    "answer": 3,
+    "explanation": "La derivación de requisitos de seguridad se basa en el modelado de amenazas y el análisis de riesgos para identificar y priorizar controles."
+  },
+  {
+    "question": "Según el autor Gary MacGraw, la actividad más importante en el SSDLC es:",
+    "options": [
+      "Modelado de amenazas",
+      "Análisis de riesgos",
+      "Análisis de seguridad del código fuente",
+      "Test de penetración"
+    ],
+    "answer": 0,
+    "explanation": "Gary MacGraw considera el modelado de amenazas como la actividad más importante en el SSDLC para identificar riesgos de seguridad."
+  },
+  {
+    "question": "La arquitectura AJAX ¿Qué características tiene?",
+    "options": [
+      "Llamadas asíncronas al servidor",
+      "Usa JavaScript, XML",
+      "La capa de presentación se genera en el lado cliente",
+      "Todas las anteriores"
+    ],
+    "answer": 3,
+    "explanation": "AJAX utiliza llamadas asíncronas, JavaScript y XML, y genera la capa de presentación en el lado cliente."
+  },
+  {
+    "question": "En AJAX, ¿Cuál es el método que se usa para realizar llamadas al servidor?",
+    "options": [
+      "JSONrequest",
+      "XMLHTTPREQUEST",
+      "HTTPREQ",
+      "HTTPXMLREQUEST"
+    ],
+    "answer": 1,
+    "explanation": "AJAX utiliza el objeto XMLHttpRequest para realizar llamadas asíncronas al servidor."
+  },
+  {
+    "question": "¿Cómo transporta BASIC usuario-contraseña?",
+    "options": [
+      "Cifrados",
+      "En claro",
+      "Codificados base-64",
+      "HASH MD5"
+    ],
+    "answer": 2,
+    "explanation": "BASIC codifica las credenciales en base-64, pero no las cifra, por lo que no es seguro sin HTTPS."
+  },
+  {
+    "question": "Digest, con respecto al usuario y la contraseña…",
+    "options": [
+      "Los cifra",
+      "Van en claro",
+      "Codificados base-64",
+      "HASH MD5"
+    ],
+    "answer": 3,
+    "explanation": "Digest utiliza un hash MD5 de las credenciales para autenticación, evitando enviarlas en claro."
+  },
+  {
+    "question": "Digest usa…",
+    "options": [
+      "Nonce",
+      "Response",
+      "HASH",
+      "Todas las anteriores"
+    ],
+    "answer": 3,
+    "explanation": "Digest utiliza nonce, response y hash para autenticar de manera segura."
+  },
+  {
+    "question": "¿Cómo envía NTLM usuario-contraseña?",
+    "options": [
+      "Usa HMAC-MD5",
+      "AES",
+      "DES",
+      "HTTPS"
+    ],
+    "answer": 0,
+    "explanation": "NTLM utiliza HMAC-MD5 para proteger las credenciales durante la autenticación."
+  },
+  {
+    "question": "¿Cómo se llaman los parámetros que calcula NTLM y envía al servidor?",
+    "options": [
+      "nonce, AES",
+      "ntv2, lmv2",
+      "blob, timestamp",
+      "Ninguna de las anteriores"
+    ],
+    "answer": 1,
+    "explanation": "NTLM calcula y envía los parámetros ntv2 y lmv2 para autenticar al usuario."
+  },
+  {
+    "question": "TLS usa…",
+    "options": [
+      "HASH",
+      "AES",
+      "RSA",
+      "Todas las anteriores"
+    ],
+    "answer": 3,
+    "explanation": "TLS utiliza HASH, AES y RSA para cifrado, autenticación e integridad de datos."
+  },
+  {
+    "question": "Problemas con TLS:",
+    "options": [
+      "Rendimiento",
+      "MITM",
+      "Vulnerabilidades CVE",
+      "Todas las anteriores"
+    ],
+    "answer": 3,
+    "explanation": "TLS puede tener problemas de rendimiento, ser vulnerable a MITM y tener vulnerabilidades documentadas en CVE."
+  },
+  {
+    "question": "¿Cuál es la longitud mínima de claves pública-privada en RSA (TLS)?",
+    "options": [
+      "256",
+      "512",
+      "1024",
+      "2048"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "¿Cuál es la longitud mínima de claves recomendada para AES?",
+    "options": [
+      "256",
+      "512",
+      "1024",
+      "2048"
+    ],
+    "answer": 0,
+    "explanation": "La longitud mínima recomendada para claves AES es de 256 bits para garantizar seguridad robusta."
+  },
+  {
+    "question": "¿Qué métodos de autenticación se suelen usar en Active Directory?",
+    "options": [
+      "NTLM",
+      "Kerberos",
+      "Digest",
+      "La A y la B"
+    ],
+    "answer": 3,
+    "explanation": "Active Directory utiliza principalmente NTLM y Kerberos para autenticación."
+  },
+  {
+    "question": "¿Qué tipo de tickets usa Kerberos para obtener tickets de servicio?",
+    "options": [
+      "TGT",
+      "TGS",
+      "TFS",
+      "AES"
+    ],
+    "answer": 0,
+    "explanation": "Kerberos utiliza Ticket Granting Tickets (TGT) para obtener tickets de servicio."
+  },
+  {
+    "question": "¿Qué tipo de tickets usa Kerberos para acceder al servicio?",
+    "options": [
+      "TGT",
+      "TGS",
+      "TFS",
+      "AES"
+    ],
+    "answer": 1,
+    "explanation": "Kerberos utiliza Ticket Granting Service (TGS) para acceder a servicios específicos."
+  },
+  {
+    "question": "¿Cuál es el parámetro en DIGEST que bien implementado evita ataques de repetición?",
+    "options": [
+      "Md5",
+      "cnonce",
+      "nonce",
+      "response"
+    ],
+    "answer": 2,
+    "explanation": "El parámetro nonce en DIGEST evita ataques de repetición al ser único para cada solicitud."
+  },
+  {
+    "question": "OAUTH2 usa…",
+    "options": [
+      "Token de acceso servicio",
+      "Código de autorización",
+      "La A y la B",
+      "Ninguna de las anteriores"
+    ],
+    "answer": 2,
+    "explanation": "OAUTH2 utiliza tanto tokens de acceso como códigos de autorización para gestionar la autenticación y autorización."
+  },
+  {
+    "question": "¿Qué longitud mínima (bits) se recomienda para un identificador de sesión?",
+    "options": [
+      "56",
+      "128",
+      "256",
+      "1024"
+    ],
+    "answer": 1,
+    "explanation": "Se recomienda una longitud mínima de 128 bits para los identificadores de sesión para garantizar seguridad."
+  },
+  {
+    "question": "¿Dónde puede ubicarse el ID de sesión?",
+    "options": [
+      "Cabecera SET-COOKIE",
+      "Parámetro GET",
+      "Parámetro POST",
+      "Reescritura URL",
+      "Todas las anteriores"
+    ],
+    "answer": 4,
+    "explanation": "El ID de sesión puede ubicarse en la cabecera SET-COOKIE, parámetros GET/POST o en la reescritura de URL."
+  },
+  {
+    "question": "¿Qué parámetro impide acceso a la cabecera SET-COOKIE desde scripts?",
+    "options": [
+      "Secure",
+      "Path",
+      "Domain",
+      "HttpOnly"
+    ],
+    "answer": 3,
+    "explanation": "El parámetro HttpOnly impide que las cookies sean accesibles desde scripts, aumentando la seguridad."
+  },
+  {
+    "question": "¿Cuándo se debe crear el ID de sesión?",
+    "options": [
+      "Antes de la autenticación",
+      "Después de la autenticación",
+      "En cualquier momento",
+      "No es necesario"
+    ],
+    "answer": 1,
+    "explanation": "El ID de sesión debe crearse después de la autenticación para asegurar que el usuario es válido."
+  },
+  {
+    "question": "Ataques que puede sufrir la autenticación:",
+    "options": [
+      "MITM",
+      "Fuerza Bruta",
+      "Repetición",
+      "Todos los anteriores"
+    ],
+    "answer": 3,
+    "explanation": "La autenticación puede sufrir ataques MITM, fuerza bruta y repetición si no está bien protegida."
+  },
+  {
+    "question": "Ataques que puede sufrir la gestión de sesión:",
+    "options": [
+      "MITM",
+      "Fuerza Bruta",
+      "Repetición",
+      "XSS",
+      "SQLI",
+      "Ingeniería Social",
+      "Todos los anteriores"
+    ],
+    "answer": 6,
+    "explanation": "La gestión de sesión puede ser vulnerable a MITM, fuerza bruta, repetición, XSS, SQLI e ingeniería social."
   }
 ]
