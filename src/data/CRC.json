@@ -1,22 +1,431 @@
 [
   {
-    "question": "En muchos casos los proyectos de software engloban en un solo proyecto tres etapas diferenciadas en otros proyectos, ¿cuáles?",
+    "question": "Sobre la identidad del solicitante de un certificado cualificado:",
     "options": [
-      "Financiación, avalaes y garantías post-venta",
-      "Definición, construcción e implantación",
-      "Presupuesto, planos y pliego de condiciones"
+      "El solicitante de un certificado no podrá consignar un pseudónimo, siempre ha de constar su identidad real.",
+      "Los prestadores de servicios electrónicos de confianza que consignen un pseudónimo en un certificado electrónico deberán constatar la verdadera identidad del titular del certificado y conservar la documentación que la acredite.",
+      "Los prestadores de servicios electrónicos de confianza podrán consignar un pseudónimo en un certificado electrónico bajo la responsabilidad del titular del certificado, que deberá conservar la documentación que la acredite.",
+      "Los prestadores de servicios electrónicos de confianza no pueden saber si el certificado se ha realizado bajo un pseudónimo o bajo la identidad real del solicitante."
     ],
     "answer": 1,
-    "explanation": "1.1.1 Concepto de Proyecto. La respuesta correcta es: Definición, construcción e implantación"
+    "explanation": "Los prestadores de servicios electrónicos de confianza deben constatar la verdadera identidad del titular del certificado, incluso si se utiliza un pseudónimo, y conservar la documentación que lo acredite."
   },
   {
-    "question": "En Scrum hay varios roles principales:",
+    "question": "El Reglamento Europeo de Protección de Datos, en relación al DPD:",
     "options": [
-      "Equipo, Dueño del producto y Scrum master",
-      "Dueño de producto, Equipo y Project manager",
-      "Cliente, Equipo y Jefe de proyecto"
+      "Obliga a formalizar su nombramiento.",
+      "Su nombramiento es obligatorio en determinados casos.",
+      "Es una figura voluntaria.",
+      "Es obligatorio su nombramiento únicamente cuando el Responsable del tratamiento trate datos de salud."
+    ],
+    "answer": 1,
+    "explanation": "El nombramiento del Delegado de Protección de Datos (DPD) es obligatorio en determinados casos, como cuando el tratamiento de datos es realizado por una autoridad u organismo público."
+  },
+  {
+    "question": "Señala la respuesta correcta:",
+    "options": [
+      "El Real Decreto-ley 12/2018, de 7 de septiembre, de seguridad de las redes y sistemas de información obliga a los Operadores de servicios esenciales a crear la figura del 'responsable de la seguridad de la información' en el plazo de tres meses desde su designación como operador de servicios esenciales.",
+      "El Real Decreto-ley 12/2018, de 7 de septiembre, de seguridad de las redes y sistemas de información obliga a los Operadores de servicios esenciales a crear la figura del 'responsable de la seguridad de la información' en el plazo de seis meses desde su designación como operador de servicios esenciales.",
+      "El Real Decreto-ley 12/2018, de 7 de septiembre, de seguridad de las redes y sistemas de información obliga a los Operadores de servicios esenciales a crear la figura del 'responsable de la seguridad de la información' desde su designación como operador de servicios esenciales.",
+      "No es obligatorio nombrar un responsable de seguridad, pero sí es aconsejable."
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "Artículo 16 del Real Decreto-ley 12/2018 obliga a los Operadores de servicios esenciales a designar un responsable de seguridad de la información desde su designación como operador de servicios esenciales."
+  },
+  {
+    "question": "Responsable del tratamiento es:",
+    "options": [
+      "La persona física u otro organismo que, solo o junto con otros, determine los fines del tratamiento.",
+      "La persona física o jurídica, autoridad pública, servicio u otro organismo que, solo o junto con otros, determine los fines y medios del tratamiento.",
+      "La persona física u otro organismo que, solo o junto con otros, determine los medios del tratamiento.",
+      "La persona física o jurídica, autoridad pública, servicio u otro organismo que trate datos personales por cuenta del responsable del tratamiento."
+    ],
+    "answer": 1,
+    "explanation": "El responsable del tratamiento es quien determina los fines y medios del tratamiento de datos personales, según el Reglamento General de Protección de Datos (RGPD)."
+  },
+  {
+    "question": "En el tiempo, los resultados del delito pueden manifestarse…",
+    "options": [
+      "Mucho tiempo después de haberse realizado.",
+      "Depende de si el delito es nacional o internacional.",
+      "Es dependiente de las características del ciberdelincuente.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 0,
+    "explanation": "Los resultados de un delito, especialmente en ciberdelincuencia, pueden manifestarse mucho tiempo después de haberse cometido, debido a la naturaleza oculta y compleja de estos crímenes."
+  },
+  {
+    "question": "Para poder definir lo que se entiende por delincuencia organizada, EUROPOL cita como un indicador…",
+    "options": [
+      "Colaboración de más de dos personas.",
+      "Colaboración de más de tres personas.",
+      "Colaboración de solo una persona.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 0,
+    "explanation": "EUROPOL define la delincuencia organizada como la colaboración de dos o más personas para cometer delitos de manera estructurada y continuada."
+  },
+  {
+    "question": "Una característica que define a la ciberdelincuencia y que la distingue de la delincuencia tradicional es…",
+    "options": [
+      "Una víctima se asocia a un ciberdelito.",
+      "Los indicios de la comisión de un delito suelen hallarse en los PCs de los ciberdelincuentes.",
+      "Son delitos de fácil comisión.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 2,
+    "explanation": "La ciberdelincuencia se distingue por su naturaleza digital, la facilidad de comisión y la dificultad de rastreo, entre otras características."
+  },
+  {
+    "question": "Respecto a las pistas existentes en la banda magnética de una tarjeta de crédito…",
+    "options": [
+      "La pista 1 y la 2 son únicamente de lectura.",
+      "Las tres pistas son de lectura/escritura.",
+      "Tiene una de lectura y otra de escritura.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 0,
+    "explanation": "Las pistas 1 y 2 de la banda magnética de una tarjeta de crédito son de solo lectura, mientras que la pista 3 puede ser de lectura/escritura."
+  },
+  {
+    "question": "¿Qué es un Screenlogger?",
+    "options": [
+      "Capturador de porciones de pantalla.",
+      "Es un keylogger con funciones reducidas.",
+      "Estafa basada en el correo electrónico.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 0,
+    "explanation": "Un Screenlogger es un tipo de malware que captura imágenes de la pantalla del usuario, a menudo utilizado para robar información sensible."
+  },
+  {
+    "question": "A fin de contar con las máximas garantías de éxito en la resolución de un ciberdelito, es aconsejable que las denuncias sigan algunas pautas, entre las que se encuentra, por ejemplo:",
+    "options": [
+      "Es aconsejable que la denuncia sea confeccionada únicamente por el responsable técnico de la empresa víctima, ya que es él quien conoce lo que ha ocurrido exactamente.",
+      "Es obligatorio que la denuncia se presente por escrito.",
+      "Es esencial que lo que se exponga en la denuncia sea comprendido por todos los actores jurídicos y policiales que intervengan.",
+      "Se debe presentar cuando se tengan todos los datos, sin que el tiempo que se tarde afecte en algo a la investigación."
+    ],
+    "answer": 2,
+    "explanation": "Es crucial que la denuncia sea clara y comprensible para todos los actores involucrados en la investigación, incluyendo autoridades jurídicas y policiales."
+  },
+  {
+    "question": "El principio de seguridad establecido en el RGPD implica que:",
+    "options": [
+      "El responsable y el encargado del tratamiento aplicarán medidas técnicas y organizativas apropiadas para garantizar un nivel de seguridad adecuado al riesgo, teniendo en cuenta el estado de la técnica, los costes de aplicación, y la naturaleza, el alcance, el contexto y los fines del tratamiento, así como riesgos de probabilidad y gravedad variables para los derechos y libertades de las personas físicas.",
+      "Supone que el responsable y el encargado del tratamiento deberán adoptar obligatoriamente el catálogo de medidas de seguridad establecidas en el RGPD.",
+      "El responsable y el encargado del tratamiento adoptarán las medidas de seguridad que les indique el Delegado de Protección de Datos.",
+      "Deberán adoptar las medidas de seguridad que indique la Evaluación de Impacto, que obligatoriamente todo responsable y el encargado del tratamiento deben realizar en cualquier caso."
+    ],
+    "answer": 0,
+    "explanation": "El RGPD establece que las medidas de seguridad deben ser apropiadas al riesgo, considerando factores como el estado de la técnica, los costes y la naturaleza del tratamiento."
+  },
+  {
+    "question": "En el Esquema Nacional de Seguridad, la categoría de un sistema es:",
+    "options": [
+      "BAJO, si alguna de sus dimensiones de seguridad alcanza el nivel BAJO, y ninguna alcanza un nivel superior.",
+      "BAJO, si la mayoría de sus dimensiones de seguridad alcanzan el nivel BAJO.",
+      "BAJO, si al menos la mitad de sus dimensiones de seguridad alcanzan el nivel BAJO.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 0,
+    "explanation": "En el Esquema Nacional de Seguridad, un sistema se clasifica como BAJO si alguna de sus dimensiones de seguridad alcanza el nivel BAJO y ninguna alcanza un nivel superior."
+  },
+  {
+    "question": "Indica la respuesta correcta respecto del consentimiento en el RGPD:",
+    "options": [
+      "Para los datos no sensibles, es válido el consentimiento tácito.",
+      "Es exigible el consentimiento expreso solo para datos de menores.",
+      "Dependerá del país de destino (transferencias internacionales).",
+      "Debe ser siempre 'inequívoco' y 'explícito'."
+    ],
+    "answer": 3,
+    "explanation": "El RGPD exige que el consentimiento sea siempre 'inequívoco' y 'explícito', independientemente del tipo de datos o la edad del titular."
+  },
+  {
+    "question": "Entre las características que definen a la ciberdelincuencia, NO se encuentra la siguiente:",
+    "options": [
+      "Los indicios de la comisión de un hecho delictivo suelen hallarse en servidores donde no se almacenan por periodos prolongados de tiempo.",
+      "Existe una importante cifra negra de delitos, al no denunciarse por distintos motivos como puede ser que la víctima no sea consciente de ello.",
+      "Los resultados de los delitos se manifiestan en todos los casos de manera instantánea.",
+      "Con relativa frecuencia tienen un elemento internacional."
+    ],
+    "answer": 2,
+    "explanation": "Los resultados de los ciberdelitos no siempre se manifiestan de manera instantánea; pueden tardar en detectarse debido a su naturaleza oculta y compleja."
+  },
+  {
+    "question": "¿En cuál de las siguientes motivaciones podríamos englobar a los ciberdelincuentes que trasladan a Internet un conflicto político, llamando la atención sobre sus reivindicaciones?",
+    "options": [
+      "Motivos terroristas.",
+      "Motivos laborales.",
+      "Otras motivaciones.",
+      "Motivos políticos."
+    ],
+    "answer": 3,
+    "explanation": "Los ciberdelincuentes que actúan por motivos políticos buscan llamar la atención sobre sus reivindicaciones a través de acciones en Internet."
+  },
+  {
+    "question": "Según la clasificación de EUROPOL, para que exista delincuencia organizada se tienen que dar, entre otros, alguno de los siguientes indicadores. Señalar la opción incorrecta:",
+    "options": [
+      "Sospecha comisión delitos leves.",
+      "Permanencia en el tiempo.",
+      "Existencia de mecanismos de control y disciplina interna.",
+      "Colaboración de dos o más personas."
+    ],
+    "answer": 0,
+    "explanation": "La delincuencia organizada no se caracteriza por la comisión de delitos leves, sino por la gravedad, la estructura y la colaboración de varias personas."
+  },
+  {
+    "question": "Las acciones llevadas a cabo por delincuentes con el fin de obtener, por distintas vías, la información necesaria para acceder de manera no autorizada a las cuentas bancarias online de otras personas (víctimas), se conoce como:",
+    "options": [
+      "Phishing.",
+      "Smishing.",
+      "Vishing.",
+      "Traping."
+    ],
+    "answer": 0,
+    "explanation": "El phishing es una técnica utilizada para obtener información confidencial, como credenciales bancarias, a través de engaños y suplantación de identidad."
+  },
+  {
+    "question": "La técnica diseñada para capturar información personal mediante la modificación del servidor de DNS se conoce como:",
+    "options": [
+      "Carding.",
+      "Grooming.",
+      "Pharming.",
+      "Whaling."
+    ],
+    "answer": 2,
+    "explanation": "El pharming es una técnica que redirige a los usuarios a sitios web falsos mediante la manipulación del servidor DNS, con el fin de capturar información personal."
+  },
+  {
+    "question": "El derecho a la protección de datos:",
+    "options": [
+      "Es un derecho fundamental que forma parte del derecho fundamental a la intimidad.",
+      "Es un derecho fundamental independiente del derecho a la intimidad.",
+      "Es un derecho de rango ordinario.",
+      "Está en vías de ser aprobado como derecho fundamental."
+    ],
+    "answer": 1,
+    "explanation": "El derecho a la protección de datos es un derecho fundamental independiente, reconocido en la Constitución y en el Reglamento General de Protección de Datos (RGPD)."
+  },
+  {
+    "question": "Comprobación de la identidad y otras circunstancias de los solicitantes de un certificado cualificado:",
+    "options": [
+      "La firma de la solicitud de expedición de un certificado cualificado deberá legitimarse notarialmente.",
+      "La identificación de la persona física que solicite un certificado cualificado exigirá su personación ante los encargados de verificarla y se acreditará mediante el Documento Nacional de Identidad, pasaporte u otros medios admitidos en Derecho.",
+      "La identificación de la persona física que solicite un certificado cualificado se acreditará mediante el Documento Nacional de Identidad, pasaporte u otros medios admitidos en Derecho.",
+      "El solicitante podrá elegir entre la personación ante los encargados de verificar su identidad o presentar copia de su Documento Nacional de Identidad, pasaporte u otros medios admitidos en Derecho."
+    ],
+    "answer": 1,
+    "explanation": "La identificación del solicitante de un certificado cualificado requiere su personación y la presentación de documentos oficiales como el DNI o pasaporte."
+  },
+  {
+    "question": "En relación con la certificación de conformidad requerida por el Esquema Nacional de Seguridad para sistemas de nivel medio y alto:",
+    "options": [
+      "La pueden emitir sólo las entidades acreditadas para certificar ISO 27001.",
+      "La pueden emitir sólo las entidades acreditadas por ENAC específicamente para certificar ENS.",
+      "La puede emitir la misma organización.",
+      "Sólo puede emitirlas el CCN."
+    ],
+    "answer": 1,
+    "explanation": "La certificación de conformidad con el Esquema Nacional de Seguridad (ENS) debe ser emitida por entidades acreditadas por ENAC específicamente para este fin."
+  },
+  {
+    "question": "Indica la respuesta correcta:",
+    "options": [
+      "La 'Privacidad desde el diseño' debe incluir todo el ciclo de vida del dato (desde la recogida hasta la cancelación).",
+      "La 'Privacidad desde el diseño' se refiere a la recogida de datos por defecto.",
+      "La 'Privacidad desde el diseño' sólo afecta al sector privado.",
+      "La 'Privacidad desde el diseño' sólo afecta al sector público."
+    ],
+    "answer": 0,
+    "explanation": "La 'Privacidad desde el diseño' implica integrar medidas de protección de datos en todo el ciclo de vida del tratamiento, desde la recogida hasta la eliminación."
+  },
+  {
+    "question": "Los derechos de los interesados en protección de datos son:",
+    "options": [
+      "Acceso, Rectificación, Cancelación, Oposición, Portabilidad, Limitación.",
+      "Acceso, Rectificación, Supresión, Oposición, Portabilidad, Limitación.",
+      "Acceso, Rectificación, Supresión, Oposición, Limitación.",
+      "Actualización, Rectificación, Supresión, Oposición, Portabilidad, Limitación."
+    ],
+    "answer": 1,
+    "explanation": "Los derechos de los interesados según el RGPD incluyen acceso, rectificación, supresión (derecho al olvido), oposición, portabilidad y limitación del tratamiento."
+  },
+  {
+    "question": "Un dato de carácter personal es:",
+    "options": [
+      "Toda información sobre una persona física identificada.",
+      "Toda información sobre una persona física o jurídica identificada o identificable.",
+      "Toda información sobre una persona física identificada o identificable.",
+      "Toda información sobre una persona jurídica identificada."
+    ],
+    "answer": 2,
+    "explanation": "Un dato de carácter personal es cualquier información relacionada con una persona física identificada o identificable, según el RGPD."
+  },
+  {
+    "question": "Señale la respuesta correcta sobre los contratos electrónicos:",
+    "options": [
+      "Un contrato electrónico entre empresario y consumidor (B2C) se entenderá celebrado en el lugar de residencia del cliente/usuario.",
+      "Un contrato electrónico entre empresario y consumidor (B2C) se entenderá celebrado en el lugar de residencia del empresario.",
+      "Un contrato electrónico entre empresario y consumidor (B2C) se entenderá celebrado en el lugar que elija el consumidor.",
+      "Un contrato electrónico entre empresario y consumidor (B2C) se entenderá celebrado en el lugar que elija el empresario."
+    ],
+    "answer": 0,
+    "explanation": "En los contratos electrónicos B2C, se entiende que el contrato se celebra en el lugar de residencia del consumidor, según la normativa de protección al consumidor."
+  },
+  {
+    "question": "Si se produce una violación de seguridad:",
+    "options": [
+      "Los prestadores cualificados y no cualificados de servicios electrónicos de confianza únicamente deberán notificarlo al Ministerio de Asuntos Económicos y Transformación Digital.",
+      "Los prestadores cualificados de servicios electrónicos de confianza la notificarán al Ministerio de Asuntos Económicos y Transformación Digital.",
+      "Los prestadores cualificados y no cualificados de servicios electrónicos de confianza notificarán al Ministerio de Asuntos Económicos y Transformación Digital sin perjuicio de su notificación a la Agencia Española de Protección de Datos.",
+      "Los prestadores cualificados y no cualificados de servicios electrónicos de confianza únicamente deberán notificarlo a la Agencia Española de Protección de Datos."
+    ],
+    "answer": 2,
+    "explanation": "Los prestadores de servicios electrónicos de confianza, tanto cualificados como no cualificados, deben notificar las violaciones de seguridad al Ministerio de Asuntos Económicos y Transformación Digital y, si es necesario, a la Agencia Española de Protección de Datos."
+  },
+  {
+    "question": "Entre las fases en las que se puede dividir un ataque APT (Amenaza Persistente Avanzada), se encuentra:",
+    "options": [
+      "Monetización.",
+      "Reconocimiento.",
+      "Desinstalar software de comunicaciones.",
+      "Búsqueda de comisiones."
+    ],
+    "answer": 1,
+    "explanation": "El reconocimiento es una fase clave en un ataque APT, donde los atacantes recopilan información sobre el objetivo antes de lanzar el ataque."
+  },
+  {
+    "question": "Entre las vías para obtención de beneficios asociadas a las webs de distribución de obras sujetas a propiedad intelectual, no se encuentra:",
+    "options": [
+      "Venta de direcciones de correos electrónicos.",
+      "Distribución de críticas cinematográficas.",
+      "Cobro por descargas priorizadas.",
+      "Publicidad."
+    ],
+    "answer": 1,
+    "explanation": "La distribución de críticas cinematográficas no es una vía de obtención de beneficios en estas webs, a diferencia de la venta de correos, cobro por descargas o publicidad."
+  },
+  {
+    "question": "En la redacción del Código Penal, se hace distinción entre dos tipos de fraudes relacionados con Internet. ¿Cuáles son?",
+    "options": [
+      "Según la cantidad estafada, se dividen en estafas graves y estafas menos graves.",
+      "Las estafas informáticas y las estafas tecnológicas.",
+      "Los que cuentan con Internet como elemento facilitador de su comisión y las identificadas como 'estafas informáticas'.",
+      "Según la cantidad estafada, se dividen en estafas graves y estafas menos graves."
+    ],
+    "answer": 2,
+    "explanation": "El Código Penal distingue entre fraudes que utilizan Internet como herramienta facilitadora y las estafas informáticas propiamente dichas."
+  },
+  {
+    "question": "Entre las siguientes características, ¿cuál define a las evidencias digitales?",
+    "options": [
+      "Son permanentes en el tiempo.",
+      "No son fáciles de manipular.",
+      "La permanencia en el tiempo es similar a la de las relacionadas con los delitos tradicionales.",
+      "Son fáciles de manipular."
+    ],
+    "answer": 3,
+    "explanation": "Las evidencias digitales son fáciles de manipular, lo que requiere medidas especiales para garantizar su integridad y autenticidad."
+  },
+  {
+    "question": "El derecho de portabilidad de datos:",
+    "options": [
+      "Solo se aplica en tratamientos automatizados de datos.",
+      "Puede ejercitarse en cualquier caso.",
+      "Solo puede ejercitarse cuando el tratamiento esté basado en el consentimiento o en la ejecución de un contrato.",
+      "A y C son correctas."
+    ],
+    "answer": 3,
+    "explanation": "El derecho de portabilidad se aplica únicamente en tratamientos automatizados basados en el consentimiento o en la ejecución de un contrato."
+  },
+  {
+    "question": "Para que podamos hablar de contrato electrónico:",
+    "options": [
+      "No es necesario el previo acuerdo de las partes sobre la utilización de medios electrónicos.",
+      "Es necesario el previo acuerdo de las partes sobre la utilización de medios electrónicos.",
+      "Si las partes no se ponen de acuerdo en la utilización de medios electrónicos, no podrá celebrarse.",
+      "Es necesario el previo acuerdo de las partes sobre la utilización de medios electrónicos, y que así conste por escrito."
+    ],
+    "answer": 1,
+    "explanation": "Para que un contrato sea considerado electrónico, es necesario que las partes acuerden previamente la utilización de medios electrónicos, aunque no es obligatorio que conste por escrito."
+  },
+  {
+    "question": "Los primeros ciberdelincuentes que surgieron a la par que la universalización de los servicios de acceso a Internet se caracterizaban por:",
+    "options": [
+      "Ser personas violentas.",
+      "Tratarse de personas individuales que buscaban obtener dinero fácil.",
+      "Conectarse desde cibercafés.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 1,
+    "explanation": "Los primeros ciberdelincuentes solían ser individuos que buscaban obtener beneficios económicos de manera fácil y rápida, aprovechando las nuevas oportunidades que ofrecía Internet."
+  },
+  {
+    "question": "¿Cómo son los daños que generan los ciberdelincuentes cuando les mueven motivos políticos?",
+    "options": [
+      "De poca intensidad pero muy visibles.",
+      "De alta intensidad y muy visibles.",
+      "De poca visibilidad y poca intensidad.",
+      "De alta intensidad y poco visibles."
+    ],
+    "answer": 0,
+    "explanation": "Únicamente suelen buscar llamar la atención sobre sus reivindicaciones. Los daños que producen generalmente son de poca intensidad, pero muy visibles, como los defacement de páginas web o el robo y publicación de información."
+  },
+  {
+    "question": "Una característica que define a la ciberdelincuencia y la distingue de la delincuencia tradicional es:",
+    "options": [
+      "Una víctima se asocia a un ciberdelito.",
+      "Los indicios de la comisión de un delito suelen hallarse en los PCs de los ciberdelincuentes.",
+      "Son delitos de difícil comisión.",
+      "Están castigados en el Código Penal con escasa pena."
+    ],
+    "answer": 1,
+    "explanation": "En la ciberdelincuencia, los indicios del delito suelen encontrarse en los dispositivos electrónicos de los ciberdelincuentes, como ordenadores o servidores."
+  },
+  {
+    "question": "¿Cuál de estas opciones NO pertenece a ninguna de las tres fases del ciclo de phishing?",
+    "options": [
+      "Captura de datos.",
+      "Venta de datos.",
+      "Captación de mulas.",
+      "Transferencia, monetización y envío de lo defraudado."
+    ],
+    "answer": 1,
+    "explanation": "La venta de datos no forma parte de las fases típicas del ciclo de phishing, que incluyen captura de datos, captación de mulas y transferencia/monetización."
+  },
+  {
+    "question": "¿Qué es el Vishing?",
+    "options": [
+      "Phishing para altos directivos.",
+      "Obtención de información a través de SMS o MMS.",
+      "Estafa a través del correo electrónico.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 3,
+    "explanation": "El Vishing es una técnica de fraude que utiliza llamadas telefónicas para obtener información confidencial, como contraseñas o datos bancarios, suplantando la identidad de una entidad legítima."
+  },
+  {
+    "question": "¿Qué es el Carding?",
+    "options": [
+      "Obtención de información a través de SMS o MMS.",
+      "Estafa a través del correo electrónico.",
+      "Venta de tarjetas de crédito.",
+      "Obtención de información de tarjetas de crédito."
+    ],
+    "answer": 3,
+    "explanation": "El Carding es una técnica de fraude que consiste en la obtención y uso de información de tarjetas de crédito, generalmente para realizar compras fraudulentas."
+  },
+  {
+    "question": "¿Qué es el Grooming?",
+    "options": [
+      "Obtención de información a través de SMS o MMS.",
+      "Estafa a través del correo electrónico.",
+      "Obtención de información de tarjetas de crédito.",
+      "Acoso sexual a menores por parte de adultos a través de Internet."
+    ],
+    "answer": 3,
+    "explanation": "El Grooming es una forma de acoso sexual a menores en Internet, donde un adulto se hace pasar por un menor para ganarse la confianza de la víctima y obtener información personal o imágenes."
   }
 ]
