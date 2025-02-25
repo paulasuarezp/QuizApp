@@ -1,22 +1,493 @@
 [
   {
-    "question": "En muchos casos los proyectos de software engloban en un solo proyecto tres etapas diferenciadas en otros proyectos, ¿cuáles?",
+    "question": "¿Cuál de los siguientes mensajes de SSL Handshake se emplea para determinar los algoritmos criptográficos a utilizar?",
     "options": [
-      "Financiación, avalaes y garantías post-venta",
-      "Definición, construcción e implantación",
-      "Presupuesto, planos y pliego de condiciones"
-    ],
-    "answer": 1,
-    "explanation": "1.1.1 Concepto de Proyecto. La respuesta correcta es: Definición, construcción e implantación"
-  },
-  {
-    "question": "En Scrum hay varios roles principales:",
-    "options": [
-      "Equipo, Dueño del producto y Scrum master",
-      "Dueño de producto, Equipo y Project manager",
-      "Cliente, Equipo y Jefe de proyecto"
+      "ServerHello.",
+      "ServerKeyExchange.",
+      "ServerHelloDone.",
+      "Ninguno de los anteriores."
     ],
     "answer": 0,
+    "explanation": "El mensaje ServerHello en el protocolo SSL/TLS se utiliza para que el servidor indique al cliente los algoritmos criptográficos que se utilizarán durante la conexión."
+  },
+  {
+    "question": "Dentro de las políticas de funcionamiento de un cortafuegos del tipo router de filtrado de paquetes:",
+    "options": [
+      "Una Política Restrictiva prohíbe explícitamente todo el tráfico que pretenda atravesar el cortafuegos.",
+      "Una Política Restrictiva permite explícitamente todo el tráfico que la atraviesa.",
+      "Una Política Restrictiva permite explícitamente qué comunicaciones son permitidas; el resto son comunicaciones no permitidas.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 2,
+    "explanation": "Una política restrictiva en un cortafuegos define explícitamente qué tráfico está permitido, bloqueando todo lo demás por defecto."
+  },
+  {
+    "question": "¿Cuál de los siguientes subprotocolos de SSL se encarga del cifrado de los mensajes?",
+    "options": [
+      "Record Protocol.",
+      "Alert Protocol.",
+      "HandShake Protocol.",
+      "ChangeCipherSpec."
+    ],
+    "answer": 0,
+    "explanation": "El Record Protocol en SSL/TLS es el subprotocolo responsable del cifrado y compresión de los datos transmitidos."
+  },
+  {
+    "question": "En IPv6:",
+    "options": [
+      "Las direcciones tienen 32 bits.",
+      "El formato de paquete utilizado es igual al de IPv4.",
+      "La carga útil máxima de los paquetes es de 64KB.",
+      "Permite multicast."
+    ],
+    "answer": 3,
+    "explanation": "IPv6 permite multicast, una característica que permite enviar paquetes a múltiples destinos de manera eficiente."
+  },
+  {
+    "question": "Los ataques de repetición:",
+    "options": [
+      "Se da cuando una entidad se hace pasar por otra.",
+      "Se entiende como la captura de uno o más mensajes del tráfico de la red para su posterior retransmisión con el fin de provocar un efecto no deseado.",
+      "Es un ataque pasivo, simplemente se captura tráfico para su análisis.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 1,
+    "explanation": "Un ataque de repetición implica capturar y retransmitir mensajes para engañar al sistema y provocar un efecto no deseado."
+  },
+  {
+    "question": "Un ataque activo tiene por objetivo:",
+    "options": [
+      "Analizar el tráfico de la red o conseguir acceso al sistema sin afectar a los recursos del mismo.",
+      "Alterar los recursos del sistema pero sin afectar a su funcionamiento.",
+      "A y B son correctas.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 3,
+    "explanation": "Un ataque activo busca alterar los recursos del sistema o su funcionamiento, a diferencia de los ataques pasivos, que solo monitorizan el tráfico."
+  },
+  {
+    "question": "En el ámbito de la seguridad en redes de ordenadores, un cortafuegos:",
+    "options": [
+      "Se define como un equipo protegido y provisto de grandes medidas de seguridad.",
+      "Es aconsejable cuando las comunicaciones en Internet pueden ser monitorizadas por atacantes.",
+      "Permite interconectar dos o más segmentos de red con distinta política de seguridad.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 2,
+    "explanation": "Un cortafuegos permite interconectar segmentos de red con diferentes políticas de seguridad, controlando el tráfico entre ellos."
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es VERDADERA acerca de un equipo bastión?",
+    "options": [
+      "Es un equipo que cuenta con una fuerte protección ya que estará expuesto a sufrir ataques.",
+      "Es un equipo que atrae los ataques porque cuenta con una protección débil.",
+      "Es un equipo que debe estar siempre desconectado de la red.",
+      "Ninguna de las opciones es correcta."
+    ],
+    "answer": 0,
+    "explanation": "Un equipo bastión está fuertemente protegido porque está expuesto a ataques al ser el punto de entrada a una red."
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones con respecto a los honeypot es VERDADERA?",
+    "options": [
+      "Es un sistema de análisis de vulnerabilidades.",
+      "Permite impedir los accesos no autorizados a un equipo informático o a una red.",
+      "Su objetivo es atraer al atacante en lugar de evitarlo.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 2,
+    "explanation": "Un honeypot es un sistema diseñado para atraer a los atacantes y estudiar sus métodos, en lugar de bloquearlos."
+  },
+  {
+    "question": "¿Cuál de las siguientes características del protocolo IP es VERDADERA?",
+    "options": [
+      "Es un protocolo de la capa de transporte.",
+      "Es un protocolo no fiable.",
+      "A y B son correctas.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 1,
+    "explanation": "El protocolo IP es no fiable, ya que no garantiza la entrega de paquetes ni su orden, y pertenece a la capa de red, no a la de transporte."
+  },
+  {
+    "question": "¿Cuál de los siguientes es un sistema trampa?",
+    "options": [
+      "IDS",
+      "Honeypot",
+      "Firewall",
+      "Todas las opciones son correctas"
+    ],
+    "answer": 1,
+    "explanation": "Un honeypot es un sistema trampa diseñado para atraer a los atacantes y estudiar sus métodos."
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es VERDADERA acerca del protocolo UDP?",
+    "options": [
+      "Es un protocolo orientado a conexión",
+      "Es un protocolo no fiable",
+      "Es un protocolo de la capa de red",
+      "Ninguna de las opciones es correcta"
+    ],
+    "answer": 1,
+    "explanation": "UDP es un protocolo no fiable, ya que no garantiza la entrega de paquetes ni su orden."
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "La cabecera de autenticación AH contiene un campo llamado SPI",
+      "Los túneles IPSEC son túneles de capa 2 del modelo OSI",
+      "Existe un tipo de mensaje dentro del protocolo SSL Handshake denominado Client_Server_Negotiation",
+      "Ninguna de las opciones es correcta"
+    ],
+    "answer": 0,
+    "explanation": "La cabecera de autenticación AH en IPSEC contiene un campo llamado SPI (Security Parameters Index)."
+  },
+  {
+    "question": "¿Cuál de las siguientes opciones es correcta acerca de WPA?",
+    "options": [
+      "Usa el algoritmo de cifrado DES",
+      "Usa claves que van cambiando con el tiempo",
+      "El vector de inicialización es de 16 bits",
+      "No es compatible con el hardware diseñado para el protocolo WEP"
+    ],
+    "answer": 1,
+    "explanation": "WPA usa claves que cambian con el tiempo para mejorar la seguridad de la red inalámbrica."
+  },
+  {
+    "question": "¿Cuál de los siguientes servicios de seguridad permiten confirmar la identidad de una o más entidades conectadas a una o más entidades sea verdadera?",
+    "options": [
+      "Autenticación",
+      "Confidencialidad",
+      "Integridad",
+      "No repudio"
+    ],
+    "answer": 0,
+    "explanation": "La autenticación es el servicio de seguridad que permite confirmar la identidad de las entidades conectadas."
+  },
+  {
+    "question": "Los sistemas del tipo Padded Cell:",
+    "options": [
+      "Funcionan de manera independiente a los IDS.",
+      "Funcionan de manera independiente a los NIDS (IDS en red).",
+      "Cuando detectan un ataque desencadenan acciones preventivas.",
+      "El sistema 'Bait and Switch' de Snort es un ejemplo real."
+    ],
+    "answer": 2,
+    "explanation": "Los sistemas Padded Cell detectan ataques y desencadenan acciones preventivas para proteger la red. Bait and Switch es una técnica de detección de intrusiones (IDS)."
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es VERDADERA acerca de la política permisiva de un cortafuegos del tipo router de filtrado de paquetes?",
+    "options": [
+      "Permite determinar qué usuarios pueden acceder a determinados servidores.",
+      "Es necesario especificar qué comunicaciones están prohibidas.",
+      "A y B son ciertas.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 1,
+    "explanation": "Una política permisiva requiere especificar qué comunicaciones están prohibidas, permitiendo el resto por defecto."
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es VERDADERA acerca de la integridad de los datos?",
+    "options": [
+      "Asegura que los extremos de una comunicación no puedan negar falsamente haber enviado o recibido un mensaje.",
+      "Se encarga de confirmar que la identidad de una o más entidades conectadas a una o más entidades sea verdadera.",
+      "Se entiende como la protección de una entidad contra la revelación deliberada o accidental de cualquier conjunto de datos a entidades no autorizadas.",
+      "Permite detectar si los datos transferidos en una comunicación han sido modificados."
+    ],
+    "answer": 3,
     "explanation": ""
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es VERDADERA acerca del servicio de seguridad de no repudio?",
+     "options": [
+      "Protege contra usuarios que quieran negar falsamente que enviaron o recibieron un mensaje.",
+      "Asegura que los datos transferidos en una conexión no fueron rechazados.",
+      "Protege a una entidad contra la revelación deliberada o accidental de cualquier conjunto de datos a entidades no autorizadas.",
+      "Rechaza a una entidad contra el uso no autorizado de sus recursos.",
+      "El no repudio, destino, proporciona al receptor de los datos una prueba de la identidad de la entidad origen de los mismos.",
+      "El no repudio, origen, proporciona al emisor de los datos una prueba de la identidad de la entidad receptora de los mismos.",    
+      "Todas las opciones son correctas"
+    ],
+    "answer": 1,
+    "explanation": "(www.sede.fnmt.gob.es) El no repudio o irrenunciabilidad es un servicio de seguridad que permite probar la participación de las partes en una comunicación. Existirán por tanto dos posibilidades: No repudio en origen: El emisor no puede negar que envió porque el destinatario tiene pruebas del envío. No repudio en destino: El receptor no puede negar que recibió el mensaje porque el emisor tiene pruebas de la recepción."
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es VERDADERA acerca de SSL?",
+    "options": [
+      "Fue desarrollado por Netscape.",
+      "SSL proporciona autenticación, integridad y confidencialidad.",
+      "Habitualmente solo el servidor es autenticado mientras que el cliente se mantiene sin autenticar.",
+      "Todas las opciones son correctas."
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es FALSA acerca de IPv6?",
+    "options": [
+      "IPv6 tiene integrado IPSec.",
+      "IPv6 permite multicast.",
+      "Las direcciones en IPv6 tienen un tamaño de 128 bytes.",
+      "Permite paquetes con una carga útil de hasta 4GiB."
+    ],
+    "answer": 2,
+    "explanation": "Las direcciones en IPv6 tienen un tamaño de 128 bits, no bytes."
+  },
+  {
+    "question": "¿Cuál de las siguientes funcionalidades no son proveídas por un cortafuegos?",
+    "options": [
+      "Bloqueo de tráfico no deseado.",
+      "Ocultación de sistemas vulnerables.",
+      "Proporcionar un repositorio unificado de incidentes de red de todo tipo.",
+      "Control de tráfico hacia y desde la red privada."
+    ],
+    "answer": 2,
+    "explanation": "Un cortafuegos no proporciona un repositorio unificado de incidentes de red."
+  },
+  {
+    "question": "¿Cuál de las siguientes opciones no es un ataque activo?",
+    "options": [
+      "Captura de tráfico.",
+      "Repetición.",
+      "Suplantación de identidad.",
+      "Modificación de mensajes."
+    ],
+    "answer": 0,
+    "explanation": "La captura de tráfico es un ataque pasivo, no activo."
+  },
+  {
+    "question": "El protocolo WEP:",
+    "options": [
+      "Hace uso de claves temporales.",
+      "Usa un cifrado de clave simétrica.",
+      "A y B son correctas.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 1,
+    "explanation": "WEP usa un cifrado de clave simétrica, pero no hace uso de claves temporales."
+  },
+  {
+    "question": "¿Cuál de los siguientes campos de un paquete ESP está cifrado?",
+    "options": [
+      "Security Parameter Index.",
+      "Sequence Number Field.",
+      "Next Header.",
+      "Ninguno de los anteriores."
+    ],
+    "answer": 3,
+    "explanation": "Ninguno de los campos mencionados está cifrado en un paquete ESP."
+  },
+  {
+    "question": "Los sistemas NIDS:",
+    "options": [
+      "Impiden que un atacante pueda penetrar en un sistema de información.",
+      "Solamente analizan el tráfico que tiene como destino el equipo en el que están desplegados.",
+      "Bloquean conexiones que sean sospechosas de formar parte de un ataque.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 3,
+    "explanation": "Los NIDS (Network Intrusion Detection Systems) son sistemas de detección de intrusiones en la red, pero no bloquean ni impiden ataques por sí mismos, solo los detectan y alertan."
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es VERDADERA con respecto a una zona desmilitarizada (DMZ)?",
+    "options": [
+      "En ella se ubican los servidores que deben permanecer accesibles desde el exterior.",
+      "Impide que un atacante pueda intentar ataques de IP-spoofing.",
+      "Es un equipo que debe disponer de al menos 3 interfaces de red.",
+      "Su uso evita la colocación de cortafuegos del tipo router de filtrado de paquetes.",
+      "Se trata de una red de la empresa donde no existen protecciones a los sistemas en ella ubicados.",
+      "Todas las respuestas son verdaderas."
+    ],
+    "answer": 0,
+    "explanation": "Una zona desmilitarizada (DMZ) es una subred aislada dentro de una arquitectura de seguridad en la que se colocan servidores que deben ser accesibles desde Internet, pero sin exponer la red interna."
+  },
+  {
+    "question": "De las siguientes listas, selecciona la que se corresponde únicamente con mecanismos de seguridad:",
+    "options": [
+      "Firma digital, no repudio, confidencialidad.",
+      "Control de acceso, cifrado y autenticación.",
+      "Confidencialidad, integridad y no repudio.",
+      "Cifrado, firma digital y mecanismo de control de acceso."
+    ],
+    "answer": 3,
+    "explanation": "Tema 1. Los mecanismos de seguridad OSI incluyen el cifrado, que protege la información haciéndola ilegible sin la clave; la firma digital, que verifica la identidad y la integridad del mensaje; el control de acceso, que gestiona privilegios; la integridad de datos, que asegura que los mensajes no se alteren; la autenticación, que confirma identidades; el relleno de tráfico, que oculta patrones de comunicación; el control de enrutamiento, que selecciona rutas seguras; y la notarización, que certifica la veracidad de los datos mediante un tercero confiable."
+  },
+  {
+    "question": "El protocolo TCP:",
+    "options": [
+      "Es un protocolo de la capa de red.",
+      "Es un protocolo que no está orientado a conexión.",
+      "Es un protocolo de la capa de transporte.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 2,
+    "explanation": "TCP es un protocolo de la capa de transporte y está orientado a conexión."
+  },
+  {
+    "question": "La primera fase del protocolo IKE:",
+    "options": [
+      "Provee autenticación.",
+      "Permite negociar asociaciones de seguridad del protocolo AH.",
+      "Permite negociar asociaciones de seguridad del protocolo ESP.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 0,
+    "explanation": "La primera fase del protocolo IKE provee autenticación."
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es VERDADERA con respecto al protocolo IKE?",
+    "options": [
+      "Se divide en dos fases.",
+      "Es una implementación concreta de ISAKMP.",
+      "Tiene como objetivo proporcionar integridad y autenticación de transferencias de datos.",
+      "Es una implementación concreta de IPSec.",
+      "Las respuestas A y B son verdaderas.",
+      "Ninguna de las respuestas anteriores es verdadera."
+    ],
+    "answer": 2,
+    "explanation": "IKE se divide en dos fases: la primera fase se encarga de la autenticación y la segunda fase de la negociación de claves. IKE es una implementación concreta de ISAKMP."
+  },
+  {
+    "question": "¿Cuál de las siguientes características del protocolo TCP es correcta?",
+    "options": [
+      "Es un protocolo de la capa de aplicación del modelo OSI.",
+      "Es un protocolo de la capa de red del modelo OSI.",
+      "Es un protocolo fiable.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 2,
+    "explanation": "TCP es un protocolo fiable de la capa de transporte."
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es VERDADERA acerca de UDP?",
+    "options": [
+      "Es un protocolo orientado a conexión y no fiable.",
+      "Es un protocolo no orientado a conexión y no fiable.",
+      "Es un protocolo no orientado a conexión y fiable.",
+      "Es un protocolo orientado a conexión y fiable."
+    ],
+    "answer": 1,
+    "explanation": "UDP es un protocolo no orientado a conexión y no fiable."
+  },
+  {
+    "question": "El protocolo WPA:",
+    "options": [
+      "Usa el algoritmo de cifrado DES.",
+      "Usa claves que van cambiando con el tiempo.",
+      "El vector de inicialización es de 16 bits.",
+      "No es compatible con el hardware diseñado para el protocolo WEP."
+    ],
+    "answer": 1,
+    "explanation": "WPA usa claves dinámicas que cambian con el tiempo para mejorar la seguridad."
+  },
+  {
+    "question": "La detección de modificaciones interesadas en programas instalados en los equipos:",
+    "options": [
+      "Es la base que permite evitar los ataques de Denegación de servicio (DoS).",
+      "Puede ser realizada mediante la aplicación de sistemas HIDS.",
+      "Puede contrarrestarse mediante el empleo de ataques de IP-Spoofing.",
+      "Se basa en la realización de un filtrado de las comunicaciones basado en patrones de ataque."
+    ],
+    "answer": 1,
+    "explanation": "Los sistemas HIDS (Host-based Intrusion Detection Systems) pueden detectar modificaciones en programas instalados."
+  },
+  {
+    "question": "Señale la opción FALSA:",
+    "options": [
+      "Existen 2 tipos de ataques a la seguridad: activos y pasivos.",
+      "El relleno de tráfico es un mecanismo específico de seguridad que se puede incorporar en la capa de protocolo correspondiente.",
+      "La confidencialidad protege a una entidad contra la revelación de cualquier conjunto de datos a entidades no autorizadas.",
+      "La integridad protege contra usuarios que quieran negar falsamente que enviaron o recibieron mensajes."
+    ],
+    "answer": 3,
+    "explanation": "La integridad protege contra la modificación no autorizada de datos, no contra el no repudio."
+  },
+  {
+    "question": "El empleo de un cortafuegos en una organización:",
+    "options": [
+      "Permite filtrar las comunicaciones que transitan entre dos redes.",
+      "Los cortafuegos pueden tener agujeros de seguridad.",
+      "A y B son ciertas.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 2,
+    "explanation": "Un cortafuegos filtra comunicaciones y, aunque es útil, puede tener vulnerabilidades."
+  },
+  {
+    "question": "¿Cuál de los siguientes es un sistema trampa?",
+    "options": [
+      "Honeypot.",
+      "Padded Cell.",
+      "Honeynet.",
+      "Todas las opciones son correctas."
+    ],
+    "answer": 3,
+    "explanation": "Honeypot, Padded Cell y Honeynet son sistemas trampa diseñados para detectar y estudiar ataques."
+  },
+  {
+    "question": "¿Cuál de los siguientes no es un modo de IPSec?",
+    "options": [
+      "Modo túnel.",
+      "Modo comunicación.",
+      "Modo transporte.",
+      "Todas las respuestas anteriores son modos de IPSec."
+    ],
+    "answer": 1,
+    "explanation": "IPSec no tiene un modo llamado 'Modo comunicación'. Los modos principales son túnel y transporte."
+  },
+  {
+    "question": "¿Cuál de las siguientes no es una funcionalidad principal de un cortafuegos?",
+    "options": [
+      "Detección de intrusos.",
+      "Bloqueo de tráfico no deseado.",
+      "Control de tráfico entre redes.",
+      "Ocultación de sistemas vulnerables."
+    ],
+    "answer": 0,
+    "explanation": "La detección de intrusos es una función de los sistemas IDS/IPS, no de los cortafuegos."
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es VERDADERA acerca de la confidencialidad del flujo de tráfico?",
+    "options": [
+      "Salvaguarda la información que pueda extraerse del análisis del tráfico.",
+      "Salvaguarda los campos seleccionados en los datos transmitidos por las entidades mediante el flujo de datos.",
+      "Salvaguarda los datos transmitidos por las entidades en los análisis del tráfico.",
+      "Salvaguarda los datos transmitidos por las entidades mediante el flujo de datos."
+    ],
+    "answer": 0,
+    "explanation": "La confidencialidad del flujo de tráfico protege la información que podría obtenerse del análisis del tráfico."
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es VERDADERA acerca de los cortafuegos?",
+    "options": [
+      "Son sistemas confiables y seguros.",
+      "Son sistemas no confiables y seguros.",
+      "Son sistemas no confiables e inseguros.",
+      "Son sistemas confiables e inseguros."
+    ],
+    "answer": 0,
+    "explanation": "Los cortafuegos son sistemas confiables y seguros, aunque no están exentos de posibles vulnerabilidades."
+  },
+  {
+    "question": "La primera fase del protocolo IKE:",
+    "options": [
+      "Se emplea para autenticar a las entidades involucradas.",
+      "Permite negociar asociaciones de seguridad de los protocolos AH o ESP.",
+      "Todos sus mensajes están cifrados.",
+      "Ninguna de las anteriores."
+    ],
+    "answer": 0,
+    "explanation": "La primera fase del protocolo IKE se utiliza para autenticar a las entidades involucradas."
+  },
+  {
+    "question": "¿Cuál de los siguientes campos de un paquete ESP permite identificar la asociación de seguridad a emplear?",
+    "options": [
+      "ESP Payload.",
+      "Security Parameter Index.",
+      "Sequence Number Field.",
+      "Encrypted Data And Parameters."
+    ],
+    "answer": 1,
+    "explanation": "El campo Security Parameter Index (SPI) identifica la asociación de seguridad a emplear en un paquete ESP."
   }
 ]
