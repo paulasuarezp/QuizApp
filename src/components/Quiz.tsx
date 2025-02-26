@@ -42,7 +42,11 @@ const Quiz: React.FC<QuizProps> = ({ questions, quizName, onRestart }) => {
                 correctAnswers++;
             }
         });
-        return (correctAnswers / questionsToUse.length) * 10; // Puntaje sobre 10
+        let score = ((correctAnswers / questionsToUse.length) * 10).toFixed(2); // Puntaje sobre 10
+        return {
+            score,
+            correctAnswers
+        }
     };
 
     const handleFinish = () => {
@@ -95,7 +99,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, quizName, onRestart }) => {
                 <div>
                     <h2>Resultado</h2>
                     <p>
-                        Puntuación: {calculateScore().toFixed(2)} / 10 ({calculateScore().toFixed(2)} preguntas correctas de {questionsToDisplay.length})
+                        Puntuación: {calculateScore().score} / 10 ({calculateScore().correctAnswers} preguntas correctas de {questionsToDisplay.length})
                     </p>
                     <button className="btn" onClick={handleRestart}>
                         Reiniciar Cuestionario
