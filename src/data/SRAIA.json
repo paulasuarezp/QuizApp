@@ -344,7 +344,7 @@
       "Las respuestas A y B son verdaderas.",
       "Ninguna de las respuestas anteriores es verdadera."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "IKE se divide en dos fases: la primera fase se encarga de la autenticación y la segunda fase de la negociación de claves. IKE es una implementación concreta de ISAKMP."
   },
   {
