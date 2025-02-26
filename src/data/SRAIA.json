@@ -208,7 +208,7 @@
       "El no repudio, origen, proporciona al emisor de los datos una prueba de la identidad de la entidad receptora de los mismos.",    
       "Todas las opciones son correctas"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "(www.sede.fnmt.gob.es) El no repudio o irrenunciabilidad es un servicio de seguridad que permite probar la participación de las partes en una comunicación. Existirán por tanto dos posibilidades: No repudio en origen: El emisor no puede negar que envió porque el destinatario tiene pruebas del envío. No repudio en destino: El receptor no puede negar que recibió el mensaje porque el emisor tiene pruebas de la recepción."
   },
   {
