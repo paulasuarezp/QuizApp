@@ -612,8 +612,8 @@
       "Las acciones o tareas necesarias para completar una actividad o proceso de un procedimiento concreto sobre una parte concreta de un sistema de información.",
       "Aspectos concretos de la política de seguridad"
     ],
-    "answer": 3,
-    "explanation": "Las baselines en este contexto se refieren a aspectos concretos de la política de seguridad, como configuraciones, controles o procedimientos."
+    "answer": 0,
+    "explanation": "Hacen referencia a un punto en el tiempo utilizado para comparación ante cambios en el futuro. Normalmente una vez que un riesgo ha sido mitigado, se establece una nueva baseline para comparar en el futuro. Permiten definir un nivel mínimo de protección."
   },
   {
     "question": "¿Cuál de los siguientes NO es uno de los tres grupos principales de prácticas de seguridad en la gestión de servicios TI en el contexto de ITIL v4?",
