@@ -176,6 +176,17 @@
     "explanation": "Las opciones de tratamiento del riesgo incluyen modificar la probabilidad y las consecuencias del riesgo."
   },
   {
+    "question": "Las opciones de tratamiento del riesgo:",
+    "options": [
+      "No se excluyen necesariamente unas a otras.",
+      "Son apropiadas en todas las circunstancias.",
+      "Incluyen la modificación de la probabilidad pero no de las consecuencias.",
+      "Todas las anteriores."
+    ],
+    "answer": 0,
+    "explanation": "Las opciones de tratamiento del riesgo no se excluyen necesariamente y pueden combinarse según el contexto."
+  },
+  {
     "question": "La norma ISO 31000:",
     "options": [
       "Está orientada a organizaciones de todos los tipos y tamaños.",
@@ -197,17 +208,7 @@
     "answer": 1,
     "explanation": "Una amenaza es cualquier circunstancia potencial que puede afectar negativamente a la seguridad de los activos de información."
   },
-  {
-    "question": "Las opciones de tratamiento del riesgo:",
-    "options": [
-      "No se excluyen necesariamente unas a otras.",
-      "Son apropiadas en todas las circunstancias.",
-      "Incluyen la modificación de la probabilidad pero no de las consecuencias.",
-      "Todas las anteriores."
-    ],
-    "answer": 0,
-    "explanation": "Las opciones de tratamiento del riesgo no se excluyen necesariamente y pueden combinarse según el contexto."
-  },
+  
   {
     "question": "¿Cuándo hay que proteger la información?",
     "options": [
@@ -491,8 +492,8 @@
       "Preventivas y adaptativas",
       "Correctivas y reactivas"
     ],
-    "answer": 1,
-    "explanation": "Las salvaguardas pueden ser preventivas (evitan incidentes) y correctivas (mitigan el impacto de incidentes)."
+    "answer": 0,
+    "explanation": "Las salvaguardas actúan fundamentalmente de dos formas: minimizando la probabilidad de materialización de una amenaza (medidas preventivas) o minimizando el impacto en caso de producirse (medidas reactivas)."
   },
   {
     "question": "¿Cuál de las siguientes NO es una fase en la elaboración de un Plan Director de Seguridad?",
