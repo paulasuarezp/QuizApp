@@ -634,8 +634,8 @@
       "Caja gris",
       "Todas las anteriores"
     ],
-    "answer": 0,
-    "explanation": "El análisis dinámico es una actividad de caja negra, ya que se realiza sin conocimiento del código interno, probando la aplicación en ejecución."
+    "answer": 3,
+    "explanation": "Análisis dinámico de caja negra o gris (DAST) y herramientas deanálisis dinámico de caja blanca (IAST)."
   },
   {
     "question": "La derivación de requisitos de seguridad se basa en …",
