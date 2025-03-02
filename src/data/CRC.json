@@ -348,8 +348,8 @@
       "Si las partes no se ponen de acuerdo en la utilización de medios electrónicos, no podrá celebrarse.",
       "Es necesario el previo acuerdo de las partes sobre la utilización de medios electrónicos, y que así conste por escrito."
     ],
-    "answer": 1,
-    "explanation": "Para que un contrato sea considerado electrónico, es necesario que las partes acuerden previamente la utilización de medios electrónicos, aunque no es obligatorio que conste por escrito."
+    "answer": 0,
+    "explanation": ""
   },
   {
     "question": "Los primeros ciberdelincuentes que surgieron a la par que la universalización de los servicios de acceso a Internet se caracterizaban por:",
