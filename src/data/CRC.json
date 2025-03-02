@@ -381,8 +381,8 @@
       "Son delitos de difícil comisión.",
       "Están castigados en el Código Penal con escasa pena."
     ],
-    "answer": 1,
-    "explanation": "En la ciberdelincuencia, los indicios del delito suelen encontrarse en los dispositivos electrónicos de los ciberdelincuentes, como ordenadores o servidores."
+    "answer": 3,
+    "explanation": "En la ciberdelincuencia los delitos suelen ser de fácil comisión y difícil rastreo, lo que los hace atractivos para los delincuentes. Además, las penas suelen ser más bajas que en la delincuencia tradicional."
   },
   {
     "question": "¿Cuál de estas opciones NO pertenece a ninguna de las tres fases del ciclo de phishing?",
