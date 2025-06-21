@@ -407,37 +407,37 @@
     "explanation": "PEiD es una herramienta que identifica empaquetadores, compresores y cifradores de archivos ejecutables. Es útil para detectar si un malware ha sido empaquetado o comprimido para ocultar su verdadero propósito."
   },
   {
-    "question": "",
+    "question": "¿Hay alguna forma de averiguar qué sistema operativo corre la máquina que hay al otro lado de un servidor?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Sí, haciendo un escaneo de puertos.",
+      "Sí, mediante un ataque de banner",
+      "Sí, mandando una petición HTTP errónea.",
+      "Todas las anteriores son ciertas."
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 3,
+    "explanation": "Sí, todas las opciones son válidas. Un escaneo de puertos puede revelar servicios y sus versiones, un ataque de banner puede extraer información del sistema operativo y una petición HTTP errónea puede provocar una respuesta que revele detalles del servidor."
   },
   {
-    "question": "",
+    "question": "¿Qué atributo de Metasploit hay que configurar para conseguir que un Meterpreter se conecte a una máquina en una conexión inversa?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "LHOST",
+      "RHOST",
+      "THREADS",
+      "Ninguna de las anteriores"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "LHOST es el atributo que se configura en Metasploit para especificar la dirección IP local (del atacante) a la que el Meterpreter debe conectarse. RHOST se usa para definir la máquina víctima, pero LHOST es crucial para conexiones inversas."
   },
   {
-    "question": "",
+    "question": "¿Cómo se denomina al Gateway de entrada de una Honeynet?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Honeypot",
+      "Control de datos",
+      "Honeywall",
+      "Ninguna de las anteriores"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 2,
+    "explanation": "El Honeywall es el gateway de entrada de una Honeynet. Actúa como un cortafuegos y monitoriza el tráfico que entra y sale de la red de honeypots, controlando el acceso y recopilando datos sobre las interacciones con los honeypots."
   },
   {
     "question": "",
