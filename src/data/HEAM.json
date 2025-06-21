@@ -550,6 +550,83 @@
     "explanation": "El análisis dinámico se centra en observar el comportamiento del malware mientras se ejecuta, lo que incluye la actividad de red, disco y registro. La entropía es más relevante en el análisis estático para detectar cifrado o compresión, no en el dinámico."
   },
   {
+    "question": "Señale la respuesta incorrecta. Pasos metodología análisis de malware:",
+    "options": [
+      "Actividades iniciales",
+      "Clasificación",
+      "Análisis heurístico",
+      "Análisis dinámico"
+    ],
+    "answer": 2,
+    "explanation": "El análisis heurístico no es un paso específico en la metodología de análisis de malware. El análisis heurístico es una técnica que puede usarse dentro del análisis estático o dinámico para identificar comportamientos sospechosos."
+  },
+  {
+    "question": "Indica cuál de las siguientes afirmaciones es cierta",
+    "options": [
+      "Nexpose es una herramienta de creación de payloads para Metasploit",
+      "Nexpose es una herramienta de fuzzing para aplicaciones",
+      "Nexpose es una herramienta de búsqueda de vulnerabilidades según una IP o un rango de ellas",
+      "Nexpose es una herramienta de explotación de vulnerabilidades"
+    ],
+    "answer": 2,
+    "explanation": "Nexpose es una herramienta de gestión de vulnerabilidades que permite escanear redes y sistemas para identificar vulnerabilidades basadas en direcciones IP o rangos de IP. Proporciona informes detallados sobre las vulnerabilidades encontradas y recomendaciones para mitigarlas."
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
     "question": "",
     "options": [
       "",
@@ -560,6 +637,5 @@
     "answer": 0,
     "explanation": ""
   }
-
   
 ]
