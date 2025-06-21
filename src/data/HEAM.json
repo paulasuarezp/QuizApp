@@ -1,5 +1,5 @@
 [
-    {
+  {
     "question": "¿Cuáles son los principales problemas de los escaneos de puertos?",
     "options": [
       "Genera mucho ruido y provoca muchas veces denegaciones de servicio",
@@ -31,7 +31,7 @@
     ],
     "answer": 3,
     "explanation": "Las puertas traseras no son un mecanismo de propagación del malware, sino que son herramientas que permiten el acceso remoto a un sistema comprometido."
-  }, 
+  },
   {
     "question": "La forma predominante de malware que infecta las aplicaciones móviles es:",
     "options": [
@@ -42,7 +42,7 @@
     ],
     "answer": 3,
     "explanation": "El spyware es el tipo de malware más común en aplicaciones móviles, ya que se enfoca en recopilar información del usuario sin su conocimiento, como datos personales, ubicación y hábitos de uso."
-  }, 
+  },
   {
     "question": "Señala la incorrecta. Vectores de infección del malware:",
     "options": [
@@ -53,7 +53,7 @@
     ],
     "answer": 0,
     "explanation": "Un file dropper no es un vector de infección, sino un tipo de malware cuya función es descargar otros archivos maliciosos. No es un mecanismo de entrada. Los demás son vectores de infección comunes."
-  }, 
+  },
   {
     "question": "¿Qué objetivo tiene la explotación local?",
     "options": [
@@ -108,7 +108,7 @@
     ],
     "answer": 3,
     "explanation": "- Footprinting es la fase pasiva de recogida de información. No interactúa directamente con los sistemas objetivo. Se apoya en fuentes públicas (OSINT), como WHOIS, motores de búsqueda, redes sociales, etc. \n - Fingerprinting es una fase activa en la que se interactúa con el sistema objetivo para identificar servicios, sistemas operativos, puertos abiertos, etc. Utiliza herramientas como Nmap o Netcat."
-  }, 
+  },
   {
     "question": "Señalar la respuesta incorrecta. El análisis dinámico, consiste básicamente, en la ejecución del malware en un sistema víctima, observando al mismo tiempo su comportamiento y los cambios que puedan ocurrir en el mismo. Se debe disponer de las herramientas necesarias para captura las actividades y respuestas del malware, detectando en el sistema víctima las siguientes acciones:",
     "options": [
@@ -119,7 +119,7 @@
     ],
     "answer": 1,
     "explanation": "Esto sería más propio del análisis estático o del contenido del código fuente, no del análisis de comportamiento. El análisis dinámico se centra en observar el comportamiento del malware en tiempo real, como cambios en el sistema, tráfico de red, etc."
-  }, 
+  },
   {
     "question": "¿Cuál es el propósito de un informe de vulnerabilidades en el contexto del hacking ético?",
     "options": [
@@ -572,70 +572,69 @@
     "explanation": "Nexpose es una herramienta de gestión de vulnerabilidades que permite escanear redes y sistemas para identificar vulnerabilidades basadas en direcciones IP o rangos de IP. Proporciona informes detallados sobre las vulnerabilidades encontradas y recomendaciones para mitigarlas."
   },
   {
-    "question": "",
+    "question": "¿Qué es un payload?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "El componente que detecta vulnerabilidades en el sistema.",
+      "Un código que permite escanear redes y descubrir puertos abiertos.",
+      "El código que se ejecuta en la máquina víctima tras explotar una vulnerabilidad.",
+      "Una herramienta para crear conexiones entre atacantes y víctimas."
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 2,
+    "explanation": "Un payload es el código malicioso que se ejecuta en la máquina víctima una vez que se ha explotado una vulnerabilidad. Puede realizar diversas acciones, como robar información, instalar malware adicional, o proporcionar acceso remoto al atacante."
   },
   {
-    "question": "",
+    "question": "¿Qué es un exploit?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Un fragmento de código que aprovecha una vulnerabilidad para ejecutar una acción no autorizada.",
+      "Un archivo que protege los sistemas contra ataques.",
+      "Una aplicación que detecta y elimina malware.",
+      "Un tipo de ataque por fuerza bruta."
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "Un exploit es un código o técnica que aprovecha una vulnerabilidad en un sistema o aplicación para ejecutar acciones maliciosas, como ejecutar un payload o escalar privilegios."
   },
   {
-    "question": "",
+    "question": "¿Para qué se utiliza la herramienta Wireshark en el análisis de malware?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Para capturar y analizar el tráfico de red.",
+      "Para descompilar código malicioso.",
+      "Para crear exploits.",
+      "Para gestionar vulnerabilidades."
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "Wireshark es una herramienta de análisis de red que permite capturar y examinar el tráfico de red en tiempo real. Es útil para identificar comunicaciones maliciosas, patrones de tráfico sospechosos y otros indicadores de compromiso relacionados con malware."
   },
   {
-    "question": "",
+    "question": "¿Qué es un stage en el contexto de un ataque de malware?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Es una fase del ataque donde se recopila información sobre la víctima.",
+      "Es un componente del malware que se descarga y ejecuta en la máquina víctima.",
+      "Es una técnica de evasión utilizada por el malware.",
+      "Es un tipo de malware que se propaga a través de redes."
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 1,
+    "explanation": "Un stage en un ataque de malware se refiere a una parte del payload que se descarga y ejecuta en la máquina víctima. Los ataques de malware a menudo utilizan múltiples stages para evadir detección y asegurar que el código malicioso se ejecute correctamente."
   },
   {
-    "question": "",
+    "question": "¿Qué es Meterpreter en el contexto de Metasploit?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Un tipo de exploit utilizado en Metasploit.",
+      "Un payload avanzado que proporciona una interfaz interactiva para controlar la máquina víctima.",
+      "Una herramienta para escanear redes.",
+      "Un módulo de Metasploit para crear exploits."
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 1,
+    "explanation": "Meterpreter es un payload avanzado de Metasploit que proporciona una interfaz interactiva para controlar la máquina víctima. Permite ejecutar comandos, cargar y descargar archivos, y realizar diversas acciones en el sistema comprometido sin necesidad de reiniciar o cerrar la sesión."
   },
   {
-    "question": "",
+    "question": "¿De qué módulos consta Metasploit?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Módulos de análisis, módulos de escaneo, módulos de explotación y módulos de post-explotación.",
+      "Módulos de recopilación de información, módulos de explotación, módulos de payloads y módulos de evasión.",
+      "Módulos de explotación, módulos auxiliares, módulos de payloads y módulos de post-explotación.",
+      "Módulos de ingeniería social, módulos de explotación, módulos de payloads y módulos de post-explotación."
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 2,
+    "explanation": "Metasploit consta de diferentes tipos de módulos, entre ellos: módulos de explotación (exploit), módulos auxiliares (auxiliary), módulos de payloads (payload), módulos de post-explotación (post), además de módulos de encoder, evasión, y nop. Estos permiten desde la explotación de vulnerabilidades hasta acciones posteriores al compromiso del sistema."
   }
-  
 ]
