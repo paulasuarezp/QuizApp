@@ -207,5 +207,94 @@
     ],
     "answer": 3,
     "explanation": "UAC (User Account Control) es una característica de seguridad en Windows que ayuda a prevenir cambios no autorizados en el sistema. Las afirmaciones son correctas porque UAC permite a los usuarios operar con permisos limitados y solicitar elevación de privilegios cuando sea necesario, y existen técnicas para eludirlo."
+  },
+  {
+    "question": "Señalar la respuesta correcta. Listando los procesos de una máquina,encontramos ejecutándose scvhost. ¿Puede ser un programa malicioso?",
+    "options": [
+      "No, es un ejecutable propio de Windows",
+      "Puede serlo, si se ejecuta con PID 1337",
+      "Puede serlo, si no cuelga del proceso services.exe",
+      "Puede serlo, si no tiene ningún handle a Mutex"
+    ],
+    "answer": 2,
+    "explanation": "El proceso legítimo de Windows se llama svchost.exe, no scvhost (nombre engañoso). Además, incluso svchost.exe puede ser malicioso si no cuelga del proceso services.exe, que es su comportamiento normal en sistemas Windows."
+  },
+  {
+    "question": "¿Qué es una backdoor?",
+    "options": [
+      "Una forma de entrar en la máquina de la víctima habiendo dejado una vulnerabilidad a propósito en ella.",
+      "Un tipo de vulnerabilidad que permite al atacante tomar el control total de la máquina víctima.",
+      "Un mecanismo de protección para la ejecución arbitraria de código.",
+      "Una técnica de ataque en la que se capturan las pulsaciones de la máquina víctima y se envían al atacante"
+    ],
+    "answer": 0,
+    "explanation": "Una backdoor permite el acceso no autorizado al sistema, normalmente saltándose mecanismos de autenticación. Puede ser instalada por un atacante o dejada deliberadamente por un desarrollador."
+  },
+  {
+    "question": "Un rootkit:",
+    "options": [
+      "Exclusivamente se puede detectar realizando un análisis de memoria",
+      "Se puede detectar mediante análisis diferencial de las respuestas del sistema operativo",
+      "Es indetectable, si sospechamos estar infectados con uno, hay que formatear",
+      "Se puede detectar porque impide iniciar sesión como administrador"
+    ],
+    "answer": 1,
+    "explanation": "Los rootkits alteran el comportamiento del sistema operativo para ocultar su presencia. Comparar las respuestas del sistema (por ejemplo, listado de procesos o ficheros) a través de distintas herramientas puede revelar inconsistencias que permiten detectar un rootkit"
+  },
+  {
+    "question": "¿Qué es una sandbox en análisis de malware?",
+    "options": [
+      "Un entorno de análisis que emula un sistema real incluyendo herramientas de monitorización",
+      "Un sistema para evitar que el malware ataque nuestras aplicaciones más críticas",
+      "Una técnica para enterrar el malware entre tantos datos, que no puede ejecutarse correctamente",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 0,
+    "explanation": "Una sandbox es un entorno controlado donde se ejecuta malware para observar su comportamiento sin poner en riesgo el sistema real."
+  },
+  {
+    "question": "Los escaneos TCP ACK:",
+    "options": [
+      "No permiten determinar si un puerto está abierto o cerrado, solo si se encuentra no filtrado.",
+      "En los paquetes enviados no se fija ningún bit (la cabecera de banderas TCP es 0)",
+      "Fija los bits de FIN, PSH, y ACK flags",
+      "Utiliza sondeos UDP"
+    ],
+    "answer": 0,
+    "explanation": "Los escaneos TCP ACK se usan para detectar si un puerto está filtrado o no filtrado, pero no determinan si está abierto o cerrado. Sirven para identificar reglas de firewall."
+  },
+  {
+    "question": "Señalar la respuesta incorrecta. Mecanismos de obtención del malware:",
+    "options": [
+      "Bajándolo de páginas de Internet.",
+      "Robándolo a organizaciones cibercriminales.",
+      "Capturándolo en una honeynet, honeypot y honeytokens",
+      "Capturándolo en una máquina infectada de la organización."
+    ],
+    "answer": 1,
+    "explanation": "Robar malware a organizaciones cibercriminales no es un mecanismo habitual ni legalmente aceptable de obtención. Las demás son formas válidas: descarga, captura en honeypots o extracción de máquinas infectadas."
+  },
+  {
+    "question": "Señalar la respuesta correcta. Con respecto al análisis estático:",
+    "options": [
+      "Nunca debe utilizarse sobre muestras de ransomware",
+      "Cuando se realiza sobre software .NET requiere de un experto en instrucciones de ensamblador",
+      "Es una práctica imprescindible, porque permite ver cómo se comporta el malware en un entorno real",
+      "Es una práctica imprescindible, porque permite ver características del malware que no salen a la luz mediante un análisis dinámico"
+    ],
+    "answer": 3,
+    "explanation": "El análisis estático (sin ejecutar el malware) permite ver funciones ocultas, cadenas, APIs usadas, etc., que pueden no activarse durante un análisis dinámico."
+  },
+  {
+    "question": "Detectamos que hay una muestra de malware porque aparece un proceso powershell colgando de un word",
+    "options": [
+      "Es una infección, a través de macros",
+      "Eso no puede pasar, sólo pueden colgar procesos de exe o dll",
+      "Todas son falsas",
+      "Es habitual el uso de cualquier producto de Microsoft dentro de Office"
+    ],
+    "answer": 0,
+    "explanation": "El uso de macros maliciosas en documentos de Word para ejecutar PowerShell es una técnica común de malware fileless. Detectar un proceso powershell.exe colgando de Word es una señal de compromiso clara."
   }
+  
 ]
