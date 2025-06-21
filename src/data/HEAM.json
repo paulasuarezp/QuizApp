@@ -473,48 +473,48 @@
     "explanation": "Process Monitor es una herramienta avanzada de Sysinternals que combina las funcionalidades de Filemon y Regmon, permitiendo monitorizar en tiempo real el registro, sistema de ficheros, procesos y hilos de ejecución, así como las DLL utilizadas por los procesos."
   },
   {
-    "question": "",
+    "question": "Cuál de las siguientes frases define el malware tipo Adware.",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Software que proporciona a los anunciantes información sobre hábitos de navegación de los usuarios, sitios web visitados, productos comprados en línea, etc., sin su permiso o voluntad.",
+      "Es un tipo de software malicioso de gran peligrosidad y difícil eliminación que modifican ficheros y librerías del sistema operativo de la máquina objetivo",
+      "Software para obtener información del objetivo (ciberespionaje) que se instala en un equipo sin el conocimiento del usuario y transmite información personal sobre las actividades y preferencias del usuario como las páginas visitadas, dirección de correo electrónico, número de tarjeta de crédito, tecla pulsada por el usuario, al atacante",
+      "Programa que puede capturar y transformar pulsaciones de teclas (teclado) para enviárselas el hacker, obteniendo información privada, como contraseñas y números de tarjetas de crédito, etc"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "El Adware muestra anuncios y recolecta datos de navegación sin consentimiento para fines publicitarios. Aunque puede ser molesto, no es necesariamente malicioso como otros tipos de malware. Los otros tipos de malware descritos son ransomware, spyware, y keyloggers."
   },
   {
-    "question": "",
+    "question": "VirusTotal se puede definir como:",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Método automático de análisis dinámico de código",
+      "Método manual de análisis malware realizado en una máquina aislada no accesible desde Internet",
+      "Método automático de análisis estático de código en línea",
+      "Un servicio de análisis de malware en línea"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 3,
+    "explanation": "VirusTotal permite subir archivos o URLs para ser analizados por múltiples antivirus y motores de detección de malware."
   },
   {
-    "question": "",
+    "question": "Indica cuál de las siguientes afirmaciones NO es cierta sobre The Harvester.",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Realiza unas tareas similares a las de Maltego",
+      "Es una herramienta para obtener los correos de una persona o una entidad",
+      "Nos permite realizar gráficos de la organización según los resultados que encuentra",
+      "Busca información de páginas web como Google, Twitter o Linkedin"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 2,
+    "explanation": "The Harvester es una herramienta de recolección de información que se centra en obtener correos electrónicos, subdominios y nombres de usuarios a partir de diversas fuentes públicas. No genera gráficos como Maltego, aunque puede ser usada en conjunto con otras herramientas para visualización."
   },
   {
-    "question": "",
+    "question": "Para la realización del análisis de memoria ¿Qué herramienta se puede utilizar?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Process Explorer",
+      "Process Monitor",
+      "Volatility",
+      "NotMyFault"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 2,
+    "explanation": "Volatility es una herramienta de análisis forense de memoria que permite extraer información de un volcado de memoria, como procesos, conexiones de red, y otros datos relevantes del sistema en un momento dado."
   },
   {
     "question": "",
