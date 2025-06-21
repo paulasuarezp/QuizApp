@@ -4,6 +4,7 @@ import Quiz from './components/Quiz';
 import SelectQuiz from './components/SelectQuiz';
 import CRC from './data/CRC.json';
 import GCAR from './data/GCAR.json';
+import HEAM from './data/HEAM.json';
 import IFRI from './data/IFRI.json';
 import SRAIA from './data/SRAIA.json';
 import SSABD from './data/SSABD.json';
@@ -15,7 +16,8 @@ const quizData: QuizData = {
   SRAIA,
   IFRI,
   GCAR,
-  CRC
+  CRC,
+  HEAM
 };
 const App: React.FC = () => {
   const [selectedQuiz, setSelectedQuiz] = useState<Question[] | null>(null);

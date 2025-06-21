@@ -10,7 +10,8 @@ const SelectQuiz: React.FC<SelectQuizProps> = ({ onSelectQuiz }) => {
         "Seguridad en Redes y Análisis Inteligente de Amenazas": "SRAIA",
         "Informática Forense y Respuesta ante Incidentes": "IFRI",
         "Gobierno de la Ciberseguridad y Análisis de Riesgos": "GCAR",
-        "Ciberdelitos y Regulación de la Ciberseguridad": "CRC"
+        "Ciberdelitos y Regulación de la Ciberseguridad": "CRC",
+        "Hacking Ético y Análisis de Malware": "HEAM",
     };
 
     return (
