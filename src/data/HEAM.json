@@ -517,37 +517,37 @@
     "explanation": "Volatility es una herramienta de análisis forense de memoria que permite extraer información de un volcado de memoria, como procesos, conexiones de red, y otros datos relevantes del sistema en un momento dado."
   },
   {
-    "question": "",
+    "question": "La técnica de análisis de malware que trata de recoger la mayor cantidad de información posible sobre un binario sin llegar a ejecutarlo:",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Análisis estático de código",
+      "Análisis dinámico de código",
+      "Análisis de la memoria",
+      "Análisis dinámico o de comportamiento"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "El análisis estático de código implica examinar el código fuente o el binario de un programa sin ejecutarlo, buscando patrones, cadenas, funciones y otras características que puedan indicar su comportamiento o propósito malicioso."
   },
   {
-    "question": "",
+    "question": "Herramienta que muestra qué programas están configurados para ejecutarse durante el inicio del sistema o inicio de sesión.",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Diskpulse",
+      "Process Hacker",
+      "Process Monitor",
+      "Autoruns"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 3,
+    "explanation": "Autoruns es una herramienta de Sysinternals que permite ver y gestionar los programas que se ejecutan automáticamente al iniciar Windows. Muestra una lista detallada de todos los puntos de inicio, incluyendo claves de registro, carpetas de inicio, y más."
   },
   {
-    "question": "",
+    "question": "Señale la respuesta incorrecta. Respecto al análisis dinámico de malware:",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Se pueden obtener indicadores de actividad de red",
+      "Se pueden obtener indicadores de entropía",
+      "Se pueden obtener indicadores de actividad de disco",
+      "Se pueden obtener indicadores de registro de windows"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 1,
+    "explanation": "El análisis dinámico se centra en observar el comportamiento del malware mientras se ejecuta, lo que incluye la actividad de red, disco y registro. La entropía es más relevante en el análisis estático para detectar cifrado o compresión, no en el dinámico."
   },
   {
     "question": "",
