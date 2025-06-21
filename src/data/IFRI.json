@@ -408,6 +408,17 @@
     ],
     "answer": 3,
     "explanation": "Las conclusiones del informe pericial deben vincular los resultados con las preguntas planteadas, seguir un orden coherente y ofrecer un resumen final."
+  },
+  {
+    "question": "Los métodos avanzados de adquisición más comúnmente utilizados son:",
+    "options": [
+      "Jtag, Direct Chip y eMMC Off",
+      "Jtag Off, Direct Chip y eMMC",
+      "Jtag, Direct eMMC y Chip Off",
+      "Jtag y Direct eMMC"
+    ],
+    "answer": 2,
+    "explanation": "Los métodos avanzados de adquisición más comunes son Jtag, Direct eMMC y Chip Off. Son técnicas invasivas que permiten acceder a la memoria del dispositivo."
   }
 
 ]

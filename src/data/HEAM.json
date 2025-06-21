@@ -1,0 +1,112 @@
+[
+    {
+    "question": "¿Cuáles son los principales problemas de los escaneos de puertos?",
+    "options": [
+      "Genera mucho ruido y provoca muchas veces denegaciones de servicio",
+      "Provoca denegaciones de servicio y revela fácilmente la identidad del atacante",
+      "Revela la identidad del atacante con facilidad y ya hay muchos mecanismos que bloquean estos ataques y alertan de ellos",
+      "Genera mucho ruido y ya hay muchos mecanismos que bloquean estos ataques y alertan de ellos"
+    ],
+    "answer": 0,
+    "explanation": "Los escaneos de puertos generan mucho ruido en la red y pueden provocar denegaciones de servicio, lo que los hace problemáticos para los atacantes."
+  },
+  {
+    "question": "Señalar la respuesta correcta. Uno de los principales incovenientes del Sandbox es:",
+    "options": [
+      "Su coste económico es muy elevado",
+      "Solo analizar una única ruta de ejecución, por lo que podrían pasar por alto comportamientos relevantes",
+      "No detecta el tráfico de red originado por el malware",
+      "Realiza el desensamblado del archivo binario del malware de modo lineal"
+    ],
+    "answer": 1,
+    "explanation": "Uno de los principales inconvenientes del Sandbox es que solo analiza una única ruta de ejecución, lo que puede hacer que se pasen por alto comportamientos relevantes del malware."
+  },
+  {
+    "question": "Señala la incorrecta. Los mecanismos de propagación del malware:",
+    "options": [
+      "File dropper",
+      "Integración en espacios de ficheros",
+      "Gusanos",
+      "Puertas traseras"
+    ],
+    "answer": 3,
+    "explanation": "Las puertas traseras no son un mecanismo de propagación del malware, sino que son herramientas que permiten el acceso remoto a un sistema comprometido."
+  }, 
+  {
+    "question": "¿Qué objetivo tiene la explotación local?",
+    "options": [
+      "Mediante la explotación local se persigue abrir puertos en la máquina atacada",
+      "Uno de los principales objetivos de la explotación local es la escalada de privilegios",
+      "Se persigue la instalación de software malicioso para el control remoto de la víctima",
+      "Se basa en la manipulación de los ficheros del sistema"
+    ],
+    "answer": 1,
+    "explanation": "El objetivo principal de la explotación local es la escalada de privilegios, lo que permite al atacante obtener mayores permisos en el sistema comprometido."
+  },
+  {
+    "question": "¿Qué es el QRLJacking?",
+    "options": [
+      "Es una técnica basada en el protocolo Auth para conseguir autorizaciones del usuario y poder utilizar su cuenta",
+      "Es el uso de técnicas de codificación de caracteres con el objetivo de engañar al ojo del usuario",
+      "Consiste en el secuestro de un QRCode con el objetivo de obtener un beneficio por parte del atacante",
+      "Es el uso de la barra de direcciones para suplantarla"
+    ],
+    "answer": 2,
+    "explanation": "QRLJacking (Quick Response Code Login Jacking) es una técnica de ingeniería social y phishing que aprovecha los sistemas de autenticación mediante QR codes"
+  },
+  {
+    "question": "¿Qué define la política de Nessus?",
+    "options": [
+      "La programación temporal de la aplicación",
+      "Las máquinas objetivos que se van a escanear",
+      "El ámbito de la naturaleza del escaneo a analizar definiendo las pruebas que se ejecutarán",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 2,
+    "explanation": "Una política de Nessus define cómo se realiza el escaneo, incluyendo configuraciones como tipos de pruebas, credenciales, puertos a analizar, plugins activados, etc. No define el objetivo (eso se define en el escaneo) ni la programación temporal."
+  },
+  {
+    "question": "Señalar la respuesta incorrecta. Acciones que el malware suele realizar sobre la máquina víctima.",
+    "options": [
+      "Modificación de archivos",
+      "Envío de correos personales",
+      "Degradación del rendimiento del sistema",
+      "Inestabilidad del sistema"
+    ],
+    "answer": 1,
+    "explanation": "Aunque un malware puede enviar correos (por ejemplo, propagarse vía email), no es común ni lógico que envíe \"correos personales\" del usuario, ya que estos suelen estar protegidos o no son de fácil acceso sin credenciales."
+  },
+  {
+    "question": "¿Cuál es la principal diferencia entre el footprinting y el fingerprinting?",
+    "options": [
+      "El footprinting obtiene más información de la víctima si los conocimientos de esta en el área de la seguridad son escasos o nulos, mientras que el fingerprinting siempre encuentra la misma información.",
+      "El nombre",
+      "El footprinting no necesita de conocimiento técnico, el fingerprinting sí.",
+      "El footprinting no interacciona con la víctima mientras que el fingerprinting sí."
+    ],
+    "answer": 3,
+    "explanation": "- Footprinting es la fase pasiva de recogida de información. No interactúa directamente con los sistemas objetivo. Se apoya en fuentes públicas (OSINT), como WHOIS, motores de búsqueda, redes sociales, etc. \n - Fingerprinting es una fase activa en la que se interactúa con el sistema objetivo para identificar servicios, sistemas operativos, puertos abiertos, etc. Utiliza herramientas como Nmap o Netcat."
+  }, 
+  {
+    "question": "Señalar la respuesta incorrecta. El análisis dinámico, consiste básicamente, en la ejecución del malware en un sistema víctima, observando al mismo tiempo su comportamiento y los cambios que puedan ocurrir en el mismo. Se debe disponer de las herramientas necesarias para captura las actividades y respuestas del malware, detectando en el sistema víctima las siguientes acciones:",
+    "options": [
+      "Cambios en el registro (por comparación de ficheros).",
+      "Análisis del código de las consultas al DNS",
+      "Byte de inicio de un socket (mediante un servidor TCP).",
+      "Tráfico de red para comunicarse con otras máquinas (órdenes de mando y control)."
+    ],
+    "answer": 1,
+    "explanation": "Esto sería más propio del análisis estático o del contenido del código fuente, no del análisis de comportamiento. El análisis dinámico se centra en observar el comportamiento del malware en tiempo real, como cambios en el sistema, tráfico de red, etc."
+  }, 
+  {
+    "question": "¿Cuál es el propósito de un informe de vulnerabilidades en el contexto del hacking ético?",
+    "options": [
+      "Ocultar información crítica",
+      "Documentar y explicar las vulnerabilidades encontradas.",
+      "Compartir exploits con la comunidad.",
+      "Atacar sistemas vulnerables."
+    ],
+    "answer": 1,
+    "explanation": "El propósito de un informe de vulnerabilidades es documentar y explicar las vulnerabilidades encontradas durante una auditoría de seguridad, proporcionando detalles sobre cómo se pueden explotar y recomendaciones para mitigarlas."
+  }
+]
