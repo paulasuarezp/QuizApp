@@ -33,6 +33,28 @@
     "explanation": "Las puertas traseras no son un mecanismo de propagación del malware, sino que son herramientas que permiten el acceso remoto a un sistema comprometido."
   }, 
   {
+    "question": "La forma predominante de malware que infecta las aplicaciones móviles es:",
+    "options": [
+      "Virus",
+      "Ransomware",
+      "Gusano",
+      "Spyware"
+    ],
+    "answer": 3,
+    "explanation": "El spyware es el tipo de malware más común en aplicaciones móviles, ya que se enfoca en recopilar información del usuario sin su conocimiento, como datos personales, ubicación y hábitos de uso."
+  }, 
+  {
+    "question": "Señala la incorrecta. Vectores de infección del malware:",
+    "options": [
+      "File dropper",
+      "Correos electrónicos",
+      "Redes Peer-To-Peer (P2P)",
+      "Servicios de red vulnerables"
+    ],
+    "answer": 0,
+    "explanation": "Un file dropper no es un vector de infección, sino un tipo de malware cuya función es descargar otros archivos maliciosos. No es un mecanismo de entrada. Los demás son vectores de infección comunes."
+  }, 
+  {
     "question": "¿Qué objetivo tiene la explotación local?",
     "options": [
       "Mediante la explotación local se persigue abrir puertos en la máquina atacada",
@@ -295,6 +317,249 @@
     ],
     "answer": 0,
     "explanation": "El uso de macros maliciosas en documentos de Word para ejecutar PowerShell es una técnica común de malware fileless. Detectar un proceso powershell.exe colgando de Word es una señal de compromiso clara."
+  },
+  {
+    "question": "Señalar la respuesta incorrecta. Los principales objetivos de una botnet son:",
+    "options": [
+      "Control de otro tipo de malware de tipo silencioso como las APT.",
+      "Ataques distribuidos a otros sistemas, mediante denegación de servicio DDoS.",
+      "Proporcionar a los anunciantes información sobre hábitos de navegación de los usuarios.",
+      "Robo de información corporativa, clasificada, credenciales de acceso o la relacionada para realizar estafas económicas."
+    ],
+    "answer": 2,
+    "explanation": "Las botnets se utilizan principalmente para realizar ataques DDoS, distribuir malware, robar información y controlar sistemas comprometidos. No están diseñadas para proporcionar información a anunciantes."
+  },
+  {
+    "question": "Señalar la respuesta incorrecta. Los principales requisitos de una honeynet son:",
+    "options": [
+      "Adaptación de datos: proporcionar un repositorio estandarizado de datos sobre el malware capturado",
+      "Control de datos: mecanismo que se encarga de mitigar o bloquear todo riesgo que se produzca desde los Honeypots hacia las redes externas",
+      "Recolección y análisis de datos: consiste en la implantación de un sistema centralizado de recogida y análisis de datos de una red de honeynet distribuida en múltiples puntos",
+      "Captura de datos: consiste en la captura de datos y la monitorización de la actividad de los atacantes"
+    ],
+    "answer": 0,
+    "explanation": "Esto no es un requisito fundamental ni parte del diseño técnico de una honeynet. Los elementos clave sí son: captura, control, recolección y análisis de datos."
+  },
+  {
+    "question": "Indica cuál de las siguientes afirmaciones no es correcta sobre los ataques que se pueden realizar con Nmap.",
+    "options": [
+      "Se pueden realizar tanto sobre TCP como sobre UDP.",
+      "El ataque TCP SYN envía un paquete con los flags SYN y ACK activados.",
+      "El ataque TCP XMAS envía un paquete con más de 2 flags activados",
+      "El ataque TCP NULL envía un paquete con todos los flags desactivados"
+    ],
+    "answer": 1,
+    "explanation": "Esto es falso. El escaneo TCP SYN (también llamado \"half-open\") solo activa el flag SYN. Si el puerto está abierto, el sistema responde con SYN-ACK."
+  },
+  {
+    "question": "El mecanismo que se encarga de mitigar o bloquear todo riesgo que se produzca desde los Honeypots hacia las redes externas, al objeto de impedir que la Honeynet sea usada por un ciberatacante como herramienta de ataque hacia otros sistemas de producción de la organización o Internet se denomina:",
+    "options": [
+      "Captura de datos",
+      "Control de datos",
+      "Recolección y análisis  de datos",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 1,
+    "explanation": "El control de datos evita que los honeypots se conviertan en trampolines de ataques reales, bloqueando o limitando comunicaciones salientes."
+  },
+  {
+    "question": "Indica cuál de las siguientes afirmaciones es cierta:",
+    "options": [
+      "Maltego es una herramienta para realizar fingerprinting",
+      "Maltego es una herramienta para realizar footprinting.",
+      "Maltego es una herramienta para realizar ingeniería social.",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 1,
+    "explanation": "Maltego es una herramienta de OSINT (Open Source Intelligence) que se utiliza principalmente para realizar footprinting, permitiendo la recopilación y visualización de información sobre objetivos a partir de diversas fuentes públicas."
+  },
+  {
+    "question": "Señalar la respuesta incorrecta. Beneficios del análisis de malware.",
+    "options": [
+      "Descubrir otras máquinas que han sido afectadas por el mismo malware.",
+      "Identificar la vulnerabilidad que fue aprovechada por el malware, para obtener la actualización del software que la mitigue, si está disponible.",
+      "Obtención de datos necesarios para poder implementar defensas.",
+      "Ninguna de las anteriores"
+    ],
+    "answer": 3,
+    "explanation": "Todas las opciones son beneficios del análisis de malware. Permiten entender cómo se propagó, qué vulnerabilidades explotó y cómo defenderse en el futuro."
+  },
+  {
+    "question": "Señalar la respuesta incorrecta. Los honeypot de baja iteracción",
+    "options": [
+      "Servicios reales, sistemas operativos o aplicaciones reales.",
+      "Emulan servicios y vulnerabilidades de sistemas.",
+      "Capturan mucha información. Dependen de su sistema de clasificación y análisis para evaluarlo.",
+      "Suponen un menor riesgo."
+    ],
+    "answer": 0,
+    "explanation": "Los honeypots de baja interacción simulan servicios, no ejecutan software real. Usar sistemas reales es característico de honeypots de alta interacción."
+  },
+  {
+    "question": "Señalar la respuesta correcta. ¿Cuál de las siguientes herramientas se utiliza para detectar si un malware está empaquetado o comprimido?",
+    "options": [
+      "ProcDump32",
+      "PEiD",
+      "WinHex",
+      "Processdump"
+    ],
+    "answer": 1,
+    "explanation": "PEiD es una herramienta que identifica empaquetadores, compresores y cifradores de archivos ejecutables. Es útil para detectar si un malware ha sido empaquetado o comprimido para ocultar su verdadero propósito."
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
   }
+
   
 ]
