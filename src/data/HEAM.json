@@ -440,37 +440,37 @@
     "explanation": "El Honeywall es el gateway de entrada de una Honeynet. Actúa como un cortafuegos y monitoriza el tráfico que entra y sale de la red de honeypots, controlando el acceso y recopilando datos sobre las interacciones con los honeypots."
   },
   {
-    "question": "",
+    "question": "¿Cuál es el nombre de la máquina cuyo objetivo es el proporcionar al malware una serie de protocolos para simular su entorno, tal y como pueden ser HTTP, DHCP, Chat, IRC Server, FTP, DNS y SMTP?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Servicios",
+      "Víctima",
+      "Monitorización y Servicios Windows",
+      "Ninguna de las anteriores"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 3,
+    "explanation": "Esa máquina se denomina normalmente \"Honeypot de red\", “máquina de simulación de servicios” o forma parte de una sandbox con herramientas como INetSim, pero ninguna de las opciones A, B o C es correcta en términos técnicos."
   },
   {
-    "question": "",
+    "question": "¿Cuál es el propósito de la ingeniería social?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Mejorar la comunicación interna en una organización",
+      "Manipular a las personas para obtener información confidencial.",
+      "Desarrollar software de seguridad",
+      "Realizar auditorías de seguridad"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 1,
+    "explanation": "La ingeniería social es una técnica utilizada para manipular a las personas con el fin de obtener información confidencial, como contraseñas, datos personales o acceso a sistemas. Se basa en la psicología humana y no en vulnerabilidades técnicas."
   },
   {
-    "question": "",
+    "question": "¿Cuál es la herramienta que permite monitorizar el registro, sistema de ficheros, procesos, hilos de ejecución y DLL utilizadas en tiempo real?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Process Explorer",
+      "Systracer",
+      "Process monitor",
+      "Volatility"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 2,
+    "explanation": "Process Monitor es una herramienta avanzada de Sysinternals que combina las funcionalidades de Filemon y Regmon, permitiendo monitorizar en tiempo real el registro, sistema de ficheros, procesos y hilos de ejecución, así como las DLL utilizadas por los procesos."
   },
   {
     "question": "",
