@@ -108,5 +108,104 @@
     ],
     "answer": 1,
     "explanation": "El propósito de un informe de vulnerabilidades es documentar y explicar las vulnerabilidades encontradas durante una auditoría de seguridad, proporcionando detalles sobre cómo se pueden explotar y recomendaciones para mitigarlas."
+  },
+  {
+    "question": "¿Qué es la herramienta SET?",
+    "options": [
+      "Es una herramienta para realizar ataques de ingeniería social.",
+      "Es una herramienta para realizar ataques basados en las DNS",
+      "Es una herramienta para realizar el footprinting de servidores web.",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 0,
+    "explanation": "SET (Social-Engineer Toolkit) es una herramienta diseñada para automatizar ataques de ingeniería social, como phishing, clonado de sitios web, o envío de payloads maliciosos."
+  },
+  {
+    "question": "Señalar la respuesta incorrecta. El tipo de información que se puede obtener del análisis estático como dinámico son:",
+    "options": [
+      "Funcionalidades ocultas",
+      "Canal IRC y contraseña de conexión",
+      "Comandos de mando y control",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answer": 3,
+    "explanation": "Ambos tipos de análisis pueden revelar funcionalidades ocultas, canales de comunicación y comandos de mando y control."
+  },
+  {
+    "question": "Los escaneos TCP Connect:",
+    "options": [
+      "Es igual al sondeo SYN pero aprovecha de un detalle de implementación de algunos sistemas que permite diferenciar puertos abiertos de los cerrados",
+      "Se ejecutan mediante la opción --scanflags y permite diseñar el propio sondeo mediante la especificación de banderas TCP arbitrarias",
+      "Son un método de sondeo avanzado que permite hacer un sondeo de puertos TCP a ciegas de verdad",
+      "Se completan las conexiones para abrir los puertos objetivo en lugar de realizar el reseteo de la conexión medio abierta como hace el sondeo SYN"
+    ],
+    "answer": 3,
+    "explanation": "El escaneo TCP CONNECT es el más básico y utiliza la llamada al sistema connect() para intentar establecer una conexión completa con cada puerto. A diferencia del SYN scan, que solo envía el paquete SYN y observa la respuesta, el CONNECT completa el handshake TCP."
+  },
+  {
+    "question": "Señalar la respuesta correcta. ¿Cuál de las siguientes herramientas se propone para simular el servicio de DNS en el laboratorio de análisis de malware?",
+    "options": [
+      "Netcat",
+      "Inetsim",
+      "F-prot",
+      "Binwalk"
+    ],
+    "answer": 1,
+    "explanation": "Inetsim es una suite que simula servicios de red como HTTP, FTP, DNS, etc., para analizar el comportamiento del malware en un entorno controlado sin conectarse a Internet"
+  },
+  {
+    "question": "El punycode es:",
+    "options": [
+      "Un lenguaje de programación",
+      "Una inyección SQL",
+      "Una codificación",
+      "Una técnica de explotación"
+    ],
+    "answer": 2,
+    "explanation": "Punycode es una codificación que permite representar caracteres Unicode (por ejemplo, letras con tildes o alfabetos no latinos) en dominios que solo admiten caracteres ASCII. Se usa en ataques como el IDN homograph, donde se engaña al usuario con dominios visualmente similares."
+  },
+  {
+    "question": "Señalar la respuesta correcta. El análisis que básicamente consiste en la búsqueda en un archivo de texto ASCII, Unicode, o de ambos tipos, se denomina:",
+    "options": [
+      "Análisis dinámico",
+      "Análisis de comportamiento",
+      "Análisis de código",
+      "Análisis de cadenas"
+    ],
+    "answer": 3,
+    "explanation": "El análisis de cadenas (strings) consiste en extraer texto legible desde binarios, usando herramientas como strings, para identificar rutas, URLs, contraseñas embebidas, etc."
+  },
+  {
+    "question": "Señalar la respuesta incorrecta. El análisis dinámico tiene como objetivo detectar en el sistema víctima las siguientes acciones:",
+    "options": [
+      "Descarga de archivos de internet",
+      "Formato del archivo",
+      "Ordenes de mando y control",
+      "Detección del sistema de ficheros"
+    ],
+    "answer": 1,
+    "explanation": "El análisis dinámico se centra en observar el comportamiento del malware en tiempo real, como cambios en el sistema, tráfico de red, etc. El formato del archivo no es una acción que se detecte en este tipo de análisis, si no más bien en el análisis estático."
+  },
+  {
+    "question": "Señalar la respuesta correcta. La herramienta Md5summer en que grupo de clasificación de Herramientas de Análisis de Malware se ha encuadrado:",
+    "options": [
+      "Identificación y clasificación de binarios",
+      "Análisis de cadenas",
+      "Análisis de tráfico de red y simulación de servicios de red",
+      "Motores antivirus"
+    ],
+    "answer": 0,
+    "explanation": "Md5summer es una herramienta que calcula hashes MD5. Su función principal es la identificación y verificación de integridad de archivos binarios. Ayuda a detectar si un binario ha sido modificado o comparar con bases de datos de malware conocidas."
+  },
+  {
+    "question": "Indica qué afirmación es correcta respecto a UAC:",
+    "options": [
+      "Es una especie de usuario por defecto con doble personalidad (usuario y administrador) que se comporta siempre como usuario excepto cuando se le da permiso pasando por UAC",
+      "Una forma de eludir UAC es evitar que aparezca la petición de confirmación o credenciales",
+      "Una forma de eludir UAC es conseguir que un usuario sin privilegios disponga de los permisos para hacer lo que un administrador ya tiene concedido, sin UAC de por medio",
+      "Todas son correctas"
+    ],
+    "answer": 3,
+    "explanation": "UAC (User Account Control) es una característica de seguridad en Windows que ayuda a prevenir cambios no autorizados en el sistema. Las afirmaciones son correctas porque UAC permite a los usuarios operar con permisos limitados y solicitar elevación de privilegios cuando sea necesario, y existen técnicas para eludirlo."
   }
 ]
