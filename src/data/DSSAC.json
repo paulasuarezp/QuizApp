@@ -341,7 +341,7 @@
         "explanation": "La opción C es correcta. La ISO 27001 implementa el ciclo PDCA (Plan-Do-Check-Act) para mejorar continuamente el SGSI. La ISO 27002 es un catálogo de buenas prácticas, no un estándar de gestión con PDCA."
     },
     {
-        "question": "Señalar la respuesta correcta. Durante la auditoría de un plan de continuidad del negocio, un auditor encontró planes separados por departamento. ¿Cuál de las áreas siguientes debería reconciliarse PRIMERO?",
+        "question": "Durante la auditoría de un plan de continuidad del negocio, un auditor de SI encontró que, a pesar de que todos los departamentos están alojados en el mismo edificio, cada departamento tenía un plan separado de continuidad del negocio. El auditor de SI recomendó que se reconciliaran los planes de continuidad del negocio. ¿Cuál de las áreas siguientes debería reconciliarse PRIMERO?",
         "options": [
             "Plan de evacuación",
             "Prioridades de recuperación",
@@ -363,7 +363,7 @@
         "explanation": "La opción C es correcta. La auditoría de SI evalúa de forma independiente los controles internos (seguridad, integridad, eficiencia), no solo 'vinculaciones' (A) o la auditoría misma (B)."
     },
     {
-        "question": "Señalar la respuesta correcta. ¿Cuál es el control más importante para el CIO?",
+        "question": "Señalar la respuesta correcta. ¿Cuál es el control más importante para el CIO(Chief Information Officer - Director de Informática)?",
         "options": [
             "El plan de seguridad alineado con el plan de medioambiente",
             "El plan estratégico de empresa alineado con el plan de TICs",
@@ -376,9 +376,9 @@
     {
         "question": "Señalar la respuesta incorrecta. Los objetivos de las pruebas de seguridad basadas en el riesgo:",
         "options": [
-            "Verificar la capacidad de supervivencia del software ante anomalías",
+            "Verificar la capacidad de supervivencia del software ante la aparición de anomalías, errores y su manejo de las mismas mediante excepciones que minimicen el alcance e impacto de los daños que puedan resultar de los ataques",
             "Verificar la operación del software bajo en su entorno de producción",
-            "Verificar la fiabilidad del software en términos de comportamiento seguro",
+            "Verificar la fiabilidad del software, en términos de comportamiento seguro y cambios de estado confiables.",
             "Verificar la falta de defectos y debilidades explotables"
         ],
         "answer": 1,
@@ -398,10 +398,10 @@
     {
         "question": "Señalar la respuesta incorrecta. Consideraciones sobre potenciales vulnerabilidades de Java:",
         "options": [
-            "Seguridad de tipos. Los campos privados/protegidos deberían ser públicamente accesibles",
-            "Campos públicos. Un campo público puede ser accedido/modificado por cualquier parte del programa",
-            "Serialización. Permite capturar el estado del programa en un byte stream",
-            "La JVM en sí misma no susceptible a problemas de desbordamiento"
+            "Seguridad de tipos. Los campos que son declarados privados o protegidos, o que tienen protección, por defecto, deberían ser públicamente accesibles",
+            "Campos públicos. Un campo que es declarado público directamente puede ser accedido por cualquier parte de un programa Java y puede ser modificado por las mismas (a no ser que el campo sea declarado como final).",
+            "Serialización. Esta facilidad posibilita que el estado del programa sea capturado y convertido en un byte stream que puede ser restaurado por la operación inversa, que es la deserialización",
+            "La JVM en sí misma a menudo está escrita en C para una plataforma dada. Esto quiere decir que sin la atención cuidadosa a detalles de puesta en práctica, la JVM en sí misma no susceptible a problemas de desbordamiento"
         ],
         "answer": 3,
         "explanation": "La opción D es incorrecta. La JVM, al estar escrita en C, es susceptible a desbordamientos si no se implementa cuidadosamente. Las otras opciones son verdaderas: A describe un error de diseño, B y C son características de Java."
@@ -429,17 +429,6 @@
         "explanation": "La opción A es correcta. El 'Control de Presupuestos' es un control financiero, no de organización/operación. Los otros grupos incluyen controles operativos típicos (ej. segregación de funciones en C o SDLC en D)."
     },
     {
-        "question": "Señalar la respuesta correcta. El desarrollo de software seguro requiere integrar en su ciclo de vida dos tipos de actividades:",
-        "options": [
-            "Seguimiento de unos principios de calidad",
-            "Una serie de buenas prácticas de diseño",
-            "Seguimiento de unos principios de diseño seguro y una serie de buenas prácticas de seguridad",
-            "Ninguna de las anteriores"
-        ],
-        "answer": 2,
-        "explanation": "La opción C es correcta. Combina principios de diseño seguro (ej. mínimo privilegio) con buenas prácticas (ej. revisión de código). Las opciones A y B son parciales."
-    },
-    {
         "question": "Señalar la respuesta incorrecta. El cálculo de código CVSS se realiza en base a tres tipos de métricas:",
         "options": [
             "Métricas base",
@@ -455,14 +444,14 @@
         "options": [
             "Cuando un error material no se pueda evitar que suceda porque no existen controles compensatorios relacionados que se puedan establecer",
             "Cuando un error material no puede ser evitado o detectado en forma oportuna por el sistema de control interno",
-            "Es el riesgo de que el auditor realice pruebas exitosas a partir de un procedimiento inadecuado",
+            "Es el riesgo de que el auditor realice pruebas exitosas a partir de un procedimiento inadecuado. El auditor puede llegar a la conclusión de que no existen errores materiales cuando en realidad los hay",
             "Ninguna de las anteriores"
         ],
         "answer": 1,
         "explanation": "La opción B es correcta. El riesgo inherente existe independientemente de los controles internos. La opción A describe un riesgo residual, y la C se refiere a riesgo de auditoría."
     },
     {
-        "question": "Señalar la respuesta correcta. De acuerdo con Common Criteria (ISO 15408), el nivel de confianza EAL que proporciona evidencia de que la evaluación coincide con la documentación es:",
+        "question": "Señalar la respuesta correcta. De acuerdo con la metodología “Common Criteria ISO 15408 (CC)” el nivel de confianza se proporciona evidencia en cuanto a que la evaluación coincide con la descrita en la documentación:",
         "options": [
             "EAL1",
             "EAL3",
@@ -471,28 +460,6 @@
         ],
         "answer": 2,
         "explanation": "La opción C (EAL4) es correcta. Este nivel garantiza una verificación sistemática de diseño y pruebas, alineada con la documentación. EAL1-3 son menos rigurosos, y EAL5 requiere mayor profundidad."
-    },
-    {
-        "question": "Señalar la respuesta incorrecta. El cálculo de código CVSS se realiza en base a tres tipos de métricas:",
-        "options": [
-            "Métricas base",
-            "Métricas estadísticas",
-            "Métricas temporales",
-            "Métricas ambientales"
-        ],
-        "answer": 1,
-        "explanation": "La opción B es incorrecta (igual que en la pregunta 4). CVSS no incluye métricas 'estadísticas'. Las métricas válidas son base (A), temporales (C) y ambientales (D)."
-    },
-    {
-        "question": "Señalar la respuesta correcta. El desarrollo de software seguro y confiable requiere la adopción de un proceso sistemático o disciplina que aborde la seguridad en cada una de las fases de su ciclo de vida. Se debe integrar en el mismo dos tipos de actividades:",
-        "options": [
-            "Seguimiento de unos principios de calidad",
-            "Una serie de buenas prácticas de diseño",
-            "Seguimiento de unos principios de diseño seguro y una serie de buenas prácticas de seguridad",
-            "Ninguna de las anteriores"
-        ],
-        "answer": 2,
-        "explanation": "La opción C es correcta porque el desarrollo seguro requiere combinar principios de diseño seguro (como mínimo privilegio) con prácticas concretas de seguridad (como revisión de código). Las opciones A y B son incompletas."
     },
     {
         "question": "Señalar la respuesta correcta. Verificar que se está utilizando sistemas duplicados en los que se requiere muy alta disponibilidad se corresponde al área de la auditoría de un Plan de Recuperación ante Desastres:",
@@ -596,16 +563,16 @@
     {
         "question": "¿Qué es un caso de abuso?",
         "options": [
-            "Escenario que ilustra potenciales fallos de seguridad ante circunstancias específicas",
+            "Un escenario que ilustra de manera gráfica y textual potenciales fallos de seguridad ante especificas circunstancias.",
             "Una base de datos del MITRE",
-            "Escenario que ilustra funcionalidades de seguridad del software",
+            "Un escenario que ilustra de manera gráfica y textual funcionalidades de seguridad del software ante especificas circunstancias.",
             "Un patrón de diseño para desarrollador"
         ],
         "answer": 0,
         "explanation": "La opción A es correcta. Un caso de abuso modela cómo un atacante podría explotar vulnerabilidades, a diferencia de casos de uso (C). MITRE (B) contiene vulnerabilidades, no casos de abuso."
     },
     {
-        "question": "¿Cuál es la propiedad de seguridad que garantiza la imputabilidad de acciones?",
+        "question": "¿Cuál es la siguiente propiedad de seguridad: “capacidad que garantiza la posibilidad de imputar las acciones relacionadas en un software a la persona, entidad o proceso que la ha originado”?",
         "options": [
             "Robustez",
             "Resiliencia",
@@ -616,54 +583,43 @@
         "explanation": "La opción D (Trazabilidad) es correcta. Permite rastrear acciones hasta su origen. La autenticación (C) verifica identidad, pero no registra acciones."
     },
     {
-        "question": "Principal problema de herramientas de análisis estático:",
+        "question": "El principal problema de herramientas de análisis estático:",
         "options": [
-            "Falsos negativos",
-            "Gran cantidad de defectos",
+            "Falsos negativos que produce",
+            "Gran cantidad de defectos que encuentra",
             "Reglas de la herramienta",
-            "Falsos positivos"
+            "Falsos positivos que produce"
         ],
         "answer": 3,
         "explanation": "La opción D es correcta. Los falsos positivos (reportar vulnerabilidades inexistentes) son el mayor desafío, requiriendo revisión manual. Los falsos negativos (A) son menos comunes."
     },
     {
-        "question": "¿Contiene la función una vulnerabilidad de Inyección SQL?",
+        "question": "Indicar la utilidad de los Patrones de Ataque en la etapa de Especificacion de requisitos:",
         "options": [
-            "No contiene vulnerabilidad",
-            "Sí, por longitud del parámetro",
-            "Sí, por inserción directa sin validar",
-            "Ninguna"
-        ],
-        "answer": 0,
-        "explanation": "La opción A es correcta. Al usar parámetros tipados (@pENum), se previene inyección SQL. La longitud (B) no es relevante aquí."
-    },
-    {
-        "question": "Utilidad de Patrones de Ataque en Especificación de requisitos:",
-        "options": [
-            "Ejemplos de ataques a arquitectura",
-            "Orientar pruebas de seguridad",
-            "Seleccionar políticas de seguridad",
-            "Definir comportamiento preventivo"
+            "Proporciona ejemplos de ataques que aprovechan las vulnerabilidades de la arquitectura elegida.",
+            "Pueden ser utilizados para orientar las pruebas de seguridad del software en un contexto practico y realista identificando debilidades concretas para generar casos de prueba para cada componente.",
+            "Permitira la seleccion de politicas de seguridad y configuraciones acordes a las amenazas obtenidas de los patrones de ataque.",
+            "Ayuda a definir el comportamiento del sistema para prevenir o reaccionar ante un tipo específico de ataque probable."
         ],
         "answer": 3,
         "explanation": "La opción D es correcta. Los patrones ayudan a definir requisitos de seguridad proactivos. Las otras opciones aplican a fases posteriores (diseño/pruebas)."
     },
     {
-        "question": "Clasificación de controles internos por naturaleza:",
+        "question": "Con relación a la clasificación de controles internos, según su naturaleza podemos afirmar que:",
         "options": [
-            "Detectivos, Correctivos, Preventivos",
+            "Son normalmente Detectivos, Correctivos y Preventivos. En ocasiones se incluyen los controles alternativos.",
             "Voluntarios, obligatorios, manuales, automáticos",
-            "Combinación de ambas clasificaciones",
-            "Controles generales, de aplicación, legales"
+            "Voluntarios, obligatorios, manuales, automáticos, preventivos, detectivos y correctivos",
+            "Controles generales, de aplicación, de área y legales"
         ],
         "answer": 2,
         "explanation": "La opción C es correcta. ISACA clasifica controles por naturaleza (preventivos/detectivos) y implementación (manuales/automáticos)."
     },
     {
-        "question": "Sobre clasificación de controles internos:",
+        "question": "En relación a la clasificación de controles internos, según su naturaleza podemos afirmar que:",
         "options": [
-            "Controles Detectivos actúan sobre causas de riesgos",
-            "Preventivos descubren eventos no previstos",
+            "Los controles Detectivos, actúan sobre la causa de los riesgos con el fin de disminuir su probabilidad de ocurrencia",
+            "Los controles Preventivos, se diseñan para descubrir un evento, irregularidad o resultado no previsto, alertan sobre la presencia de riesgos y permiten tomar medidas inmediatas, pudiendo ser manuales o automáticos",
             "Ambas son correctas",
             "Ambas son incorrectas"
         ],
@@ -671,12 +627,12 @@
         "explanation": "La opción D es correcta. Los preventivos actúan sobre causas (A incorrecta), y los detectivos descubren eventos (B incorrecta)."
     },
     {
-        "question": "Primer paso en auditoría basada en riesgo:",
+        "question": "Al realizar una auditoria basada en el riesgo, ¿Qué tipo de evaluacion de riesgos realiza el auditor de un sistema de información como primer paso?",
         "options": [
             "Evaluación de riesgos inherentes",
             "Evaluación de riesgos de control",
             "Evaluación de riesgo de fraude",
-            "Ninguna"
+            "Ninguna de las anteriores"
         ],
         "answer": 0,
         "explanation": "La opción A es correcta. Primero se evalúan riesgos inherentes (sin controles), luego riesgos residuales (con controles)."
@@ -690,7 +646,7 @@
             "Ayuda a definir el comportamiento del sistema para prevenir o reaccionar ante un tipo específico de ataque probable"
         ],
         "answer": 3,
-        "explanation": "Durante la especificación de requisitos, los patrones de ataque permiten anticipar comportamientos maliciosos y definir cómo el sistema debe prevenirlos o reaccionar. Esto ayuda a establecer requisitos de seguridad desde las primeras fases del S-SDLC:contentReference[oaicite:0]{index=0}."
+        "explanation": "Durante la especificación de requisitos, los patrones de ataque permiten anticipar comportamientos maliciosos y definir cómo el sistema debe prevenirlos o reaccionar. Esto ayuda a establecer requisitos de seguridad desde las primeras fases del S-SDLC."
     },
     {
         "question": "En relación a las metodologías de auditoría, podemos afirmar que:",
@@ -701,7 +657,7 @@
             "Ninguna de las anteriores."
         ],
         "answer": 1,
-        "explanation": "Las metodologías pueden ser desarrolladas por cada firma de auditoría, siendo la más común la basada en riesgos (EDR/ROA). Así se personaliza la auditoría a cada contexto:contentReference[oaicite:1]{index=1}."
+        "explanation": "Las metodologías pueden ser desarrolladas por cada firma de auditoría, siendo la más común la basada en riesgos (EDR/ROA). Así se personaliza la auditoría a cada contexto."
     },
     {
         "question": "Señalar la respuesta correcta. ¿Qué metodología de auditoría se adapta mejor a las compañías?",
@@ -712,7 +668,7 @@
             "Ninguna de las anteriores."
         ],
         "answer": 2,
-        "explanation": "La metodología de auditoría más adecuada es la que se adapta a las necesidades y riesgos específicos de la organización, siendo completa y alineada con sus objetivos:contentReference[oaicite:2]{index=2}."
+        "explanation": "La metodología de auditoría más adecuada es la que se adapta a las necesidades y riesgos específicos de la organización, siendo completa y alineada con sus objetivos."
     },
     {
         "question": "Señalar la respuesta correcta. ¿Por qué es necesario disponer de procedimientos de operación de las plataformas?",
@@ -723,7 +679,7 @@
             "Las opciones b y c son correctas"
         ],
         "answer": 0,
-        "explanation": "Disponer de procedimientos operativos documentados es esencial para poder realizar pruebas de cumplimiento y verificar que se están ejecutando conforme a las políticas establecidas:contentReference[oaicite:3]{index=3}."
+        "explanation": "Disponer de procedimientos operativos documentados es esencial para poder realizar pruebas de cumplimiento y verificar que se están ejecutando conforme a las políticas establecidas."
     },
     {
         "question": "Señalar la respuesta incorrecta. Se puede definir la seguridad del software como:",
@@ -734,7 +690,7 @@
             "El nivel de confianza de que el software funciona según lo previsto y está libre de vulnerabilidades, ya sea intencionada o no diseñada o insertada en el marco de la software"
         ],
         "answer": 1,
-        "explanation": "La opción B es incorrecta porque no menciona específicamente la detección y corrección de vulnerabilidades, ni los requisitos de seguridad que debe cumplir un software confiable:contentReference[oaicite:4]{index=4}."
+        "explanation": "La opción B es incorrecta porque no menciona específicamente la detección y corrección de vulnerabilidades, ni los requisitos de seguridad que debe cumplir un software confiable."
     },
     {
         "question": "Señalar la respuesta correcta. ¿Cuál de los estándares de clasificación y gestión de vulnerabilidades incluye “Bases de datos con listas de comprobación de configuraciones de seguridad de productos”.",
@@ -745,7 +701,7 @@
             "CVE."
         ],
         "answer": 2,
-        "explanation": "La National Vulnerability Database (NVD) incluye bases de datos con listas de comprobación de configuraciones seguras de productos, entre otras funciones de gestión de vulnerabilidades:contentReference[oaicite:5]{index=5}."
+        "explanation": "La National Vulnerability Database (NVD) incluye bases de datos con listas de comprobación de configuraciones seguras de productos, entre otras funciones de gestión de vulnerabilidades."
     },
     {
         "question": "Señalar la respuesta incorrecta. Cuando se realiza una auditoría de infraestructura de red, deben tenerse en cuenta los siguientes aspectos:",
@@ -756,7 +712,7 @@
             "Entrevistas al administrador y operadores de red."
         ],
         "answer": 2,
-        "explanation": "Revisar la documentación de seguridad del software del sistema es más típico de una auditoría técnica de seguridad, no específica de infraestructura de red:contentReference[oaicite:6]{index=6}."
+        "explanation": "Revisar la documentación de seguridad del software del sistema es más típico de una auditoría técnica de seguridad, no específica de infraestructura de red."
     },
     {
         "question": "Señalar la respuesta correcta. Un tipo de clasificación de controles puede ser:",
@@ -767,6 +723,94 @@
             "Solo existen los controles de productos informáticos y por motivos legales"
         ],
         "answer": 2,
-        "explanation": "La clasificación más común distingue entre Controles Generales (como desarrollo, operación y sistemas), Controles de Aplicación (como entrada/salida de datos) y controles por área o función específica:contentReference[oaicite:7]{index=7}."
+        "explanation": "La clasificación más común distingue entre Controles Generales (como desarrollo, operación y sistemas), Controles de Aplicación (como entrada/salida de datos) y controles por área o función específica."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Un auditor de SI que realiza una revisión de controles de acceso debería estar MENOS preocupado si:",
+        "options": [
+            "Las pistas de auditoría no estuvieran habilitadas",
+            "Los programadores tuvieran acceso al entorno en vivo",
+            "Los logons de grupo estuvieran siendo utilizados para funciones críticas",
+            "El mismo usuario pudiera iniciar transacciones y también cambiar los parámetros relacionados."
+        ],
+        "answer": 0,
+        "explanation": "La opción A es correcta. Aunque las pistas de auditoría son importantes, un auditor debería estar más preocupado por los accesos inapropiados a entornos críticos (B, C, D) que por la falta de auditoría, ya que esto puede ser subsanable con otros controles."
+    },
+    {
+        "question": "Señalar la respuesta correcta. ¿En qué consiste el control de organización y operación: separación de entornos?",
+        "options": [
+            "En hacer copias de seguridad de los diferentes entornos/ambientes.",
+            "En tener siempre solo 2 entornos/ambientes: 1 para desarrollo y otro para producción.",
+            "En tener 3 ó 4 entornos/ambientes: desarrollo, testing, preproducción y explotación.",
+            "En tener solo 2 entornos/ambientes donde la información se intercambia indistintamente."
+        ],
+        "answer": 2,
+        "explanation": "La opción C es correcta. La separación de entornos implica tener múltiples entornos (desarrollo, testing, preproducción, producción) para evitar interferencias y garantizar la seguridad y estabilidad del software."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Los requisitos de los servicios de seguridad debe especificar:",
+        "options": [
+            "Propiedades que el software debe exhibir.",
+            "Nivel requerido de seguridad y salvaguardas de riesgo de las funciones de seguridad.",
+            "Los controles y normas que rigen los procesos de desarrollo, implementación y operación del software.",
+            "Están orientados hacia la reducción o eliminación de las vulnerabilidades del software, como validación de entradas, comprobación de límites de búfer, ejecución entornos aislados."
+        ],
+        "answer": 2,
+        "explanation": "La opción C es incorrecta. Los requisitos de servicios de seguridad se centran en las propiedades y niveles de seguridad del software, no en los controles y normas de procesos de desarrollo, implementación y operación, que son más específicos de la gestión de seguridad."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Los elementos clave de un proceso de S- SDLC son:",
+        "options": [
+            "Sostenimiento seguro.",
+            "Herramientas de apoyo al desarrollo.",
+            "Conocimientos de seguridad de los desarrolladores.",
+            "Gestión de configuración del entorno de desarrollo."
+        ],
+        "answer": 3,
+        "explanation": "La opción D es incorrecta. Aunque la gestión de configuración es importante, no es un elemento clave del proceso S-SDLC. Los otros elementos (A, B, C) son fundamentales para integrar la seguridad en el ciclo de vida del desarrollo de software."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Los factores principales prácticos que determinan la utilidad de una herramienta de análisis estático son:",
+        "options": [
+            "El equilibrio que la herramienta hace entre la extensión del código fuente y el tipo de lenguaje de programación.",
+            "Porcentaje de falsos positivos y falsos negativos de la herramienta.",
+            "El conjunto de errores que la herramienta comprueba.",
+            "Las características de la herramienta para hacerla fácil de usar."
+        ],
+        "answer": 0,
+        "explanation": "La opción A es incorrecta. Aunque la extensión del código y el tipo de lenguaje son importantes, no son factores prácticos determinantes. Los otros factores (B, C, D) son más relevantes para evaluar la efectividad y usabilidad de la herramienta de análisis estático."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. En las pruebas del tipo “Análisis hibrido o Interactive Application Security Testing (IAST)”, se realizan tres tipos de análisis:",
+        "options": [
+            "Análisis de cobertura. Pone de manifiesto las interacciones entre las diferentes partes del programa.",
+            "Análisis de inconsistencias, Permite buscar inconsistencia en la aplicación a probar.",
+            "Análisis de patrones. Permite buscar patrones específicos en la ejecución del programa, tales como excepciones no capturadas, omisiones, errores de memoria dinámica y problemas de seguridad.",
+            "Análisis de frecuencia de espectro. Revela las dependencias entre los componentes del programa."
+        ],
+        "answer": 3,
+        "explanation": "La opción D es incorrecta. El análisis de frecuencia de espectro no es un tipo de análisis típico en IAST. Los otros tipos (A, B, C) son correctos y se utilizan para evaluar la cobertura, inconsistencias y patrones de seguridad en la aplicación."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Apreciar el nivel de entrenamiento y conciencia de los individuos que no forman parte del equipo de recuperación/respuesta se corresponde al área de la auditoría de un Plan de Recuperación ante Desastres:",
+        "options": [
+            "La resiliencia del sistema.",
+            "Copias de seguridad y restauración de datos.",
+            "Verificar la integridad y precisión del DRP.",
+            "Evaluar el desempeño del personal involucrado en el DRP."
+        ],
+        "answer": 3,
+        "explanation": "La opción D es correcta. Evaluar el desempeño del personal involucrado en el DRP incluye apreciar su nivel de entrenamiento y conciencia, lo cual es crucial para la efectividad del plan de recuperación ante desastres. Las otras opciones se centran en aspectos técnicos (A, B, C) más que en el entrenamiento del personal."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Para realizar un DRP se debería seguir las siguientes fases:",
+        "options": [
+            "Alinearlo con el plan de continuidad de negocio.",
+            "Actualizar y mejorar el plan estratégico.",
+            "Capacitar a los encargados de ponerlo en marcha, concienciar y difundir el plan.",
+            "Realizar pruebas."
+        ],
+        "answer": 1,
+        "explanation": "La opción B es incorrecta. El DRP no se centra en actualizar el plan estratégico, sino en garantizar la continuidad operativa ante desastres. Las otras opciones (A, C, D) son fases clave del DRP: alineación con el plan de continuidad, capacitación del personal y realización de pruebas para validar el plan."
     }
 ]
