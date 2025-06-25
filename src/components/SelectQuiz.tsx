@@ -12,6 +12,7 @@ const SelectQuiz: React.FC<SelectQuizProps> = ({ onSelectQuiz }) => {
         "Gobierno de la Ciberseguridad y Análisis de Riesgos": "GCAR",
         "Ciberdelitos y Regulación de la Ciberseguridad": "CRC",
         "Hacking Ético y Análisis de Malware": "HEAM",
+        "Desarrollo Seguro del Software y Auditoría de la Ciberseguridad": "DSSAC",
     };
 
     return (
