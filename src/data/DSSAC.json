@@ -209,17 +209,6 @@
         "explanation": "La opción D es incorrecta porque limitar privilegios en el tiempo es una buena práctica. Las otras opciones son errores típicos (asignación excesiva de privilegios)."
     },
     {
-        "question": "Señalar la respuesta correcta. ¿Cuándo se da lugar, de forma general, un ataque de desbordamiento de búfer?",
-        "options": [
-            "Cuando copia un búfer de la pila al heap",
-            "Cuando se escribe en la memoria apuntada por un puntero que no ha sido liberada",
-            "Cuando el programa detecta que el búfer no está lleno",
-            "Cuando un puntero es usado para acceder a memoria no apuntada por él"
-        ],
-        "answer": 3,
-        "explanation": "La opción D es correcta: el desbordamiento ocurre al acceder memoria fuera de los límites del búfer (ej. por punteros mal manejados). Las otras opciones describen errores distintos (memory leaks, gestión incorrecta de buffers)."
-    },
-    {
         "question": "Señalar la respuesta incorrecta. Los datos concretos a proteger según las normas PCI DSS son los siguientes:",
         "options": [
             "Datos del titular de la tarjeta",
@@ -770,17 +759,6 @@
         "explanation": "La opción D es incorrecta. Aunque la gestión de configuración es importante, no es un elemento clave del proceso S-SDLC. Los otros elementos (A, B, C) son fundamentales para integrar la seguridad en el ciclo de vida del desarrollo de software."
     },
     {
-        "question": "Señalar la respuesta incorrecta. Los factores principales prácticos que determinan la utilidad de una herramienta de análisis estático son:",
-        "options": [
-            "El equilibrio que la herramienta hace entre la extensión del código fuente y el tipo de lenguaje de programación.",
-            "Porcentaje de falsos positivos y falsos negativos de la herramienta.",
-            "El conjunto de errores que la herramienta comprueba.",
-            "Las características de la herramienta para hacerla fácil de usar."
-        ],
-        "answer": 0,
-        "explanation": "La opción A es incorrecta. Aunque la extensión del código y el tipo de lenguaje son importantes, no son factores prácticos determinantes. Los otros factores (B, C, D) son más relevantes para evaluar la efectividad y usabilidad de la herramienta de análisis estático."
-    },
-    {
         "question": "Señalar la respuesta incorrecta. En las pruebas del tipo “Análisis hibrido o Interactive Application Security Testing (IAST)”, se realizan tres tipos de análisis:",
         "options": [
             "Análisis de cobertura. Pone de manifiesto las interacciones entre las diferentes partes del programa.",
@@ -812,5 +790,478 @@
         ],
         "answer": 1,
         "explanation": "La opción B es incorrecta. El DRP no se centra en actualizar el plan estratégico, sino en garantizar la continuidad operativa ante desastres. Las otras opciones (A, C, D) son fases clave del DRP: alineación con el plan de continuidad, capacitación del personal y realización de pruebas para validar el plan."
+    },
+    {
+        "question": "El incorporar una característica en la aplicación como “Capacidad de autocontrol y de limitar el uso de los recursos” corresponde al Principio de diseño:",
+        "options": [
+            "Fallar de Forma Segura.",
+            "Diseño de software resistente.",
+            "La seguridad por oscuridad: error.",
+            "Entorno de producción o ejecución inseguro."
+        ],
+        "answer": 1,
+        "explanation": "La capacidad de autocontrol y limitación de recursos está relacionada con el principio de diseño de software resistente, que busca que el sistema continúe funcionando adecuadamente ante condiciones inesperadas o adversas."
+    },
+    {
+        "question": "El modelado de ataques es aplicable en las siguientes fases del ciclo de vida del desarrollo del software:",
+        "options": [
+            "Requisitos, Diseño, Codificación, Pruebas, Despliegue y Operación.",
+            "Requisitos, Diseño, Codificación, Pruebas y Operación.",
+            "Requisitos, Codificación, Pruebas, Despliegue y Operación.",
+            "Requisitos, Diseño, Pruebas, Despliegue y Operación."
+        ],
+        "answer": 0,
+        "explanation": "El modelado de ataques puede aplicarse en todas las fases del ciclo de vida del software, desde la recolección de requisitos hasta la operación, para identificar y mitigar posibles amenazas en cada etapa."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Algunas de las opciones específicas de diseño del software que lo simplifican son:",
+        "options": [
+            "El uso de técnicas de interrupciones en lugar de sondeo.",
+            "Favorecer procesos deterministas sobre los no deterministas.",
+            "Desacoplar los componentes y procesos para minimizar las interdependencias entre ellos.",
+            "Limitar el número de estados posibles en el software."
+        ],
+        "answer": 0,
+        "explanation": "El uso de interrupciones en lugar de sondeo puede complicar el diseño por la introducción de asincronía y dificultad en la depuración, por lo que no siempre simplifica el software."
+    },
+    {
+        "question": "Cuál fue el primer ataque de desbordamiento de búfer (buffer overflows).",
+        "options": [
+            "Code Red.",
+            "Gusano Morris.",
+            "SQL Slammer.",
+            "Love Bug."
+        ],
+        "answer": 1,
+        "explanation": "El gusano Morris, lanzado en 1988, fue uno de los primeros ataques informáticos masivos que aprovechó una vulnerabilidad de desbordamiento de búfer en UNIX para propagarse."
+    },
+    {
+        "question": "Una validación correcta de la entrada requiere todo lo siguiente:",
+        "options": [
+            "Utilizar listas negras, en las cuales el objetivo es casi imposible de identificar todas las cosas que posiblemente podrían ser malas.",
+            "Usar una estrategia como la selección indirecta o whitelisting que se enfoca en la identificación de la entrada que se sabe está bien.",
+            "Identificar las fuentes de entrada mas importantes del programa",
+            "Todas las anteriores."
+        ],
+        "answer": 3,
+        "explanation": "Una validación correcta implica usar listas blancas (whitelisting), identificar fuentes de entrada y comprender los riesgos de las listas negras. Por tanto, todas las anteriores son parte de una buena estrategia de validación."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Los fallos de programación más comunes que se pueden cometer con las funciones de string limitadas son:",
+        "options": [
+            "El buffer de destino se deja sin un terminador nulo.",
+            "El buffer de destino se desborda porque el límite depende del tamaño de los datos de la fuente, más bien que del tamaño del buffer de destino.",
+            "El programa escribe a una posición arbitraria en la memoria porque el buffer de destino se termina con el carácter nulo.",
+            "El buffer de destino se desborda porque su límite se especifica como el tamaño total del buffer más bien que como el espacio restante."
+        ],
+        "answer": 2,
+        "explanation": "Terminar correctamente un string con un carácter nulo no causa escritura en una posición arbitraria de memoria; esto más bien ayuda a evitar errores de memoria. Las demás opciones sí representan errores comunes."
+    },
+    {
+        "question": "Para conseguir que el desarrollo de una aplicación posea las propiedades y principios de diseño del software seguro, se necesita que el personal de diseño y desarrollo desarrollen dos perspectivas:",
+        "options": [
+            "Perspectiva administrador.",
+            "Perspectiva atacante y defensor.",
+            "Perspectiva usuario.",
+            "Perspectiva defensor."
+        ],
+        "answer": 1,
+        "explanation": "El desarrollo de software seguro requiere que los desarrolladores piensen como atacantes para anticipar amenazas y como defensores para implementar medidas de protección eficaces."
+    },
+    {
+        "question": "¿Cuál es la mejor forma de prevenir ataques de Inyección SQL?",
+        "options": [
+            "Descentralizar la lógica de validación.",
+            "Comprobar la longitud de la entrada.",
+            "Realizar consultas parametrizadas.",
+            "Comprobar el tamaño de los datos de entrada."
+        ],
+        "answer": 2,
+        "explanation": "El uso de consultas parametrizadas es la mejor forma de prevenir ataques de inyección SQL, ya que evita que los datos del usuario se interpreten como parte del código SQL."
+    },
+    {
+        "question": "Normalmente se suele asignar un usuario general con conjunto de privilegios que le permitirá realizar todas las tareas, incluidas las no necesarias. Ejemplos de errores comunes son:",
+        "options": [
+            "Instalación de aplicaciones y servicios con el usuario de administrador.",
+            "Servicios y procesos con privilegios por tiempo definido.",
+            "Usuarios con derechos normales.",
+            "Aplicación de derechos normales."
+        ],
+        "answer": 0,
+        "explanation": "Un error común de configuración de privilegios es instalar o ejecutar aplicaciones con el usuario administrador, lo que aumenta el riesgo de explotación si la aplicación es comprometida."
+    },
+    {
+        "question": "¿Cuándo se da lugar, de forma general, un ataque de desbordamiento de búfer?",
+        "options": [
+            "Cuando se escribe en la memoria apuntada por un puntero que no ha sido liberada.",
+            "Cuando copia un búfer de la pila al heap.",
+            "Cuando un puntero es usado para acceder a memoria no apuntada por él.",
+            "Cuando el programa detecta que el búfer está lleno."
+        ],
+        "answer": 2,
+        "explanation": "Un ataque de desbordamiento de búfer ocurre cuando un puntero accede a una dirección de memoria que no le corresponde, lo que puede sobrescribir datos críticos y permitir la ejecución de código malicioso. La opción A es incorrecta porque escribir en memoria liberada no es un desbordamiento de búfer, sino un uso de memoria después de liberarla (use-after-free). La opción B es incorrecta porque copiar un búfer de la pila al heap no necesariamente implica un desbordamiento. La opción D es incorrecta porque el programa no detecta automáticamente el desbordamiento; este ocurre cuando se escribe más allá del límite del búfer."
+    },
+    {
+        "question": "La comprobación de la eficacia de las salvaguardas implementadas para proteger una aplicación, se realiza principalmente mediante el siguiente tipo de pruebas:",
+        "options": [
+            "Análisis de código.",
+            "Fuzzing testing.",
+            "Análisis híbrido.",
+            "Pruebas de Penetración."
+        ],
+        "answer": 3,
+        "explanation": "Las pruebas de penetración permiten verificar si las salvaguardas de seguridad implementadas realmente protegen la aplicación frente a ataques reales o simulados."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Los factores principales prácticos que determinan la utilidad de una herramienta de análisis estático son:",
+        "options": [
+            "El equilibrio que la herramienta hace entre la extensión del código fuente y el tipo de lenguaje de programación.",
+            "Porcentaje de falsos positivos y falsos negativos de la herramienta.",
+            "El conjunto de errores que la herramienta comprueba.",
+            "Las características de la herramienta para hacerla fácil de usar."
+        ],
+        "answer": 0,
+        "explanation": "El equilibrio entre extensión del código y lenguaje de programación no es un factor práctico determinante. Los factores clave incluyen precisión (falsos positivos/negativos), cobertura de errores y facilidad de uso."
+    },
+    {
+        "question": "La superficie de ataque, es cualquier parte de la aplicación que es accesible por:",
+        "options": [
+            "Personas.",
+            "Personas y aplicaciones.",
+            "Otra aplicación.",
+            "Ninguna de las anteriores."
+        ],
+        "answer": 1,
+        "explanation": "La superficie de ataque abarca cualquier punto de entrada a la aplicación accesible tanto por usuarios como por otras aplicaciones, ya que ambas pueden ser vectores de ataque."
+    },
+    {
+        "question": "¿Cuál es la razón PRINCIPAL para que una aplicación sea susceptible de un ataque del Hombre en el Medio (MITM)?",
+        "options": [
+            "Gestión inadecuada de la sesión.",
+            "Falta de auditoría.",
+            "Archivo inadecuado.",
+            "La falta de cifrado."
+        ],
+        "answer": 3,
+        "explanation": "La falta de cifrado en las comunicaciones permite a un atacante interceptar y modificar los datos transmitidos entre dos partes, facilitando un ataque MITM."
+    },
+    {
+        "question": "¿Durante qué fase del ciclo de vida del desarrollo de software (SDLC) se inicia el modelado de amenazas?",
+        "options": [
+            "Análisis de requisitos.",
+            "Pruebas.",
+            "Aplicación.",
+            "Despliegue."
+        ],
+        "answer": 0,
+        "explanation": "El modelado de amenazas se inicia en la fase de análisis de requisitos para identificar posibles amenazas desde el inicio del diseño y tomar medidas preventivas."
+    },
+    {
+        "question": "Los mensajes de error verbosos y las excepciones no manejadas pueden dar lugar a que de las siguientes amenazas a la seguridad del software:",
+        "options": [
+            "Spoofing.",
+            "Manipulación.",
+            "Repudio.",
+            "Divulgación de información."
+        ],
+        "answer": 3,
+        "explanation": "Los mensajes de error verbosos pueden revelar detalles internos de la aplicación (como estructura de base de datos o rutas del sistema), lo cual puede facilitar la divulgación de información sensible."
+    },
+    {
+        "question": "Para cumplir con los objetivos de seguridad de software, al aceptar el software, la fase de adquisición debe incluir procesos para:",
+        "options": [
+            "Verificar que se proporcionen guías de instalación y manuales de entrenamiento.",
+            "Evaluar la presencia y la eficacia de los mecanismos de protección.",
+            "Validar los productos de software del proveedor.",
+            "Ayudar al vendedor a responder a la solicitud de propuestas."
+        ],
+        "answer": 1,
+        "explanation": "La evaluación de la eficacia de los mecanismos de protección implementados en el software es esencial para garantizar que cumple con los objetivos de seguridad durante la adquisición."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Cual de las siguientes respuestas no es una causa de aparición de vulnerabilidades en el software:",
+        "options": [
+            "No realización de pruebas seguridad basadas en riesgo.",
+            "Cambios de requisitos del proyecto durante la etapa de especificación.",
+            "Mezcla de código proveniente de varios orígenes",
+            "Tamaño excesivo y complejidad de las aplicaciones."
+        ],
+        "answer": 1,
+        "explanation": "Los cambios de requisitos durante la especificación pueden ser normales y no necesariamente introducen vulnerabilidades si están bien gestionados. Las demás opciones sí son causas frecuentes de fallos de seguridad."
+    },
+    {
+        "question": "Señalar la respuesta correcta. En la actualidad ha quedado patente la insuficiencia de las protecciones a nivel de infraestructura debido a:",
+        "options": [
+            "La aparición de malware avanzado.",
+            "La implantación incorrecta de políticas de seguridad corporativas.",
+            "La obsolescencia de las tecnologías de protección a nivel de red.",
+            "El aumento de los ataques en la capa de aplicación de debidos a software vulnerable."
+        ],
+        "answer": 3,
+        "explanation": "Las protecciones a nivel de red no bastan cuando los ataques se dirigen a vulnerabilidades específicas del software en la capa de aplicación, lo que evidencia la necesidad de enfoques de seguridad integrados."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Respecto a la lógica de validación de entradas:",
+        "options": [
+            "No tiene por qué comprobarse la longitud de entrada como parte de la validación frontal.",
+            "La lógica de validación back-end siempre debería comprobar la longitud de la entrada contra un mínimo y máximo.",
+            "Todas las anteriores.",
+            "Si el programa tiene que validar un campo de entrada, cuanto más sepa la lógica de validación de los valores legales para ese campo, más rigurosa puede ser la validación."
+        ],
+        "answer": 2,
+        "explanation": "Todas las afirmaciones son válidas: la validación debe ser robusta y aplicada tanto en el cliente como en el servidor, considerando longitud, formato y valores permitidos."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Respecto al tipo de análisis Taint Propagation:",
+        "options": [
+            "Analiza una función individualmente en cuanto a caminos de ejecución y eliminar caminos falsos, que son caminos por los cuales el código nunca puede ejecutarse porque son lógicamente incoherentes.",
+            "Análisis de flujo de datos para determinar qué es lo que un atacante puede controlar, se requiere saber por dónde entra la información en el programa y cómo se mueve a través de él.",
+            "Para propiedades temporales de seguridad como «la memoria solo debería ser liberada una vez» y «solo los punteros no nulos deberían ser referenciados» es fácil representarlas como pequeños autómatas de estado finito.",
+            "Los alias de los punteros son otra clase de problema del flujo de datos. La finalidad del análisis de alias es determinar qué punteros apuntan a la misma posición de memoria."
+        ],
+        "answer": 1,
+        "explanation": "El análisis de propagación de contaminación (Taint Propagation) rastrea los datos no confiables a lo largo del flujo del programa para identificar posibles vías de explotación."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Una aplicación guarda los datos de usuario confidenciales de un sistema en un archivo XML. El archivo no puede ser leído por usuarios anónimos, pero puede ser leído por cualquier usuario que esté autenticado en la aplicación. De acuerdo con la documentación de la aplicación, si una organización desea agregar una protección adicional a este archivo, puede cambiar las listas de control de acceso (ACL) del sistema de archivos para que sólo en el contexto de seguridad que se utiliza sean los administradores locales los que puedan acceder a este archivo. La documentación de la aplicación proporciona además los pasos de configuración manual (aproximadamente 5-7 pasos) necesarios para lograr esto. ¿Qué principio de diseño seguro infringe este escenario?",
+        "options": [
+            "Modelado de amenazas.",
+            "Menos Privilegio.",
+            "Defensa en Profundidad.",
+            "Seguridad por defecto."
+        ],
+        "answer": 3,
+        "explanation": "El principio de Seguridad por defecto establece que el sistema debe estar configurado de manera segura desde el inicio. Requerir múltiples pasos manuales para proteger un archivo crítico infringe este principio."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Una librería que maneja string de forma segura, intentará asegurar lo siguiente:",
+        "options": [
+            "Que las cadenas han sido validadas correctamente.",
+            "Las funciones de manejo de cadenas de la biblioteca segura se puede intercambiar sin modificar nada con las funciones de la biblioteca estándar de cadena, y viceversa.",
+            "Ninguna de las anteriores.",
+            "Que hay espacio suficiente en una cadena de origen y / o destino para realizar operaciones como concatenación, copia, etc."
+        ],
+        "answer": 3,
+        "explanation": "El manejo seguro de cadenas implica asegurar que siempre haya espacio suficiente para evitar desbordamientos, especialmente en operaciones como concatenación o copia."
+    },
+    {
+        "question": "Señalar la respuesta correcta. ¿Cuál es el siguiente principio de diseño de seguridad del Software: “Estrategia de protección consistente en introducir múltiples capas de seguridad, que permitan reducir la probabilidad de compromiso en caso de que una de las capas falle y en el peor de los casos minimizar el impacto”?",
+        "options": [
+            "Mínimo privilegio.",
+            "Simplicidad.",
+            "Ninguna de las anteriores.",
+            "Defensa en profundidad."
+        ],
+        "answer": 3,
+        "explanation": "El principio descrito es 'Defensa en profundidad', que consiste en implementar múltiples capas de seguridad para evitar que el fallo de una sola capa comprometa todo el sistema."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Pruebas que consisten en la introducción de datos no válidos (por lo general producido por la modificación de una entrada válida) al software a través de su entorno o a través de otro componente de mismo, son pruebas del tipo:",
+        "options": [
+            "Inyección de fallos en código fuente.",
+            "Análisis código binario.",
+            "Inyección de fallos en binarios.",
+            "Fuzz testing."
+        ],
+        "answer": 3,
+        "explanation": "El 'Fuzz testing' consiste en enviar datos malformados o inesperados para detectar fallos y vulnerabilidades en una aplicación, es una técnica muy utilizada para pruebas de robustez."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Las fuentes de las vulnerabilidades se deben a:",
+        "options": [
+            "Fallos provenientes de la codificación de los diseños del software realizados.",
+            "Fallos provenientes de la cadena de distribución del software.",
+            "Los sistemas hardware o software contienen frecuentemente fallos de diseño que pueden ser utilizados para realizar un ataque.",
+            "La instalación de software por defecto implica por lo general la instalación de servicios que no se usan, pero que pueden presentar debilidades que comprometan la maquina."
+        ],
+        "answer": 0,
+        "explanation": "Las vulnerabilidades no se originan en la codificación de diseños como tal, sino en una mala implementación del diseño o en diseños inseguros. La afirmación es ambigua y menos precisa que el resto, que sí identifican fuentes claras de vulnerabilidades."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Los elementos clave de un proceso de S-SDLC son:",
+        "options": [
+            "Gestión de configuración de versiones.",
+            "Pruebas de seguridad.",
+            "Despliegue y distribución.",
+            "Hitos de control en las fases del SDLC."
+        ],
+        "answer": 2,
+        "explanation": "El despliegue y distribución no es considerado un elemento clave específico del enfoque de ciclo de vida de desarrollo de software seguro (S-SDLC). Los demás son elementos fundamentales para garantizar seguridad durante el desarrollo."
+    },
+    {
+        "question": "Señale la respuesta correcta. ¿Cuál de las siguientes fases del ciclo de vida de una vulnerabilidad no lo es?",
+        "options": [
+            "Verificación inicial de la vulnerabilidad",
+            "Descubrimiento",
+            "Validación final por el usuario.",
+            "Solución: los programadores del producto buscan solución en entornos controlados."
+        ],
+        "answer": 2,
+        "explanation": "La 'Validación final por el usuario' no forma parte formal del ciclo de vida de una vulnerabilidad. Las demás fases son reconocidas dentro del ciclo: descubrimiento, verificación y corrección."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Las excepciones tienen dos versiones, la diferencia tiene que ver con si el compilador usará análisis estático para asegurar que la excepción es manejada:",
+        "options": [
+            "Valores de retorno.",
+            "Controladas y no controladas",
+            "Comprobadas y no comprobadas.",
+            "Ningunas de las anteriores."
+        ],
+        "answer": 2,
+        "explanation": "Las excepciones comprobadas y no comprobadas (checked/unchecked) difieren en que las primeras deben ser gestionadas explícitamente en tiempo de compilación, y las segundas no."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Los requerimientos no funcionales de seguridad deben especificar:",
+        "options": [
+            "Propiedades del Software funcionales.",
+            "Especificaciones de las salvaguardas de seguridad",
+            "Propiedades que el software debe exhibir.",
+            "Todas las anteriores."
+        ],
+        "answer": 3,
+        "explanation": "Los requisitos no funcionales de seguridad incluyen salvaguardas, comportamientos esperados y medidas que pueden influir incluso en aspectos funcionales del software."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Un equipo de desarrollo está iniciando un ciclo de desarrollo de software y planea llevar a cabo tests de penetración en algún momento. ¿En qué etapa del ciclo de desarrollo recomendarías llevar a cabo el test de intrusión?",
+        "options": [
+            "Al finalizar el diseño inicial de la aplicación.",
+            "Cuándo se consigue ejecutar la aplicación con éxito por primera vez.",
+            "Cuándo la aplicación está cerca del final del ciclo de desarrollo, en la fase de operación y mantenimiento.",
+            "Todas las anteriores."
+        ],
+        "answer": 3,
+        "explanation": "Lo ideal es realizar pruebas de penetración en varias fases del desarrollo, desde diseño hasta despliegue y operación, para detectar problemas de seguridad en diferentes niveles."
+    },
+    {
+        "question": "Señalar la respuesta correcta. La principal misión de los test de penetración es:",
+        "options": [
+            "Comprobar las vulnerabilidades del software.",
+            "Revisar estáticamente el código del sistema.",
+            "Probar la seguridad de la arquitectura del software.",
+            "Verificar cómo el software se comporta y resiste ante diferentes tipos de ataque."
+        ],
+        "answer": 3,
+        "explanation": "La finalidad de los test de penetración es evaluar la resistencia del sistema ante ataques reales, comprobando su comportamiento frente a amenazas concretas."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. El análisis estático de código fuente es adecuado para identificar problemas de seguridad por ciertas razones:",
+        "options": [
+            "Examinando el código en sí mismo, las herramientas de análisis estático a menudo pueden indicar la causa de origen de un problema de seguridad, no solamente uno de sus síntomas.",
+            "Las herramientas de análisis estático comprueban el código a fondo y coherentemente, sin ninguna tendencia, que a veces los programadores según su criterio podrían tener sobre algunas partes del código que pudieran ser más «interesantes» desde una perspectiva de seguridad o partes del código que pudieran ser más fáciles para realizar las pruebas dinámicas",
+            "El análisis estático puede encontrar errores tempranamente en el desarrollo, aún antes de que el programa sea ejecutado por primera vez.",
+            "Cuando un investigador de seguridad descubre una nueva variedad de ataque, las herramientas de análisis estático, no ayudan a comprobar de nuevo una gran cantidad de código para ver dónde el nuevo ataque podría tener éxito."
+        ],
+        "answer": 3,
+        "explanation": "El análisis estático sí puede ser adaptado a nuevas amenazas y reutilizado sobre bases de código ya existentes, por lo tanto la afirmación es incorrecta."
+    },
+    {
+        "question": "Señalarla respuesta correcta. A la hora de realizar la distribución y despliegue del software desarrollado, es recomendable el realizar las siguientes buenas prácticas:",
+        "options": [
+            "Distribuir el software con una configuración por defecto segura y lo más restrictiva posible.",
+            "Proporcionar una herramienta de instalación automática.",
+            "Cambio los valores de configuración predeterminados durante el desarrollo.",
+            "Todas las anteriores"
+        ],
+        "answer": 3,
+        "explanation": "Todas las prácticas mencionadas contribuyen a una distribución más segura del software, evitando configuraciones inseguras por defecto y facilitando instalaciones consistentes."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Indique de las siguientes respuestas, cual no es una causa de aparición de vulnerabilidades en el software.",
+        "options": [
+            "Cambios de requisitos del proyecto durante la etapa de especificación.",
+            "No realización de pruebas seguridad basadas en riesgo.",
+            "Tamaño excesivo y complejidad de las aplicaciones.",
+            "Mezcla de código proveniente de varios orígenes"
+        ],
+        "answer": 0,
+        "explanation": "Los cambios de requisitos durante la especificación son comunes en el desarrollo y no constituyen en sí mismos una causa directa de vulnerabilidades, a diferencia de las demás opciones."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Respecto a la lógica de validación de entradas.",
+        "options": [
+            "La lógica de validación front-end siempre debería comprobar la longitud de la entrada contra un máximo.",
+            "No tiene porque comprobarse la longitud de entrada como parte de la validación frontal.",
+            "Si el programa tiene que validar un campo de entrada, cuanto más sepa la lógica de validación de los valores legales para ese campo, más rigurosa puede ser la validación.",
+            "Todas las anteriores."
+        ],
+        "answer": 3,
+        "explanation": "Todas las afirmaciones son correctas: una validación eficaz incluye controles en el front-end, back-end y conocimiento del contexto y formato esperado del dato."
+    },
+    {
+        "question": "Señalar la respuesta correcta. La pila es la zona de memoria para guardar:",
+        "options": [
+            "Librerías linkadas dinámicamente.",
+            "Código del programa.",
+            "Variables globales.",
+            "Variables locales."
+        ],
+        "answer": 3,
+        "explanation": "La pila (stack) se utiliza para almacenar variables locales, parámetros de funciones y realizar el seguimiento del flujo de ejecución."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Aplicar el principio de defensa en profundidad significa:",
+        "options": [
+            "Diseñar una aplicación con múltiples capas de defensa, de esta manera, si una capa falla, otro nivel puede proveer protección.",
+            "Diseñar una aplicación con un único punto de defensa, situado en el perímetro de la aplicación (sockets de red, APIs externas, etc.)",
+            "Ninguna de las anteriores.",
+            "Diseñar una aplicación con un único punto de defensa, situado en los puntos de consumo de datos externos."
+        ],
+        "answer": 0,
+        "explanation": "La defensa en profundidad consiste en implementar múltiples capas de seguridad para mitigar los efectos de una posible falla en una de ellas."
+    },
+    {
+        "question": "Señalar la respuesta correcta. ¿Cuál de las siguientes afirmaciones sobre la seguridad del software es correcta?",
+        "options": [
+            "Arreglar errores y debilidades del software después de ponerlo en producción es más dificultoso y económicamente caro.",
+            "Los desarrolladores en su mayoría tienen conocimientos profundos de seguridad el software.",
+            "Incluir prácticas de seguridad como “Análisis del riesgo Arquitectónico” puede resultar en la comisión de errores en el diseño que resulten en futuras debilidades en el software.",
+            "Todas las anteriores."
+        ],
+        "answer": 0,
+        "explanation": "Corregir errores en producción es más costoso y complicado. Las otras opciones no son acertadas: la mayoría de desarrolladores no dominan seguridad, y el análisis de riesgos reduce errores, no los causa."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Indicar la utilidad de los Patrones de Ataque en la etapa de Especificación de requisitos.",
+        "options": [
+            "Pueden ser utilizados para orientar las pruebas de seguridad del software en un contexto práctico y realista identificando debilidades concretas para generar casos de prueba para cada componente.",
+            "Permitirá la selección de políticas de seguridad y configuraciones acordes a las amenazas obtenidas de los patrones de ataque.",
+            "Proporciona ejemplos de ataques que aprovechan las vulnerabilidades de la arquitectura elegida.",
+            "Ayuda a definir el comportamiento del sistema para prevenir o reaccionar ante un tipo específico de ataque probable."
+        ],
+        "answer": 0,
+        "explanation": "Los patrones de ataque permiten prever posibles vectores de explotación desde fases tempranas y ayudan a orientar las pruebas de seguridad desde la etapa de requisitos."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Los factores que influyen en la probabilidad de que un software sea consistente con las propiedades de seguridad de un software, incluyen:",
+        "options": [
+            "Conocimiento Profesional.",
+            "Componentes adquiridos.",
+            "Herramientas de desarrollo.",
+            "Configuraciones del entorno de desarrollo."
+        ],
+        "answer": 1,
+        "explanation": "Los componentes adquiridos pueden aportar vulnerabilidades, pero no son un factor directo de consistencia del software con propiedades de seguridad, a diferencia de los otros elementos."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Dentro del marco del principio de diseño “Fallar de Forma Segura” las características específicas del diseño que minimizan la probabilidad de que el software pase a un estado inseguro son:",
+        "options": [
+            "Implementar una lógica de control de excepciones.",
+            "El software puede comenzar su ejecución en un estado inseguro y terminar en un estado seguro.",
+            "Evitar problemas de sincronización y secuenciación.",
+            "Implementar temporizadores tipo «watchdog»."
+        ],
+        "answer": 1,
+        "explanation": "El principio de 'Fallar de Forma Segura' implica que el sistema debe empezar en un estado seguro y mantenerse así en caso de error. Iniciar en un estado inseguro contradice este principio."
+    },
+    {
+        "question": "Señalar la respuesta correcta. A cuál de los elementos clave de un proceso de S-SDLC le corresponde la siguiente actividad “Desinfección completa de ejecutables, antes de la transferencia al sitio de descarga o medios de distribución, para evitar la inclusión de software malicioso en el mismo, datos incrustados sensibles, puertas traseras del desarrollador, etc.”:",
+        "options": [
+            "Herramientas de apoyo al desarrollo.",
+            "Hitos de control en las fases del SDLC.",
+            "Despliegue y distribución segura.",
+            "Arquitectura y diseño adecuados."
+        ],
+        "answer": 2,
+        "explanation": "La actividad descrita corresponde al proceso de distribución segura del software, asegurando que el ejecutable final esté libre de malware u otras amenazas antes de su entrega."
     }
 ]
