@@ -29,8 +29,8 @@
       "Gusanos",
       "Puertas traseras"
     ],
-    "answer": 3,
-    "explanation": "Las puertas traseras no son un mecanismo de propagación del malware, sino que son herramientas que permiten el acceso remoto a un sistema comprometido."
+    "answer": 1,
+    "explanation": "La opción incorrecta es 'Integración en espacios de ficheros' porque, según el Tema 8 del material, la redacción exacta debe ser 'Integración en espacios vacíos de ficheros', donde 'vacíos' es el término clave que describe la técnica de ocultar malware en espacios no utilizados de archivos. Las otras opciones son correctas: los 'File droppers' instalan malware descargando archivos maliciosos, los 'Gusanos' se autoreplican propagándose activamente, y aunque las 'Puertas traseras' aparecen en el listado, técnicamente son mecanismos de acceso remoto post-infección más que de propagación propiamente dicha."
   },
   {
     "question": "La forma predominante de malware que infecta las aplicaciones móviles es:",
