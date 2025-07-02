@@ -447,8 +447,8 @@
       "Monitorización y Servicios Windows",
       "Ninguna de las anteriores"
     ],
-    "answer": 3,
-    "explanation": "Esa máquina se denomina normalmente \"Honeypot de red\", “máquina de simulación de servicios” o forma parte de una sandbox con herramientas como INetSim, pero ninguna de las opciones A, B o C es correcta en términos técnicos."
+    "answer": 0,
+    "explanation": "La máquina que proporciona protocolos simulados para el malware se denomina \"Servicios\". Esta máquina emula servicios de red comunes para observar cómo el malware interactúa con ellos, permitiendo un análisis más completo de su comportamiento."
   },
   {
     "question": "¿Cuál es el propósito de la ingeniería social?",

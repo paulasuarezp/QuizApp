@@ -601,8 +601,8 @@
             "Voluntarios, obligatorios, manuales, automáticos, preventivos, detectivos y correctivos",
             "Controles generales, de aplicación, de área y legales"
         ],
-        "answer": 2,
-        "explanation": "La opción C es correcta. ISACA clasifica controles por naturaleza (preventivos/detectivos) y implementación (manuales/automáticos)."
+        "answer": 0,
+        "explanation": "La clasificación general es: detectivos, correctivos y preventivos; el resto de los controles entran en la parte de categorías. (Respuesta Test Tema 7)"
     },
     {
         "question": "En relación a la clasificación de controles internos, según su naturaleza podemos afirmar que:",
@@ -613,7 +613,7 @@
             "Ambas son incorrectas"
         ],
         "answer": 3,
-        "explanation": "La opción D es correcta. Los preventivos actúan sobre causas (A incorrecta), y los detectivos descubren eventos (B incorrecta)."
+        "explanation": "La opción D es correcta. Estarían al revés: los preventivos actúan sobre causas (A incorrecta), y los detectivos descubren eventos (B incorrecta)."
     },
     {
         "question": "Al realizar una auditoria basada en el riesgo, ¿Qué tipo de evaluacion de riesgos realiza el auditor de un sistema de información como primer paso?",
