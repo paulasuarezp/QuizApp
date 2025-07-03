@@ -1263,5 +1263,27 @@
         ],
         "answer": 2,
         "explanation": "La actividad descrita corresponde al proceso de distribución segura del software, asegurando que el ejecutable final esté libre de malware u otras amenazas antes de su entrega."
+    },
+    {
+        "question": "¿Qué problema causa GDB a la hora de depurar una aplicación con un desbordamiento de buffer?",
+        "options": [
+            "Protege la pila de ejecución de código.",
+            "Hace que las direcciones de la pila y el heap sean aleatorias en cada ejecución.",
+            "No entiende el funcionamiento de la instrucción NOP.",
+            "Ninguna de las anteriores."
+        ],
+        "answer": 1,
+        "explanation": "GDB puede verse afectado por ASLR (Address Space Layout Randomization), que hace que las direcciones cambien en cada ejecución, dificultando el análisis del desbordamiento."
+    },
+    {
+        "question": "Indica qué afirmación es correcta respecto a buffer overflow:",
+        "options": [
+            "Su explotación no se ve influenciada por la arquitectura del sistema atacado",
+            "Es un tipo de ataque sobre aplicaciones web",
+            "Se lleva a cabo explotando inyecciones a bases de datos",
+            "Se produce cuando un programa no controla adecuadamente la cantidad de datos que se copian sobre un área de memoria reservada a tal efecto (buffer)"
+        ],
+        "answer": 3,
+        "explanation": "Un buffer overflow ocurre cuando se escriben más datos de los que un buffer puede almacenar, lo cual puede sobrescribir otras áreas de memoria y comprometer la seguridad."
     }
 ]
