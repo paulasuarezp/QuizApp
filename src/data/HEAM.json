@@ -636,5 +636,115 @@
     ],
     "answer": 2,
     "explanation": "Metasploit consta de diferentes tipos de módulos, entre ellos: módulos de explotación (exploit), módulos auxiliares (auxiliary), módulos de payloads (payload), módulos de post-explotación (post), además de módulos de encoder, evasión, y nop. Estos permiten desde la explotación de vulnerabilidades hasta acciones posteriores al compromiso del sistema."
+  },
+  {
+    "question": "¿En qué consiste la técnica de Heap Spraying?",
+    "options": [
+      "Llenar el heap de NOPs y de JMP.",
+      "Llenar el heap de NOPs y de Shellcodes.",
+      "Llenar el heap de instrucciones de salto incondicional y de BREAK.",
+      "Llenar el heap de Shellcodes y de JMP ESP."
+    ],
+    "answer": 1,
+    "explanation": "Heap Spraying consiste en llenar el heap con NOPs y shellcodes para aumentar la probabilidad de que se ejecute el shellcode al redirigir la ejecución."
+  },
+  {
+    "question": "¿Cómo se guardaría la dirección de memoria 0x07142390 utilizando Little-endian?",
+    "options": [
+      "\\x07\\x14\\x23\\x90",
+      "\\x09\\x32\\x41\\x70",
+      "\\x90\\x23\\x14\\x07",
+      "\\x70\\x41\\x32\\x09"
+    ],
+    "answer": 2,
+    "explanation": "Little-endian almacena el byte menos significativo primero, por lo que 0x07142390 se guarda como \\x90\\x23\\x14\\x07."
+  },
+  {
+    "question": "¿Qué realiza el comando “echo 0 > /proc/sys/kernel/randomize_va_space” en un sistema Linux?",
+    "options": [
+      "Desactiva el ASLR.",
+      "Desactiva DEP.",
+      "Desactiva el RS.",
+      "Genera un número aleatorio entre 0 y 1"
+    ],
+    "answer": 0,
+    "explanation": "Este comando desactiva el Address Space Layout Randomization (ASLR), una medida de seguridad que randomiza las direcciones de memoria."
+  },
+  {
+    "question": "¿Para qué es necesario averiguar el número de columnas de una tabla al hacer una inyección SQL?",
+    "options": [
+      "Para el comando CONCAT.",
+      "Para el comando UNION ALL SELECT.",
+      "Para saltarnos los filtros de las tablas protegidas.",
+      "No es necesario."
+    ],
+    "answer": 1,
+    "explanation": "El número de columnas debe coincidir en una instrucción UNION ALL SELECT para que la consulta SQL no genere error."
+  },
+  {
+    "question": "Indica qué afirmación es cierta respecto al fuzzing:",
+    "options": [
+      "Implica proporcionar datos inválidos, inesperados o aleatorios a las entradas de un determinado programa, servicio y aplicación.",
+      "Es una técnica orientada a la explotación de aplicaciones Web.",
+      "Suele hacerse mediante verificaciones manuales.",
+      "Todas las anteriores son ciertas"
+    ],
+    "answer": 0,
+    "explanation": "El fuzzing se basa en inyectar entradas no esperadas para descubrir fallos; no se limita a aplicaciones web ni suele ser manual."
+  },
+  {
+    "question": "Indica qué afirmación es cierta sobre las vulnerabilidades CSRF.",
+    "options": [
+      "Las siglas CSRF vienen de Cross Site Random Forgery.",
+      "Se puede realizar el ataque mientras la víctima tiene la sesión cerrada del sitio web objetivo.",
+      "Aprovecha la confianza que tiene un navegador en un servidor web.",
+      "Hace muy difícil seguir la pista hasta el atacante."
+    ],
+    "answer": 2,
+    "explanation": "CSRF aprovecha que el navegador envía automáticamente cookies de sesión, explotando la confianza que el servidor tiene en el navegador."
+  },
+  {
+    "question": "La pila...",
+    "options": [
+      "Decrece hacia posiciones más bajas de memoria",
+      "Crece hacia posiciones más bajas de memoria",
+      "Crece y decrece indistintamente en memoria",
+      "Ninguna de las anteriores"
+    ],
+    "answer": 0,
+    "explanation": "En la mayoría de arquitecturas, la pila crece hacia direcciones de memoria más bajas."
+  },
+  {
+    "question": "¿En qué se basan principalmente las vulnerabilidades de gestión de sesión?",
+    "options": [
+      "Tanto HTTP como HTTPS guardan el estado de la sesión.",
+      "HTTP guarda el estado de la sesión, pero HTTPS no.",
+      "HTTP no guarda el estado de la sesión, pero HTTPS sí.",
+      "Tanto HTTP como HTTPS no guardan el estado de la sesión."
+    ],
+    "answer": 3,
+    "explanation": "Ni HTTP ni HTTPS mantienen estado; la gestión de sesiones se hace a través de cookies, tokens u otros mecanismos."
+  },
+  {
+    "question": "Indica qué afirmación es cierta respecto a las Race condition o condiciones de carrera.",
+    "options": [
+      "Ocurre cuando dos procesos quieren leer de un fichero al mismo tiempo.",
+      "Hay funciones específicamente vulnerables a las Race condition.",
+      "Se convierte en una vulnerabilidad de seguridad si el sistema operativo es el único que influye en la condición de carrera.",
+      "Surge por la concurrencia de varios procesos o hilos sobre un recurso compartido sin exclusión mutua."
+    ],
+    "answer": 3,
+    "explanation": "Una race condition se da cuando varios procesos o hilos acceden simultáneamente a un recurso compartido sin control de sincronización, lo que puede llevar a comportamientos inesperados."
+  },
+  {
+    "question": "Señale la respuesta incorrecta. X64dbg una vez cargado el malware en el programa muestra la pantalla, con cuatro partes o divisiones:",
+    "options": [
+      "Heap.",
+      "Desensamblado.",
+      "Registros.",
+      "Pila."
+    ],
+    "answer": 0,
+    "explanation": "X64dbg normalmente muestra las secciones de desensamblado, registros y pila. La sección de Heap no forma parte de las vistas principales por defecto."
   }
 ]
