@@ -711,8 +711,8 @@
       "Crece y decrece indistintamente en memoria",
       "Ninguna de las anteriores"
     ],
-    "answer": 0,
-    "explanation": "En la mayoría de arquitecturas, la pila crece hacia direcciones de memoria más bajas."
+    "answer": 1,
+    "explanation": "La pila crece: Ocupa más memoria hacia direcciones bajas. El puntero ESP decrementa: Su valor numérico disminuye (ej: de 0x1000 a 0x0FFC)."
   },
   {
     "question": "¿En qué se basan principalmente las vulnerabilidades de gestión de sesión?",

@@ -40,11 +40,11 @@
             "Definición de los perímetros de seguridad física y de los controles de seguridad que deben ser aplicados en los puntos de acceso entre ellos",
             "Verificar la existencia de logs de aplicación de parches."
         ],
-        "answer": 2,
-        "explanation": "Las pruebas de cumplimiento verifican el seguimiento de normativas o políticas. 'Verificar war-driving', 'existencia de procedimientos' y 'logs de parches' son ejemplos de ello, ya que auditan acciones concretas. Sin embargo, 'Definición de perímetros y controles' es una actividad de diseño, no de verificación, por lo que no es una prueba de cumplimiento."
+        "answer": 0,
+        "explanation": "Las pruebas de cumplimiento tienen como objetivo verificar que los controles, políticas, normativas o procedimientos establecidos se están aplicando de forma efectiva. En cambio, el war-driving es una técnica ofensiva que consiste en recorrer áreas geográficas con un equipo de escaneo (normalmente WiFi) en busca de redes inalámbricas inseguras. Revisar sus resultados es una actividad más técnica o de tipo operacional, asociada a pruebas de penetración o análisis de seguridad lógica, no a auditoría de cumplimiento."
     },
     {
-        "question": "¿Cuál de las siguientes pruebas de auditoría no es adecuada para verificar la implantación de controles sobre planificación de Seguridad o IT?",
+        "question": "¿Cuál de las siguientes pruebas de auditoría NO es adecuada para verificar la implantación de controles sobre planificación de Seguridad o IT?",
         "options": [
             "Verificar la existencia de un documento titulado 'Plan de Seguridad'",
             "Verificar que la función de planificación IT está asignada formalmente a la Directiva de la compañía",
@@ -62,8 +62,8 @@
             "Es el proceso de recoger, agrupar y evaluar evidencias para determinar si un sistema informático salvaguarda los activos, mantiene la integridad de los datos, utilizando de forma eficiente los recursos independientemente de los fines de la organización",
             "Es el proceso exclusivamente técnico de recoger, agrupar y evaluar evidencias para determinar si un sistema informático salvaguarda los activos, mantiene la integridad de los datos, utilizando de forma eficiente los recursos"
         ],
-        "answer": 0,
-        "explanation": "La opción A es la más completa, ya que la auditoría informática evalúa tanto el cumplimiento de los objetivos organizacionales como aspectos técnicos (seguridad, integridad y eficiencia). Las otras opciones son limitadas (excluyen fines organizacionales o se centran solo en lo técnico)."
+        "answer": 2,
+        "explanation": "La opción C es correcta. La auditoría informática evalúa si un sistema protege activos, mantiene integridad de datos y usa recursos eficientemente, sin limitarse a los fines de la organización. Las otras opciones son demasiado restrictivas o incorrectas en su enfoque."
     },
     {
         "question": "Las implementaciones de recolección de log de seguridad requieren qué mecanismos adicionales de protección para mitigar los ataques de divulgación:",
@@ -390,10 +390,10 @@
             "Seguridad de tipos. Los campos que son declarados privados o protegidos, o que tienen protección, por defecto, deberían ser públicamente accesibles",
             "Campos públicos. Un campo que es declarado público directamente puede ser accedido por cualquier parte de un programa Java y puede ser modificado por las mismas (a no ser que el campo sea declarado como final).",
             "Serialización. Esta facilidad posibilita que el estado del programa sea capturado y convertido en un byte stream que puede ser restaurado por la operación inversa, que es la deserialización",
-            "La JVM en sí misma a menudo está escrita en C para una plataforma dada. Esto quiere decir que sin la atención cuidadosa a detalles de puesta en práctica, la JVM en sí misma no susceptible a problemas de desbordamiento"
+            "La JVM en sí misma a menudo está escrita en C para una plataforma dada. Esto quiere decir que sin la atención cuidadosa a detalles de puesta en práctica, la JVM en sí misma es susceptible a problemas de desbordamiento"
         ],
-        "answer": 3,
-        "explanation": "La opción D es incorrecta. La JVM, al estar escrita en C, es susceptible a desbordamientos si no se implementa cuidadosamente. Las otras opciones son verdaderas: A describe un error de diseño, B y C son características de Java."
+        "answer": 0,
+        "explanation": "La opción A es incorrecta. En Java, los campos privados o protegidos no son accesibles públicamente; su acceso está restringido a la clase misma o sus subclases. Las otras opciones (B, C y D) describen correctamente aspectos de seguridad en Java, como el acceso a campos públicos, la serialización y la vulnerabilidad de la JVM escrita en C."
     },
     {
         "question": "Señale la respuesta correcta. Una prueba específica para entornos de eBanking",
@@ -591,7 +591,7 @@
             "Ayuda a definir el comportamiento del sistema para prevenir o reaccionar ante un tipo específico de ataque probable."
         ],
         "answer": 3,
-        "explanation": "La opción D es correcta. Los patrones ayudan a definir requisitos de seguridad proactivos. Las otras opciones aplican a fases posteriores (diseño/pruebas)."
+        "explanation": "La opción D es correcta. Los patrones ayudan a definir requisitos de seguridad proactivos. Las otras opciones aplican a fases posteriores (diseño/pruebas). La A aplica a la fase de diseño, la B a la fase de pruebas y la C a la de operación. Página 20 del Tema 2"
     },
     {
         "question": "Con relación a la clasificación de controles internos, según su naturaleza podemos afirmar que:",
@@ -627,17 +627,6 @@
         "explanation": "La opción A es correcta. Primero se evalúan riesgos inherentes (sin controles), luego riesgos residuales (con controles)."
     },
     {
-        "question": "Señalar la respuesta correcta. Indicar la utilidad de los Patrones de Ataque en la etapa de Especificación de requisitos.",
-        "options": [
-            "Proporciona ejemplos de ataques que aprovechan las vulnerabilidades de la arquitectura elegida.",
-            "Pueden ser utilizados para orientar las pruebas de seguridad del software en un contexto práctico y realista identificando debilidades concretas para generar casos de prueba para cada componente.",
-            "Permitirá la selección de políticas de seguridad y configuraciones acordes a las amenazas obtenidas de los patrones de ataque.",
-            "Ayuda a definir el comportamiento del sistema para prevenir o reaccionar ante un tipo específico de ataque probable"
-        ],
-        "answer": 3,
-        "explanation": "Durante la especificación de requisitos, los patrones de ataque permiten anticipar comportamientos maliciosos y definir cómo el sistema debe prevenirlos o reaccionar. Esto ayuda a establecer requisitos de seguridad desde las primeras fases del S-SDLC."
-    },
-    {
         "question": "En relación a las metodologías de auditoría, podemos afirmar que:",
         "options": [
             "Realmente solo existe una y es basada en Riesgos o Risk Oriented Approach.",
@@ -667,8 +656,8 @@
             "Para que cualquier persona pueda realizar las funciones de administración de sistemas, siempre que encuentre los procedimientos que custodian los administradores",
             "Las opciones b y c son correctas"
         ],
-        "answer": 0,
-        "explanation": "Disponer de procedimientos operativos documentados es esencial para poder realizar pruebas de cumplimiento y verificar que se están ejecutando conforme a las políticas establecidas."
+        "answer": 3,
+        "explanation": "La opción D es correcta. Los procedimientos de operación documentan actividades críticas, permitiendo que cualquier administrador (nuevo o con menos experiencia) pueda realizar tareas de manera consistente y segura. La opción A es incompleta porque no menciona la capacitación y accesibilidad."
     },
     {
         "question": "Señalar la respuesta incorrecta. Se puede definir la seguridad del software como:",
@@ -744,8 +733,8 @@
             "Los controles y normas que rigen los procesos de desarrollo, implementación y operación del software.",
             "Están orientados hacia la reducción o eliminación de las vulnerabilidades del software, como validación de entradas, comprobación de límites de búfer, ejecución entornos aislados."
         ],
-        "answer": 2,
-        "explanation": "La opción C es incorrecta. Los requisitos de servicios de seguridad se centran en las propiedades y niveles de seguridad del software, no en los controles y normas de procesos de desarrollo, implementación y operación, que son más específicos de la gestión de seguridad."
+        "answer": 3,
+        "explanation": "La opción D es incorrecta. Los requisitos de servicios de seguridad no se centran en eliminar vulnerabilidades específicas, sino en definir propiedades generales de seguridad y controles necesarios para el software. La validación de entradas y comprobación de límites son prácticas recomendadas, pero no son requisitos de servicio por sí mismos. Tema 2 página 27-28"
     },
     {
         "question": "Señalar la respuesta incorrecta. Los elementos clave de un proceso de S- SDLC son:",
@@ -756,7 +745,7 @@
             "Gestión de configuración del entorno de desarrollo."
         ],
         "answer": 3,
-        "explanation": "La opción D es incorrecta. Aunque la gestión de configuración es importante, no es un elemento clave del proceso S-SDLC. Los otros elementos (A, B, C) son fundamentales para integrar la seguridad en el ciclo de vida del desarrollo de software."
+        "explanation": "La opción D es incorrecta. Aunque la gestión de configuración es importante, no es un elemento clave del proceso S-SDLC. Los otros elementos (A, B, C) son fundamentales para integrar la seguridad en el ciclo de vida del desarrollo de software. Recursos audiovisuales 'Estándares de aplicación a la seguridad del software'"
     },
     {
         "question": "Señalar la respuesta incorrecta. En las pruebas del tipo “Análisis hibrido o Interactive Application Security Testing (IAST)”, se realizan tres tipos de análisis:",
@@ -987,7 +976,7 @@
             "Tamaño excesivo y complejidad de las aplicaciones."
         ],
         "answer": 1,
-        "explanation": "Los cambios de requisitos durante la especificación pueden ser normales y no necesariamente introducen vulnerabilidades si están bien gestionados. Las demás opciones sí son causas frecuentes de fallos de seguridad."
+        "explanation": "Los cambios de requisitos durante la especificación pueden ser normales y no necesariamente introducen vulnerabilidades si están bien gestionados. Las demás opciones sí son causas frecuentes de fallos de seguridad. Respuesta en el Tema 1, página 5"
     },
     {
         "question": "Señalar la respuesta correcta. En la actualidad ha quedado patente la insuficiencia de las protecciones a nivel de infraestructura debido a:",
@@ -999,17 +988,6 @@
         ],
         "answer": 3,
         "explanation": "Las protecciones a nivel de red no bastan cuando los ataques se dirigen a vulnerabilidades específicas del software en la capa de aplicación, lo que evidencia la necesidad de enfoques de seguridad integrados."
-    },
-    {
-        "question": "Señalar la respuesta correcta. Respecto a la lógica de validación de entradas:",
-        "options": [
-            "No tiene por qué comprobarse la longitud de entrada como parte de la validación frontal.",
-            "La lógica de validación back-end siempre debería comprobar la longitud de la entrada contra un mínimo y máximo.",
-            "Todas las anteriores.",
-            "Si el programa tiene que validar un campo de entrada, cuanto más sepa la lógica de validación de los valores legales para ese campo, más rigurosa puede ser la validación."
-        ],
-        "answer": 2,
-        "explanation": "Todas las afirmaciones son válidas: la validación debe ser robusta y aplicada tanto en el cliente como en el servidor, considerando longitud, formato y valores permitidos."
     },
     {
         "question": "Señalar la respuesta correcta. Respecto al tipo de análisis Taint Propagation:",
@@ -1164,17 +1142,6 @@
         ],
         "answer": 3,
         "explanation": "Todas las prácticas mencionadas contribuyen a una distribución más segura del software, evitando configuraciones inseguras por defecto y facilitando instalaciones consistentes."
-    },
-    {
-        "question": "Señalar la respuesta correcta. Indique de las siguientes respuestas, cual no es una causa de aparición de vulnerabilidades en el software.",
-        "options": [
-            "Cambios de requisitos del proyecto durante la etapa de especificación.",
-            "No realización de pruebas seguridad basadas en riesgo.",
-            "Tamaño excesivo y complejidad de las aplicaciones.",
-            "Mezcla de código proveniente de varios orígenes"
-        ],
-        "answer": 0,
-        "explanation": "Los cambios de requisitos durante la especificación son comunes en el desarrollo y no constituyen en sí mismos una causa directa de vulnerabilidades, a diferencia de las demás opciones."
     },
     {
         "question": "Señalar la respuesta correcta. Respecto a la lógica de validación de entradas.",
