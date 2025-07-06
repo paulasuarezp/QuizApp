@@ -273,5 +273,115 @@
         ],
         "answer": 0,
         "explanation": "Es incorrecto decir que los campos privados o protegidos deberían ser públicamente accesibles. Precisamente esa encapsulación es una defensa contra accesos no autorizados y vulnerabilidades. - Examen Modelo C 01/2025"
+    },
+    {
+        "question": "Señale la respuesta correcta respecto a los siguientes estándares:",
+        "options": [
+            "El estándar de referencia CoBIT fue impulsado por organismos de estandarización internacionales, aunque fue desarrollado inicialmente en USA",
+            "El estándar de referencia ISO 27002 fue impulsado por la industria y los profesionales de la auditoría IT, aunque fue desarrollado inicialmente en USA",
+            "El estándar de referencia CoBIT fue impulsado por la industria y los profesionales de la auditoría IT, a nivel internacional",
+            "El estándar de referencia ISO 27002 fue impulsado por organismos de estandarización internacionales, con esfuerzo también internacional"
+        ],
+        "answer": 3,
+        "explanation": "La ISO 27002 fue desarrollada como una iniciativa internacional por organismos de estandarización como la ISO/IEC, y no por la industria privada.  CoBIT, aunque desarrollado inicialmente en USA, ha sido adoptado a nivel internacional por la industria y profesionales de la auditoría IT. - Examen Modelo D 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. ¿Cuál de los siguientes controles de seguridad son preventivos?",
+        "options": [
+            "Generación de logs en los sistemas de información",
+            "Autenticación fuerte en accesos de eBanking",
+            "Disponibilidad de Plan de Copias",
+            "Las opciones a) y b)"
+        ],
+        "answer": 1,
+        "explanation": "La autenticación fuerte es un mecanismo preventivo; los logs son detectivos y los planes de copia son correctivos.  - Examen Modelo D 01/2025"
+    },
+    {
+        "question": "Señale la respuesta correcta. ¿Cuál de los controles siguientes es el más típico del ciclo de vida de desarrollo de software?",
+        "options": [
+            "Separación de entornos de producción y administración",
+            "Identificación de usuarios de la aplicación y permisos de acceso asociados a los mismos",
+            "Securización de los servidores de desarrollo",
+            "Prueba de la aplicación desarrollada frente a estándares de seguridad"
+        ],
+        "answer": 3,
+        "explanation": "La prueba de la aplicación frente a estándares de seguridad es una actividad propia del ciclo de vida del desarrollo seguro (S-SDLC).  - Examen Modelo D 01/2025"
+    },
+    {
+        "question": "Señale cuál de las siguientes pruebas NO es una prueba de cumplimiento",
+        "options": [
+            "Verificar los resultados de un war-driving",
+            "Verificar la existencia de procedimientos operativos de los sistemas de información auditados",
+            "Definición de los perímetros de seguridad física y de los controles de seguridad que deben ser aplicados en los puntos de acceso entre ellos",
+            "Verificar la existencia de logs de aplicación de parches."
+        ],
+        "answer": 0,
+        "explanation": "El war-driving es una técnica de auditoría técnica, no de cumplimiento normativo. Revisar sus resultados es una actividad más técnica o de tipo operacional, asociada a pruebas de penetración o análisis de seguridad lógica, no a auditoría de cumplimiento. Las pruebas de cumplimiento tienen como objetivo verificar que los controles, políticas, normativas o procedimientos establecidos se están aplicando de forma efectiva.  - Examen Modelo D 01/2025"
+    },
+    {
+        "question": "Señale la respuesta correcta ¿Cuál de las siguientes pruebas de auditoría no es adecuada para verificar la implantación de controles sobre planificación de Seguridad o IT?",
+        "options": [
+            "Verificar la existencia de un documento titulado “Plan de Seguridad”",
+            "Verificar que la función de planificación IT está asignada formalmente a la Directiva de la compañía",
+            "La organización está realizando acciones de mejora a largo plazo",
+            "Se han definido indicadores de aplicación de aplicación de seguridad"
+        ],
+        "answer": 2,
+        "explanation": "Las acciones de mejora a largo plazo no garantizan por sí solas que se haya implantado correctamente un plan formal de planificación de seguridad o IT. Las otras opciones verifican elementos concretos de la planificación (documentos, asignación de funciones e indicadores). - Examen Modelo D 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. ¿Cuál de las siguientes afirmaciones es verdadera en relación a la auditoría informática?",
+        "options": [
+            "Es el proceso que determinará si un sistema informático lleva a cabo los fines de la organización, entre otros muchos aspectos",
+            "Es el proceso exclusivamente técnico de agrupar y evaluar evidencias para determinar si se utilizan de forma eficiente los recursos",
+            "Es el proceso de recoger, agrupar y evaluar evidencias para determinar si un sistema informático salvaguarda los activos, mantiene la integridad de los datos, utilizando de forma eficiente los recursos independientemente de los fines de la organización",
+            "Es el proceso exclusivamente técnico de recoger, agrupar y evaluar evidencias para determinar si un sistema informático salvaguarda los activos, mantiene la integridad de los datos, utilizando de forma eficiente los recursos"
+        ],
+        "answer": 2,
+        "explanation": "La opción C es correcta. La auditoría informática evalúa si un sistema protege activos, mantiene integridad de datos y usa recursos eficientemente, sin limitarse a los fines de la organización. Las otras opciones son demasiado restrictivas o incorrectas en su enfoque. - Examen Modelo D 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Las implementaciones de recolección de log de seguridad requieren qué mecanismos adicionales de protección para mitigar los ataques de divulgación:",
+        "options": [
+            "Generación e intercambio de identificadores de sesión únicos.",
+            "Seguridad de la capa de transporte.",
+            "Gestión de derechos digitales (DRM).",
+            "Prevención de la pérdida de datos."
+        ],
+        "answer": 1,
+        "explanation": "Proteger los logs en tránsito exige asegurar la capa de transporte (por ejemplo, mediante TLS) para evitar la divulgación de información.  - Examen Modelo D 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Cual son de forma general las práctica de seguridad del software más aplicada:",
+        "options": [
+            "Pruebas de Penetración.",
+            "Análisis estático de código fuente.",
+            "Análisis hibrido.",
+            "Pruebas de escaneos de bugs."
+        ],
+        "answer": 0,
+        "explanation": "Las pruebas de penetración son, de forma general, las más aplicadas de todas las mejores prácticas de seguridad del software, y suelen ser parte del proceso de aceptación de final. Tema 3 Pág. 39 - Examen Modelo D 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. A cuál de los elementos clave de un proceso de S-SDLC le corresponde la siguiente actividad “Son correctas suposiciones del desarrollador acerca de todos los cambios de estado posibles en el software”:",
+        "options": [
+            "Integración de forma segura de los módulos y componentes del software.",
+            "Herramientas de apoyo al desarrollo.",
+            "Hitos de control en las fases del SDLC.",
+            "Arquitectura y diseño adecuados."
+        ],
+        "answer": 3,
+        "explanation": "Tener en cuenta todos los cambios de estado es parte del diseño seguro, el cual se engloba dentro de la arquitectura y diseño adecuados del software. Las otras opciones se centran en aspectos más técnicos o de proceso, no en la comprensión del estado del software. - Examen Modelo D 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. El incorporar una característica en la aplicación como “Guardar información en archivos binarios” corresponde al Principio de diseño:",
+        "options": [
+            "Entorno de producción o ejecución inseguro.",
+            "Fallar de Forma Segura.",
+            "Diseño de software resistente.",
+            "La seguridad por oscuridad: error."
+        ],
+        "answer": 3,
+        "explanation": "Guardar información en archivos binarios buscando ocultarla es un ejemplo de 'seguridad por oscuridad', un enfoque considerado erróneo en diseño seguro.  - Examen Modelo D 01/2025"
     }
 ]

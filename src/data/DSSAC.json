@@ -84,8 +84,8 @@
             "Análisis hibrido",
             "Pruebas de escaneos de bugs"
         ],
-        "answer": 1,
-        "explanation": "El análisis estático de código (B) es la práctica más aplicada por su integración temprana en el SDLC y herramientas automatizadas. Las pruebas de penetración (A) y escaneos de bugs (D) son posteriores, y el análisis híbrido (C) combina técnicas pero es menos común."
+        "answer": 0,
+        "explanation": "Las pruebas de penetración son, de forma general, las más aplicadas de todas las mejores prácticas de seguridad del software, y suelen ser parte del proceso de aceptación de final. Tema 3 Pág. 39 - Examen Modelo D 01/2025"
     },
     {
         "question": "A cuál de los elementos clave de un proceso de S-SDLC le corresponde la siguiente actividad 'Son correctas suposiciones del desarrollador acerca de todos los cambios de estado posibles en el software':",
