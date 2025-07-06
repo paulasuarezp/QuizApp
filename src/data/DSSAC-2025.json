@@ -108,5 +108,104 @@
         ],
         "answer": "D",
         "explanation": "Un desbordamiento de búfer ocurre cuando se accede a memoria fuera de los límites del buffer, lo que puede implicar punteros mal gestionados - Examen Modelo A 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Los datos concretos a proteger según las normas PCI DSS son los siguientes:",
+        "options": [
+            "A. Datos del titular de la tarjeta.",
+            "B. Datos de la entidad a la que se realiza el pago.",
+            "C. Datos confidenciales de autenticación.",
+            "D. Contenido completo de la pista (datos de la banda magnética o datos equivalentes que están en un chip)."
+        ],
+        "answer": "B",
+        "explanation": "Los datos que protege PCI DSS son el PAN (Primary Account Number), los datos del titular de la tarjeta y los datos confidenciales de autenticación, como el contenido de la pista de la banda magnética. No se incluyen los datos de la entidad receptora del pago - Examen Modelo B 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Un objetivo de control puede estar cubierto por:",
+        "options": [
+            "A. Varios controles.",
+            "B. Varios riesgos.",
+            "C. Varias pruebas.",
+            "D. Varias amenazas."
+        ],
+        "answer": "A",
+        "explanation": "Un mismo objetivo de control puede estar cubierto por múltiples controles, especialmente en sistemas complejos donde se requiere redundancia o defensa en profundidad - Examen Modelo B 01/2025."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Un departamento de auditoria interna, ¿de dónde tendría que colgar en el organigrama?",
+        "options": [
+            "A. De presidencia.",
+            "B. De seguridad.",
+            "C. De Informática.",
+            "D. De cualquier rama con tal de que se pueda demostrar su independencia en su trabajo y resultados."
+        ],
+        "answer": "D",
+        "explanation": "Lo esencial es la independencia. El departamento de auditoría debe reportar directamente al nivel más alto de la gerencia o comité de auditoría, pero no está obligado a depender de una rama específica siempre que se garantice la independencia. Tema 7 Pág. 9 - Examen Modelo B 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Tienen los empleados responsabilidad sobre las acciones de auditoria interna.",
+        "options": [
+            "A. Sí, pero solo para cuando exista una incidencia grave.",
+            "B. Si, en todo momento se tendrían que poner a disposición de auditoria y facilitarles lo que requieran.",
+            "C. No.",
+            "D. A y B son correctas."
+        ],
+        "answer": "B",
+        "explanation": "Todos los empleados tienen la responsabilidad de colaborar con la auditoría interna, proporcionando información y documentación necesaria durante cualquier auditoría, sin importar la gravedad del hallazgo.  - Examen Modelo B 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. La auditoría de la seguridad operativa/técnica abarca los conceptos de:",
+        "options": [
+            "A. Seguridad física, lógica y procedimental.",
+            "B. Seguridad de la infraestructura, lógica y las operaciones.",
+            "C. Seguridad física, lógica y las operaciones.",
+            "D. Todas la anteriores."
+        ],
+        "answer": "C",
+        "explanation": "Las auditorías técnicas de seguridad abarcan los aspectos de seguridad física (instalaciones, acceso), lógica (sistemas, aplicaciones, redes) y operaciones (procesos del CPD, backups, respuesta ante incidentes). Tema 9 Pág 4 - Examen Modelo B 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. El objetivo de la reducción de la superficie de ataque es:",
+        "options": [
+            "A. Minimizar el número de puntos expuestos en la superficie de ataque, que un usuario malintencionado puede descubrir e intentar explotar.",
+            "B. Minimizar el número de vulnerabilidades presentes en una aplicación.",
+            "C. Maximizar el número de herramientas de análisis de estático de código utilizadas para analizar la implementación del código fuente de una aplicación.",
+            "D. Ninguna de las anteriores."
+        ],
+        "answer": "A",
+        "explanation": "Reducir la superficie de ataque consiste en disminuir los puntos de entrada y exposición que podrían ser utilizados por atacantes para comprometer un sistema  - Examen Modelo B 01/2025."
+    },
+    {
+        "question": "Señalar la respuesta correcta. La propiedad de las aplicaciones para resistir a los ataques que intentan modificar o alterar los datos de manera no autorizada se denomina:",
+        "options": [
+            "A. Confidencialidad.",
+            "B. Integridad.",
+            "C. Disponibilidad.",
+            "D. Autorización."
+        ],
+        "answer": "B",
+        "explanation": "La integridad garantiza que los datos no han sido alterados de forma no autorizada y se mantienen fieles a su estado original o autorizado. Confidencialidad (A) protege accesos no autorizados, y disponibilidad (C) asegura el acceso legítimo. - Examen Modelo B 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. La validación de un Checksum puede utilizarse para satisfacer los siguientes requisitos:",
+        "options": [
+            "A. Confidencialidad.",
+            "B. Integridad.",
+            "C. Disponibilidad.",
+            "D. Autenticación."
+        ],
+        "answer": "B",
+        "explanation": "Los checksums permiten verificar la integridad de los datos, asegurando que no han sido modificados o corrompidos durante la transmisión o almacenamiento - Examen Modelo B 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Los controles pueden NO estar por escrito:",
+        "options": [
+            "A. Efectivamente, los controles no documentados son los más rápidos",
+            "B. No. Lo controles deben estar documentados por escrito en su correspondiente procedimiento de control",
+            "C. No importa que no estén por escrito. Un alto porcentaje de controles ni se conocen ni se documentan",
+            "D. Los controles manuales son los únicos que no están por escrito"
+        ],
+        "answer": "B",
+        "explanation": "Para garantizar la trazabilidad, revisión y mejora continua, los controles deben estar documentados formalmente en procedimientos escritos - Examen Modelo B 01/2025"
     }
 ]
