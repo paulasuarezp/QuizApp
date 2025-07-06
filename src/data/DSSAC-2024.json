@@ -64,5 +64,93 @@
         ],
         "answer": 2,
         "explanation": "EAL4 es considerado el nivel donde se exige evidencia de que la implementación cumple con lo documentado, incluyendo el diseño detallado y pruebas independientes. Diapositivas Tema 10 Pág 50 - Examen Modelo A 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Verificar que se está utilizando sistemas duplicados en los que se requiere muy alta disponibilidad se corresponde al área de la auditoría de un Plan de Recuperación ante Desastres:",
+        "options": [
+            "La resiliencia del sistema.",
+            "Copias de seguridad y restauración de datos.",
+            "Verificar la integridad y precisión del DRP.",
+            "Evaluar el desempeño del personal involucrado en el DRP."
+        ],
+        "answer": 0,
+        "explanation": "El uso de sistemas duplicados está relacionado con la resiliencia, que busca asegurar continuidad operativa en caso de desastre.  - Examen Modelo B 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Un activo de sistemas de información es:",
+        "options": [
+            "Cualquier elemento que trate información de manera activa.",
+            "Todo lo que no sea pasivo dentro de los sistemas de información.",
+            "Todo aquello que una entidad considera valioso por contener, procesar o generar información necesaria para el negocio de esta.",
+            "Todas las anteriores son falsas."
+        ],
+        "answer": 2,
+        "explanation": "Un activo es cualquier recurso valioso para una organización que contiene, procesa o genera información clave para su negocio.  - Examen Modelo B 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. El alcance de una auditoria de dispositivos móviles debería comprender:",
+        "options": [
+            "Verificación de política de uso de dispositivos móviles y especificación del tipo de información, los tipos de dispositivos y servicios de información que proporcionan.",
+            "Control de acceso. Verificar que la sincronización de datos de los dispositivos móviles no esté configurada para acceder a archivos compartidos o unidades de red que contienen datos que están prohibidos por la política para el uso del móvil.",
+            "Entrevistas al administrador y operadores de red.",
+            "Capacitación y sensibilización. Verificar que la empresa tenga implementado un programa de concientización que aborde la importancia de asegurar física y lógicamente los dispositivos móviles."
+        ],
+        "answer": 2,
+        "explanation": "Las entrevistas a operadores de red no son específicas ni necesarias dentro del alcance directo de una auditoría de dispositivos móviles."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. De acuerdo con ISACA (2019), los controles de seguridad física pueden clasificarse de la siguiente forma:",
+        "options": [
+            "Normativa.",
+            "Administrativos.",
+            "Técnicos.",
+            "Físicos."
+        ],
+        "answer": 0,
+        "explanation": "ISACA no clasifica los controles físicos bajo la categoría 'normativa'. Los controles se dividen comúnmente en físicos, técnicos y administrativos.  - Examen Modelo B 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Un test de intrusión puede ser una prueba de auditoría adecuada para los siguientes entornos:",
+        "options": [
+            "Continuidad de Negocio",
+            "Técnica de Sistemas",
+            "Seguridad Lógica",
+            "Todas las opciones menos la a"
+        ],
+        "answer": 3,
+        "explanation": "Los test de intrusión se usan típicamente en auditorías técnicas y de seguridad lógica, pero no en continuidad de negocio.  - Examen Modelo B 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Un Sistema de Gestión de Seguridad de la Información - SGSI basado en ISO 27001:",
+        "options": [
+            "Está obsoleto. Hay que usar siempre COBIT.",
+            "Reordena la seguridad de los sistemas de información.",
+            "Permite que se reduzcan las emisiones de CO2 a la atmósfera.",
+            "Ninguna de las anteriores."
+        ],
+        "answer": 1,
+        "explanation": "El SGSI basado en ISO 27001 estructura y organiza la seguridad de forma sistemática en función del riesgo. - Examen Modelo B 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Una herramienta de análisis de código reporta que no existen vulnerabilidades para una aplicación revisada. La aplicación es distribuida y, un mes más tarde, una inyección SQL es anunciada de forma pública y, posteriormente, explotada. ¿Qué tipo de limitación de las herramientas de análisis de código se ha expuesto?",
+        "options": [
+            "Un falso positivo.",
+            "Un falso negativo.",
+            "Una vulnerabilidad específica de un lenguaje de programación.",
+            "Ninguna de las anteriores."
+        ],
+        "answer": 1,
+        "explanation": "Un falso negativo ocurre cuando la herramienta no detecta una vulnerabilidad que realmente existe, como en este caso. - Examen Modelo B 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Una de las perspectivas de las pruebas de seguridad basadas en el riesgo es la siguiente:",
+        "options": [
+            "Perspectiva atacante.",
+            "Perspectiva de la gerencia.",
+            "Perspectiva desarrollador",
+            "Perspectiva usuario."
+        ],
+        "answer": 0,
+        "explanation": "La perspectiva atacante es clave en pruebas basadas en riesgo, al considerar cómo un adversario intentaría vulnerar el sistema. - Examen Modelo B 01/2024"
     }
 ]

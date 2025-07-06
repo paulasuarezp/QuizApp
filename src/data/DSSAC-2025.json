@@ -217,7 +217,7 @@
             "D. Ninguna de las anteriores."
         ],
         "answer": 2,
-        "explanation": "La norma ISO/IEC 27001 está basada en el ciclo PDCA (Plan-Do-Check-Act). La ISO 27002 es un catálogo de buenas prácticas y proporciona controles, pero no es un SGSI ni sigue PDCA como estructura principal - Examen Modelo C 01/2025"
+        "explanation": "La norma ISO/IEC 27001 está basada en el ciclo PDCA (Plan-Do-Check-Act). La ISO 27002 es un catálogo de buenas prácticas y proporciona controles, pero no es un SGSI ni sigue PDCA como estructura principal - Examen Modelo C 01/2025,  Examen Modelo B 01/2024"
     },
     {
         "question": "Señalar la respuesta correcta. Durante la auditoría de un plan de continuidad del negocio, un auditor de SI encontró que, a pesar de que todos los departamentos están alojados en el mismo edificio, cada departamento tenía un plan separado de continuidad del negocio. El auditor de SI recomendó que se reconciliaran los planes de continuidad del negocio. ¿Cuál de las áreas siguientes debería reconciliarse PRIMERO?",

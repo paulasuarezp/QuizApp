@@ -404,7 +404,7 @@
             "Existencia y aplicabilidad de procedimientos operativos de manejo de la aplicación de eBanking"
         ],
         "answer": 1,
-        "explanation": "La opción B es correcta. La verificación de interfaces con pasarelas de pago es específica de eBanking, ya que valida integridad en transacciones financieras. Aunque la autenticación fuerte (A) y el cifrado (C) son importantes, no son exclusivos de eBanking."
+        "explanation": "La opción B es correcta. La verificación de interfaces con pasarelas de pago es específica de eBanking, ya que valida integridad en transacciones financieras. Aunque la autenticación fuerte (A) y el cifrado (C) son importantes, no son exclusivos de eBanking.   - Examen Modelo D 01/2025"
     },
     {
         "question": "Señalar la respuesta correcta. Dentro de Controles Generales, podemos afirmar que NO son Controles de Organización y Operación:",
@@ -436,8 +436,8 @@
             "Es el riesgo de que el auditor realice pruebas exitosas a partir de un procedimiento inadecuado. El auditor puede llegar a la conclusión de que no existen errores materiales cuando en realidad los hay",
             "Ninguna de las anteriores"
         ],
-        "answer": 1,
-        "explanation": "La opción B es correcta. El riesgo inherente existe independientemente de los controles internos. La opción A describe un riesgo residual, y la C se refiere a riesgo de auditoría."
+        "answer": 0,
+        "explanation": "El riesgo inherente es el que existe en ausencia de controles; es la propensión natural a errores o fallos en el entorno. La B se corresponde con la definición de 'riesgo de control' y la C con 'riesgo de detección'. Tema 8 Pág 5 - Examen Modelo A 01/2024"
     },
     {
         "question": "Señalar la respuesta correcta. De acuerdo con la metodología “Common Criteria ISO 15408 (CC)” el nivel de confianza se proporciona evidencia en cuanto a que la evaluación coincide con la descrita en la documentación:",
