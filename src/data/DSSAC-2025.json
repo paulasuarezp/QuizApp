@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Señalar la respuesta incorrecta. Unas pruebas de seguridad son consideradas “Open Source Security Testing Methodology Manual (OSSTMM)” si es:",
+        "options": [
+            "A. Válido más allá del período de tiempo «actual»",
+            "B. Basado en el mérito del testador y analista, y no en marcas comerciales",
+            "C. Exhaustivo",
+            "D. Concordante con leyes internacionales"
+        ],
+        "answer": "3",
+        "explanation": "El OSSTMM debe ser cuantificable, cosnsitente y repetible, válido más allá del período de tiempo actual, se debe de basar en el mérito del testador y analista (no en marcas comercialeS), exhaustivo y concordante con leyes individuales y locales y el derecho humano a la privacidad. Diapositivas Tema 10 - Examen Modelo A 01/2025."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Entre los tipos de auditorías técnicas de seguridad tenemos:",
+        "options": [
+            "A. Auditorias de seguridad internas",
+            "B. Auditorías de redes WIFI",
+            "C. Auditorias de aplicaciones Web",
+            "D. Ninguna de las anteriores"
+        ],
+        "answer": "A",
+        "explanation": "Las auditorías de seguridad internas no son un tipo técnico específico, sino una clasificación basada en el origen de la auditoría (interna vs externa), no en su objeto técnico. Diapositivas Tema Pág. 25 - Examen Modelo A 01/2025."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Una distinción que puede hacerse entre prueba de cumplimiento y prueba sustantiva es que la prueba de cumplimiento prueba:",
+        "options": [
+            "A. Detalla, mientras que la prueba sustantiva prueba los procedimientos",
+            "B. Controla, mientras que la prueba sustantiva prueba los detalles",
+            "C. Planea, mientras que la prueba sustantiva prueba procedimientos",
+            "D. Para los requerimientos regulatorios, mientras que la prueba sustantiva prueba las validaciones"
+        ],
+        "answer": "B",
+        "explanation": "La prueba de cumplimiento verifica si los controles existen y son efectivos; la prueba sustantiva verifica los detalles, exactitud e integridad de los datos. Diapositivas Tema 8 Pág. 22 - Examen Modelo A 01/2025."
+    },
+    {
+        "question": "Señalar la respuesta correcta. Un auditor de SI está realizando una auditoria a un servidor de copias de respaldo administrado desde una ubicación remota. El auditor de SI revisa los logs de un día y descubre un caso en el cual el inicio de sesión en un servidor falló con el resultado de que no se puedo confirmar los reinicios de la copia de respaldo. ¿Qué debería hacer el auditor?",
+        "options": [
+            "A. Emitir un hallazgo de auditoría",
+            "B. Solicitar una explicación de la gerencia de SI",
+            "C. Revisar las clasificaciones de datos guardados en el servidor",
+            "D. Ampliar la muestra de logs revisados"
+        ],
+        "answer": "D",
+        "explanation": "Ante un hallazgo aislado, el auditor debe ampliar la muestra para confirmar si el hallazgo es representativo o excepcional. - Examen Modelo A 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Según Ron Weber, la auditoría de sistemas de información es:",
+        "options": [
+            "A. Es la revisión independiente de los test de intrusión",
+            "B. Ron Weber estableció las bases del control interno informático. No definió nunca la auditoría informática o de sistemas de información",
+            "C. La auditoria de Sistemas de Información es el proceso de recoger, agrupar y evaluar evidencias para determinar si un sistema informático salvaguarda los activos, mantiene la integridad de los datos, lleva a cabo los fines de la organización y utiliza eficientemente los recursos",
+            "D. Todas las anteriores"
+        ],
+        "answer": "C",
+        "explanation": "La definición clásica de auditoría de SI de Ron Weber se centra en el análisis objetivo de la eficacia, integridad y seguridad de los sistemas. - Examen Modelo A 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. En materia de Planes de Contingencia, ¿qué controles se consideran adecuados?",
+        "options": [
+            "A. La existencia de un Plan de Copias",
+            "B. La realización periódica de pruebas de contingencia",
+            "C. La documentación de un procedimiento de actuación ante crisis",
+            "D. Todas las anteriores afirmaciones son ciertas"
+        ],
+        "answer": "D",
+        "explanation": "Todos los puntos mencionados forman parte de un control adecuado en planes de contingencia según el DRP y el plan de continuidad del negocio. - Examen Modelo A 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. El desarrollo de software seguro y confiable requiere la adopción de un proceso sistemático que aborde la seguridad en cada fase de su ciclo de vida. Se debe integrar en el mismo dos tipos de actividades:",
+        "options": [
+            "A. Seguimiento de unos principios de calidad",
+            "B. Una serie de buenas prácticas de diseño",
+            "C. Seguimiento de unos principios de diseño seguro y una serie de buenas prácticas de seguridad",
+            "D. Ninguna de las anteriores"
+        ],
+        "answer": "C",
+        "explanation": "El desarrollo seguro requiere integrar principios de diseño seguro y buenas prácticas de seguridad en todo el SDLC. - Examen Modelo A 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Cuando el software es capaz de resistir ataques recuperándose hasta un nivel mínimo de servicio preestablecido y sin violar la política de seguridad, se dice que exhibe:",
+        "options": [
+            "A. Fiabilidad",
+            "B. Resiliencia",
+            "C. Recuperación",
+            "D. Robustez"
+        ],
+        "answer": "B",
+        "explanation": "La resiliencia implica resistencia y capacidad de recuperación ante ataques hasta un nivel mínimo de servicio aceptable - Examen Modelo A 01/2025."
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Ejemplo de errores comunes al aplicar el principio de mínimo privilegio:",
+        "options": [
+            "A. Aplicación de derechos de administrador",
+            "B. Usuarios con derechos de administrador",
+            "C. Instalación de aplicaciones y servicios con el usuario de administrador",
+            "D. Servicios y procesos con privilegios por tiempo definido"
+        ],
+        "answer": "D",
+        "explanation": "La opción D es incorrecta; asignar privilegios limitados temporalmente SÍ es una buena práctica. Las otras tres sí son errores comunes - Examen Modelo A 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. ¿Cuándo se da lugar, de forma general, un ataque de desbordamiento de búfer?",
+        "options": [
+            "A. Cuando copia un búfer de la pila al heap",
+            "B. Cuando se escribe en la memoria apuntada por un puntero que no ha sido liberada",
+            "C. Cuando el programa detecta que el búfer no está lleno",
+            "D. Cuando un puntero es usado para acceder a memoria no apuntada por él"
+        ],
+        "answer": "D",
+        "explanation": "Un desbordamiento de búfer ocurre cuando se accede a memoria fuera de los límites del buffer, lo que puede implicar punteros mal gestionados - Examen Modelo A 01/2025"
+    }
+]
