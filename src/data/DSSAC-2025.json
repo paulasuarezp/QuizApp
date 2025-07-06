@@ -96,7 +96,7 @@
             "D. Servicios y procesos con privilegios por tiempo definido"
         ],
         "answer": 3,
-        "explanation": "La opción D es incorrecta; asignar privilegios limitados temporalmente SÍ es una buena práctica. Las otras tres sí son errores comunes - Examen Modelo A 01/2025"
+        "explanation": "La opción D es incorrecta; asignar privilegios limitados temporalmente SÍ es una buena práctica. Las otras tres sí son errores comunes - Examen Modelo A 01/2025 y C 01/2023."
     },
     {
         "question": "Señalar la respuesta correcta. ¿Cuándo se da lugar, de forma general, un ataque de desbordamiento de búfer?",

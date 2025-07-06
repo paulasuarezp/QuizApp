@@ -4,8 +4,8 @@
   --c-app2: #dddddd;
   --c-btn1: #007bff;
   --c-btn2: #0056b3;
-  --c-main1: #a1d5f8;
-  --c-main2: #8ccbf7;
+  --c-main1: #bfd6de;
+  --c-main2: #b5dae8;
   --c-correct: #5ce25c;
   --c-incorrect: #e25c5c;
   --c-background: #f4f4f4;
@@ -130,9 +130,15 @@ h1 {
   .question label {
     font-size: 16px;
   }
+  .question h3 {
+    font-size: 16px;
+    font-weight: medium;
+    text-align: left;
+  }
 
   .answer {
     padding: 8px;
+    text-align: left;
   }
 
   .answer label {
@@ -141,6 +147,7 @@ h1 {
 
   .explanation {
     font-size: 14px;
+    text-align: left;
   }
 }
 
@@ -157,6 +164,16 @@ h1 {
   .question label {
     font-size: 18px;
   }
+  .question h3 {
+    font-size: 16px;
+    font-weight: medium;
+    text-align: left;
+  }
+
+  .answer {
+    text-align: left;
+  }
+
 
   .answer label {
     font-size: 16px;
@@ -164,5 +181,6 @@ h1 {
 
   .explanation {
     font-size: 16px;
+    text-align: left;
   }
 }

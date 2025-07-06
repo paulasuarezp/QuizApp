@@ -13,6 +13,8 @@ const SelectQuiz: React.FC<SelectQuizProps> = ({ onSelectQuiz }) => {
         "Ciberdelitos y Regulación de la Ciberseguridad": "CRC",
         "Hacking Ético y Análisis de Malware": "HEAM",
         "Desarrollo Seguro del Software y Auditoría de la Ciberseguridad": "DSSAC",
+        "DSSAC - Exámenes 2025": "DSSAC-2025",
+        "DSSAC - Exámenes 2024 y 2023": "DSSAC-2024"
     };
 
     return (

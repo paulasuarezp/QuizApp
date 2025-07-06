@@ -316,6 +316,94 @@
             "Solo existen los controles de productos informáticos y por motivos legales"
         ],
         "answer": 2,
-        "explanation": "La clasificación clásica distingue entre controles generales, de aplicación y específicos por área, como se indica correctamente en la opción C."
+        "explanation": "La clasificación clásica distingue entre controles generales, de aplicación y específicos por área, como se indica correctamente en la opción C.  - Examen Modelo F 07/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Un auditor de SI que realiza una revisión de controles de acceso debería estar MENOS preocupado si:",
+        "options": [
+            "Las pistas de auditoría no estuvieran habilitadas",
+            "Los programadores tuvieran acceso al entorno en vivo",
+            "Los logons de grupo estuvieran siendo utilizados para funciones críticas",
+            "El mismo usuario pudiera iniciar transacciones y también cambiar los parámetros relacionados."
+        ],
+        "answer": 0,
+        "explanation": "Aunque importante, la ausencia de pistas de auditoría es menos crítica que permitir accesos indebidos o comprometer la segregación de funciones.  - Examen Modelo C 01/2023"
+    },
+    {
+        "question": "Señalar la respuesta correcta. ¿En qué consiste el control de organización y operación: separación de entornos?",
+        "options": [
+            "En hacer copias de seguridad de los diferentes entornos/ambientes.",
+            "En tener siempre solo 2 entornos/ambientes: 1 para desarrollo y otro para producción.",
+            "En tener 3 ó 4 entornos/ambientes: desarrollo, testing, preproducción y explotación.",
+            "En tener solo 2 entornos/ambientes donde la información se intercambia indistintamente."
+        ],
+        "answer": 2,
+        "explanation": "La separación de entornos adecuada incluye al menos desarrollo, pruebas, preproducción y producción para evitar interferencias y riesgos.  - Examen Modelo C 01/2023"
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Los requisitos de los servicios de seguridad debe especificar:",
+        "options": [
+            "Propiedades que el software debe exhibir.",
+            "Nivel requerido de seguridad y salvaguardas de riesgo de las funciones de seguridad.",
+            "Los controles y normas que rigen los procesos de desarrollo, implementación y operación del software.",
+            "Están orientados hacia la reducción o eliminación de las vulnerabilidades del software, como validación de entradas, comprobación de límites de búfer, ejecución entornos aislados."
+        ],
+        "answer": 3,
+        "explanation": "La opción D describe mecanismos de implementación, no requisitos propiamente dichos.  - Examen Modelo C 01/2023"
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Los elementos clave de un proceso de S-SDLC son:",
+        "options": [
+            "Sostenimiento seguro.",
+            "Herramientas de apoyo al desarrollo.",
+            "Conocimientos de seguridad de los desarrolladores.",
+            "Gestión de configuración del entorno de desarrollo."
+        ],
+        "answer": 3,
+        "explanation": "Aunque la gestión de configuración es importante, no es un elemento clave del proceso S-SDLC. Los otros elementos (A, B, C) son fundamentales para integrar la seguridad en el ciclo de vida del desarrollo de software. Recursos audiovisuales 'Estándares de aplicación a la seguridad del software' - Examen Modelo C 01/2023"
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Los factores principales prácticos que determinan la utilidad de una herramienta de análisis estático son:",
+        "options": [
+            "El equilibrio que la herramienta hace entre la extensión del código fuente y el tipo de lenguaje de programación.",
+            "Porcentaje de falsos positivos y falsos negativos de la herramienta.",
+            "El conjunto de errores que la herramienta comprueba.",
+            "Las características de la herramienta para hacerla fácil de usar."
+        ],
+        "answer": 0,
+        "explanation": "El equilibrio entre extensión de código y lenguaje no es un factor determinante práctico. Los demás sí lo son. - Examen Modelo C 01/2023"
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. En las pruebas del tipo “Análisis híbrido o Interactive Application Security Testing (IAST)”, se realizan tres tipos de análisis:",
+        "options": [
+            "Análisis de cobertura. Pone de manifiesto las interacciones entre las diferentes partes del programa.",
+            "Análisis de inconsistencias. Permite buscar inconsistencia en la aplicación a probar.",
+            "Análisis de patrones. Permite buscar patrones específicos en la ejecución del programa, tales como excepciones no capturadas, omisiones, errores de memoria dinámica y problemas de seguridad.",
+            "Análisis de frecuencia de espectro. Revela las dependencias entre los componentes del programa."
+        ],
+        "answer": 1,
+        "explanation": "El análisis de inconsistencias no es un tipo de análisis típico en IAST. Los otros tres (cobertura, patrones y frecuencia de espectro) son relevantes para identificar problemas de seguridad en la aplicación. Tema 3 Pág. 23 - Examen Modelo C 01/2023"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Apreciar el nivel de entrenamiento y conciencia de los individuos que no forman parte del equipo de recuperación/respuesta se corresponde al área de la auditoría de un Plan de Recuperación ante Desastres:",
+        "options": [
+            "La resiliencia del sistema.",
+            "Copias de seguridad y restauración de datos.",
+            "Verificar la integridad y precisión del DRP.",
+            "Evaluar el desempeño del personal involucrado en el DRP."
+        ],
+        "answer": 3,
+        "explanation": "Evaluar la conciencia y entrenamiento del personal forma parte de la evaluación del desempeño de los involucrados en el DRP. - Examen Modelo C 01/2023"
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Para realizar un DRP se debería seguir las siguientes fases:",
+        "options": [
+            "Alinearlo con el plan de continuidad de negocio.",
+            "Actualizar y mejorar el plan estratégico.",
+            "Capacitar a los encargados de ponerlo en marcha, concienciar y difundir el plan.",
+            "Realizar pruebas."
+        ],
+        "answer": 1,
+        "explanation": "Actualizar el plan estratégico no es parte directa del DRP, mientras que las demás sí son actividades clave del ciclo del DRP."
     }
 ]
