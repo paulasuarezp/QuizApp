@@ -152,5 +152,93 @@
         ],
         "answer": 0,
         "explanation": "La perspectiva atacante es clave en pruebas basadas en riesgo, al considerar cómo un adversario intentaría vulnerar el sistema. - Examen Modelo B 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. ¿Qué incluye la seguridad del software?",
+        "options": [
+            "Patrones de codificación.",
+            "Principios de diseño seguro.",
+            "Casos de uso.",
+            "Buenas prácticas de codificación."
+        ],
+        "answer": 1,
+        "explanation": "La seguridad del software incluye principios de diseño seguro que deben integrarse en cada fase del ciclo de vida del software.  - Examen Modelo D 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. ¿Qué es un caso de abuso?",
+        "options": [
+            "Un escenario que ilustra de manera gráfica y textual potenciales fallos de seguridad ante específicas circunstancias.",
+            "Una base de datos del MITRE.",
+            "Un escenario que ilustra de manera gráfica y textual funcionalidades de seguridad del software ante específicas circunstancias.",
+            "Un patrón de diseño para un desarrollador."
+        ],
+        "answer": 0,
+        "explanation": "Un caso de abuso describe cómo un sistema puede ser atacado o mal usado, y se utiliza para anticipar amenazas desde fases tempranas.   - Examen Modelo D 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. ¿Cuál es la siguiente propiedad de seguridad: “capacidad que garantiza la posibilidad de imputar las acciones relacionadas en un software a la persona, entidad o proceso que la ha originado”?",
+        "options": [
+            "Robustez.",
+            "Resiliencia.",
+            "Autenticación.",
+            "Trazabilidad."
+        ],
+        "answer": 3,
+        "explanation": "La trazabilidad permite asociar cada acción a un actor responsable, y es fundamental para la auditoría y la seguridad.   - Examen Modelo D 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. El principal problema de las herramientas de análisis estático:",
+        "options": [
+            "Falsos negativos que produce.",
+            "Gran cantidad de defectos que encuentra.",
+            "Reglas de la herramienta.",
+            "Falsos positivos que produce."
+        ],
+        "answer": 3,
+        "explanation": "Uno de los problemas más comunes en análisis estático es la gran cantidad de falsos positivos que pueden dificultar el trabajo del desarrollador.   - Examen Modelo D 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Indicar la utilidad de los Patrones de Ataque en la etapa de Especificación de requisitos.",
+        "options": [
+            "Proporciona ejemplos de ataques que aprovechan las vulnerabilidades de la arquitectura elegida.",
+            "Pueden ser utilizados para orientar las pruebas de seguridad del software en un contexto práctico y realista identificando debilidades concretas para generar casos de prueba para cada componente.",
+            "Permitirá la selección de políticas de seguridad y configuraciones acordes a las amenazas obtenidas de los patrones de ataque.",
+            "Ayuda a definir el comportamiento del sistema para prevenir o reaccionar ante un tipo específico de ataque probable."
+        ],
+        "answer": 3,
+        "explanation": "Durante la especificación de requisitos, los patrones de ataque se usan para definir requisitos de comportamiento seguro ante ataques específicos. Tema 2 Pág 20 - Examen Modelo D 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Con relación a la clasificación de controles internos, según su naturaleza podemos afirmar que:",
+        "options": [
+            "Son normalmente Detectivos, Correctivos y Preventivos. En ocasiones se incluyen los controles alternativos.",
+            "Voluntarios, obligatorios, manuales y automáticos.",
+            "Voluntarios, obligatorios, manuales, automáticos, preventivos, detectivos y correctivos.",
+            "Controles generales, de aplicación, de área y legales."
+        ],
+        "answer": 0,
+        "explanation": "La clasificación más común según su naturaleza incluye controles preventivos, detectivos y correctivos, siendo la más operativa en auditoría. Test Tema 7 - Examen Modelo D 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. En relación a la clasificación de controles internos, según su naturaleza podemos afirmar que:",
+        "options": [
+            "Los controles Detectivos actúan sobre la causa de los riesgos con el fin de disminuir su probabilidad de ocurrencia.",
+            "Los controles Preventivos se diseñan para descubrir un evento, irregularidad o resultado no previsto, alertan sobre la presencia de riesgos y permiten tomar medidas inmediatas.",
+            "Las opciones a) y b) son correctas.",
+            "Las opciones a) y b) son incorrectas."
+        ],
+        "answer": 3,
+        "explanation": "Ambas definiciones están invertidas. Los controles preventivos reducen la probabilidad de ocurrencia y los detectivos identifican eventos no previstos. - Examen Modelo D 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Al realizar una auditoría basada en el riesgo, ¿Qué tipo de evaluación de riesgos realiza el auditor de un sistema de información como primer paso?",
+        "options": [
+            "Evaluación de riesgos inherentes.",
+            "Evaluación de riesgos de control.",
+            "Evaluación de riesgo de fraude.",
+            "Ninguna de las anteriores."
+        ],
+        "answer": 0,
+        "explanation": "El riesgo inherente es el que se evalúa primero, ya que representa el nivel de riesgo sin tener en cuenta los controles existentes. - Examen Modelo D 01/2024"
     }
 ]
