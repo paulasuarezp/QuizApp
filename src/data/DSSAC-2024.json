@@ -240,5 +240,82 @@
         ],
         "answer": 0,
         "explanation": "El riesgo inherente es el que se evalúa primero, ya que representa el nivel de riesgo sin tener en cuenta los controles existentes. - Examen Modelo D 01/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. En relación a las metodologías de auditoría, podemos afirmar que:",
+        "options": [
+            "Realmente solo existe una y es basada en Riesgos o Risk Oriented Approach.",
+            "Cada firma (empresa) de auditoría puede desarrollar la suya propia, siendo la más difundida la basada en riesgos EDR (ROA).",
+            "La basada en cuestionarios o checklist es utilizada por auditores con experiencia pues se la envían por correo electrónico al cliente para que la complete.",
+            "Ninguna de las anteriores."
+        ],
+        "answer": 1,
+        "explanation": "Cada empresa puede adoptar o adaptar su propia metodología. La más difundida es la basada en riesgos (EDR/ROA), que permite personalizar el enfoque según la organización. - Examen Modelo F 07/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. ¿Qué metodología de auditoría se adapta mejor a las compañías?",
+        "options": [
+            "Cualquiera que tenga relación con los sistemas de información.",
+            "La metodología marcada por entidades reconocidas como IAI, ISACA,…",
+            "La que sea completa y esté adecuada a las necesidades de la compañía.",
+            "Ninguna de las anteriores."
+        ],
+        "answer": 2,
+        "explanation": "La mejor metodología es la que se ajusta a las necesidades específicas de la compañía, aunque tome referencia de entidades reconocidas.  - Examen Modelo F 07/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. ¿Por qué es necesario disponer de procedimientos de operación de las plataformas?",
+        "options": [
+            "Porque es necesario tener documentadas estas actividades para poder hacer pruebas de cumplimiento en los mismos",
+            "Para que las tareas de administración puedan ser realizadas por todos los administradores, incluso para las nuevas incorporaciones o personal de menor experiencia",
+            "Para que cualquier persona pueda realizar las funciones de administración de sistemas, siempre que encuentre los procedimientos que custodian los administradores",
+            "Las opciones b y c son correctas."
+        ],
+        "answer": 3,
+        "explanation": "La opción D es correcta. Los procedimientos de operación documentan actividades críticas, permitiendo que cualquier administrador (nuevo o con menos experiencia) pueda realizar tareas de manera consistente y segura. La opción A es incompleta porque no menciona la capacitación y accesibilidad.  - Examen Modelo F 07/2024"
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Se puede definir la seguridad del software como:",
+        "options": [
+            "El conjunto de principios de diseño y buenas prácticas a implantar, para detectar, prevenir y corregir los defectos de seguridad en el desarrollo y adquisición de sistemas.",
+            "La confianza que el software, hardware y servicios funcionan conforme a los estándares",
+            "Ninguna de las anteriores.",
+            "El nivel de confianza de que el software funciona según lo previsto y está libre de vulnerabilidades, ya sea intencionada o no diseñada o insertada en el marco del software"
+        ],
+        "answer": 1,
+        "explanation": "La opción B se refiere más a conceptos de calidad o fiabilidad general, no a la seguridad del software.  - Examen Modelo F 07/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. ¿Cuál de los estándares de clasificación y gestión de vulnerabilidades incluye “Bases de datos con listas de comprobación de configuraciones de seguridad de productos”?",
+        "options": [
+            "CVRF.",
+            "CVSS.",
+            "NVD.",
+            "CVE."
+        ],
+        "answer": 2,
+        "explanation": "La NVD (National Vulnerability Database) incluye listas de comprobación de configuraciones seguras (SCAP, checklist de configuración).  - Examen Modelo F 07/2024"
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Cuando se realiza una auditoría de infraestructura de red, deben tenerse en cuenta los siguientes aspectos:",
+        "options": [
+            "Revisión de la instalación de los servidores.",
+            "Revisión de planes de seguridad.",
+            "Revisar la documentación de seguridad del software de sistema.",
+            "Entrevistas al administrador y operadores de red."
+        ],
+        "answer": 2,
+        "explanation": "Revisar la documentación de seguridad del software del sistema es más típico de una auditoría técnica de seguridad, no específica de infraestructura de red.  - Examen Modelo F 07/2024"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Un tipo de clasificación de controles puede ser:",
+        "options": [
+            "Controles Generales (Entrada de Datos, Tratamiento de Datos, Salida de Datos), Controles de Aplicación (Organización y Operación, Desarrollo de Sistemas y Documentación, Hardware y Software de Sistemas) y Controles por área",
+            "Controles compensatorios y asumibles",
+            "Controles Generales (Organización y Operación, Desarrollo de Sistemas y Documentación, Hardware y Software de Sistemas), Controles de Aplicación (Entrada de Datos, Tratamiento de Datos, Salida de Datos) y Controles por área",
+            "Solo existen los controles de productos informáticos y por motivos legales"
+        ],
+        "answer": 2,
+        "explanation": "La clasificación clásica distingue entre controles generales, de aplicación y específicos por área, como se indica correctamente en la opción C."
     }
 ]
