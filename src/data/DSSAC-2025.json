@@ -7,7 +7,7 @@
             "C. Exhaustivo",
             "D. Concordante con leyes internacionales"
         ],
-        "answer": "3",
+        "answer": 3,
         "explanation": "El OSSTMM debe ser cuantificable, cosnsitente y repetible, válido más allá del período de tiempo actual, se debe de basar en el mérito del testador y analista (no en marcas comercialeS), exhaustivo y concordante con leyes individuales y locales y el derecho humano a la privacidad. Diapositivas Tema 10 - Examen Modelo A 01/2025."
     },
     {
@@ -18,7 +18,7 @@
             "C. Auditorias de aplicaciones Web",
             "D. Ninguna de las anteriores"
         ],
-        "answer": "A",
+        "answer": 0,
         "explanation": "Las auditorías de seguridad internas no son un tipo técnico específico, sino una clasificación basada en el origen de la auditoría (interna vs externa), no en su objeto técnico. Diapositivas Tema Pág. 25 - Examen Modelo A 01/2025."
     },
     {
@@ -29,7 +29,7 @@
             "C. Planea, mientras que la prueba sustantiva prueba procedimientos",
             "D. Para los requerimientos regulatorios, mientras que la prueba sustantiva prueba las validaciones"
         ],
-        "answer": "B",
+        "answer": 1,
         "explanation": "La prueba de cumplimiento verifica si los controles existen y son efectivos; la prueba sustantiva verifica los detalles, exactitud e integridad de los datos. Diapositivas Tema 8 Pág. 22 - Examen Modelo A 01/2025."
     },
     {
@@ -40,7 +40,7 @@
             "C. Revisar las clasificaciones de datos guardados en el servidor",
             "D. Ampliar la muestra de logs revisados"
         ],
-        "answer": "D",
+        "answer": 3,
         "explanation": "Ante un hallazgo aislado, el auditor debe ampliar la muestra para confirmar si el hallazgo es representativo o excepcional. - Examen Modelo A 01/2025"
     },
     {
@@ -51,19 +51,19 @@
             "C. La auditoria de Sistemas de Información es el proceso de recoger, agrupar y evaluar evidencias para determinar si un sistema informático salvaguarda los activos, mantiene la integridad de los datos, lleva a cabo los fines de la organización y utiliza eficientemente los recursos",
             "D. Todas las anteriores"
         ],
-        "answer": "C",
+        "answer": 2,
         "explanation": "La definición clásica de auditoría de SI de Ron Weber se centra en el análisis objetivo de la eficacia, integridad y seguridad de los sistemas. - Examen Modelo A 01/2025"
     },
     {
-        "question": "Señalar la respuesta correcta. En materia de Planes de Contingencia, ¿qué controles se consideran adecuados?",
+        "question": "Señalar la respuesta correcta. En materia de Planes de Contingencia, y la auditoría de controles de seguridad en esta área, pueden considerarse como controles adecuados:",
         "options": [
             "A. La existencia de un Plan de Copias",
             "B. La realización periódica de pruebas de contingencia",
             "C. La documentación de un procedimiento de actuación ante crisis",
             "D. Todas las anteriores afirmaciones son ciertas"
         ],
-        "answer": "D",
-        "explanation": "Todos los puntos mencionados forman parte de un control adecuado en planes de contingencia según el DRP y el plan de continuidad del negocio. - Examen Modelo A 01/2025"
+        "answer": 3,
+        "explanation": "Todos los puntos mencionados forman parte de un control adecuado en planes de contingencia según el DRP y el plan de continuidad del negocio. - Examen Modelo A y C 01/2025"
     },
     {
         "question": "Señalar la respuesta correcta. El desarrollo de software seguro y confiable requiere la adopción de un proceso sistemático que aborde la seguridad en cada fase de su ciclo de vida. Se debe integrar en el mismo dos tipos de actividades:",
@@ -73,7 +73,7 @@
             "C. Seguimiento de unos principios de diseño seguro y una serie de buenas prácticas de seguridad",
             "D. Ninguna de las anteriores"
         ],
-        "answer": "C",
+        "answer": 2,
         "explanation": "El desarrollo seguro requiere integrar principios de diseño seguro y buenas prácticas de seguridad en todo el SDLC. - Examen Modelo A 01/2025"
     },
     {
@@ -84,7 +84,7 @@
             "C. Recuperación",
             "D. Robustez"
         ],
-        "answer": "B",
+        "answer": 1,
         "explanation": "La resiliencia implica resistencia y capacidad de recuperación ante ataques hasta un nivel mínimo de servicio aceptable - Examen Modelo A 01/2025."
     },
     {
@@ -95,7 +95,7 @@
             "C. Instalación de aplicaciones y servicios con el usuario de administrador",
             "D. Servicios y procesos con privilegios por tiempo definido"
         ],
-        "answer": "D",
+        "answer": 3,
         "explanation": "La opción D es incorrecta; asignar privilegios limitados temporalmente SÍ es una buena práctica. Las otras tres sí son errores comunes - Examen Modelo A 01/2025"
     },
     {
@@ -106,7 +106,7 @@
             "C. Cuando el programa detecta que el búfer no está lleno",
             "D. Cuando un puntero es usado para acceder a memoria no apuntada por él"
         ],
-        "answer": "D",
+        "answer": 3,
         "explanation": "Un desbordamiento de búfer ocurre cuando se accede a memoria fuera de los límites del buffer, lo que puede implicar punteros mal gestionados - Examen Modelo A 01/2025"
     },
     {
@@ -117,7 +117,7 @@
             "C. Datos confidenciales de autenticación.",
             "D. Contenido completo de la pista (datos de la banda magnética o datos equivalentes que están en un chip)."
         ],
-        "answer": "B",
+        "answer": 1,
         "explanation": "Los datos que protege PCI DSS son el PAN (Primary Account Number), los datos del titular de la tarjeta y los datos confidenciales de autenticación, como el contenido de la pista de la banda magnética. No se incluyen los datos de la entidad receptora del pago - Examen Modelo B 01/2025"
     },
     {
@@ -128,7 +128,7 @@
             "C. Varias pruebas.",
             "D. Varias amenazas."
         ],
-        "answer": "A",
+        "answer": 0,
         "explanation": "Un mismo objetivo de control puede estar cubierto por múltiples controles, especialmente en sistemas complejos donde se requiere redundancia o defensa en profundidad - Examen Modelo B 01/2025."
     },
     {
@@ -139,7 +139,7 @@
             "C. De Informática.",
             "D. De cualquier rama con tal de que se pueda demostrar su independencia en su trabajo y resultados."
         ],
-        "answer": "D",
+        "answer": 3,
         "explanation": "Lo esencial es la independencia. El departamento de auditoría debe reportar directamente al nivel más alto de la gerencia o comité de auditoría, pero no está obligado a depender de una rama específica siempre que se garantice la independencia. Tema 7 Pág. 9 - Examen Modelo B 01/2025"
     },
     {
@@ -150,7 +150,7 @@
             "C. No.",
             "D. A y B son correctas."
         ],
-        "answer": "B",
+        "answer": 1,
         "explanation": "Todos los empleados tienen la responsabilidad de colaborar con la auditoría interna, proporcionando información y documentación necesaria durante cualquier auditoría, sin importar la gravedad del hallazgo.  - Examen Modelo B 01/2025"
     },
     {
@@ -161,7 +161,7 @@
             "C. Seguridad física, lógica y las operaciones.",
             "D. Todas la anteriores."
         ],
-        "answer": "C",
+        "answer": 2,
         "explanation": "Las auditorías técnicas de seguridad abarcan los aspectos de seguridad física (instalaciones, acceso), lógica (sistemas, aplicaciones, redes) y operaciones (procesos del CPD, backups, respuesta ante incidentes). Tema 9 Pág 4 - Examen Modelo B 01/2025"
     },
     {
@@ -172,8 +172,8 @@
             "C. Maximizar el número de herramientas de análisis de estático de código utilizadas para analizar la implementación del código fuente de una aplicación.",
             "D. Ninguna de las anteriores."
         ],
-        "answer": "A",
-        "explanation": "Reducir la superficie de ataque consiste en disminuir los puntos de entrada y exposición que podrían ser utilizados por atacantes para comprometer un sistema  - Examen Modelo B 01/2025."
+        "answer": 0,
+        "explanation": "Reducir la superficie de ataque consiste en disminuir los puntos de entrada y exposición que podrían ser utilizados por atacantes para comprometer un sistema  - Examen Modelo B y C 01/2025."
     },
     {
         "question": "Señalar la respuesta correcta. La propiedad de las aplicaciones para resistir a los ataques que intentan modificar o alterar los datos de manera no autorizada se denomina:",
@@ -183,7 +183,7 @@
             "C. Disponibilidad.",
             "D. Autorización."
         ],
-        "answer": "B",
+        "answer": 1,
         "explanation": "La integridad garantiza que los datos no han sido alterados de forma no autorizada y se mantienen fieles a su estado original o autorizado. Confidencialidad (A) protege accesos no autorizados, y disponibilidad (C) asegura el acceso legítimo. - Examen Modelo B 01/2025"
     },
     {
@@ -194,7 +194,7 @@
             "C. Disponibilidad.",
             "D. Autenticación."
         ],
-        "answer": "B",
+        "answer": 1,
         "explanation": "Los checksums permiten verificar la integridad de los datos, asegurando que no han sido modificados o corrompidos durante la transmisión o almacenamiento - Examen Modelo B 01/2025"
     },
     {
@@ -205,7 +205,73 @@
             "C. No importa que no estén por escrito. Un alto porcentaje de controles ni se conocen ni se documentan",
             "D. Los controles manuales son los únicos que no están por escrito"
         ],
-        "answer": "B",
+        "answer": 1,
         "explanation": "Para garantizar la trazabilidad, revisión y mejora continua, los controles deben estar documentados formalmente en procedimientos escritos - Examen Modelo B 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. El sistema de Gestión de la Seguridad de la Información-SGSI. ¿Cuál tiene PDCA?",
+        "options": [
+            "A. La ISO 27001 y la ISO 27002.",
+            "B. Solo la ISO 27002.",
+            "C. La ISO 27001.",
+            "D. Ninguna de las anteriores."
+        ],
+        "answer": 2,
+        "explanation": "La norma ISO/IEC 27001 está basada en el ciclo PDCA (Plan-Do-Check-Act). La ISO 27002 es un catálogo de buenas prácticas y proporciona controles, pero no es un SGSI ni sigue PDCA como estructura principal - Examen Modelo C 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. Durante la auditoría de un plan de continuidad del negocio, un auditor de SI encontró que, a pesar de que todos los departamentos están alojados en el mismo edificio, cada departamento tenía un plan separado de continuidad del negocio. El auditor de SI recomendó que se reconciliaran los planes de continuidad del negocio. ¿Cuál de las áreas siguientes debería reconciliarse PRIMERO?",
+        "options": [
+            "A. Plan de evacuación.",
+            "B. Prioridades de recuperación.",
+            "C. Almacenamientos de backup.",
+            "D. Árbol de llamadas."
+        ],
+        "answer": 1,
+        "explanation": "Las prioridades de recuperación deben estar alineadas entre departamentos para evitar conflictos al restaurar servicios críticos tras un desastre. Sin esto, otros elementos como el plan de evacuación o los árboles de llamadas pueden no ser efectivos. - Examen Modelo C 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. ¿Cuál es la definición breve de Auditoría de Sistemas de Información?",
+        "options": [
+            "A. Es la revisión vinculada del control y la evaluación.",
+            "B. Es la revisión independiente de la auditoría.",
+            "C. Es la revisión independiente del control interno informático.",
+            "D. Ninguna de las anteriores."
+        ],
+        "answer": 2,
+        "explanation": "La auditoría de SI es la revisión independiente y objetiva del control interno informático para asegurar confidencialidad, integridad y disponibilidad.  auditoría de SI evalúa de forma independiente los controles internos (seguridad, integridad, eficiencia), no solo 'vinculaciones' (A) o la auditoría misma (B). - Examen Modelo C 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta correcta. ¿Cuál es el control más importante para el CIO (Chief Information Officer - Director de Informática)?",
+        "options": [
+            "A. El plan de seguridad alineado con el plan de medioambiente",
+            "B. El plan estratégico de empresa alineado con el plan de TICs",
+            "C. El plan de TICs no se alinea nunca con el plan estratégico de empresa",
+            "D. El plan económico-financiero alineado con los periodos vacacionales"
+        ],
+        "answer": 1,
+        "explanation": "B. El gobierno de TI requiere alinear el plan TIC con el plan estratégico de la organización para generar valor y mitigar riesgos - Examen Modelo C 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Los objetivos de las pruebas de seguridad basadas en el riesgo:",
+        "options": [
+            "A. Verificar la capacidad de supervivencia del software ante la aparición de anomalías, errores y su manejo de las mismas mediante excepciones que minimicen el alcance e impacto de los daños que puedan resultar de los ataques.",
+            "B. Verificar la operación del software bajo en su entorno de producción.",
+            "C. Verificar la fiabilidad del software, en términos de comportamiento seguro y cambios de estado confiables.",
+            "D. Verificar la falta de defectos y debilidades explotables."
+        ],
+        "answer": 1,
+        "explanation": "El objetivo es verificar la operación del software bajo condiciones hostiles, no simplemente en su entorno de producción, sino en identificar vulnerabilidades (D), resiliencia (A) y fiabilidad (C). - Examen Modelo C 01/2025"
+    },
+    {
+        "question": "Señalar la respuesta incorrecta. Consideraciones sobre potenciales vulnerabilidades de Java:",
+        "options": [
+            "A. Seguridad de tipos. Los campos que son declarados privados o protegidos, o que tienen protección, por defecto, deberían ser públicamente accesibles.",
+            "B. Campos públicos. Un campo que es declarado público directamente puede ser accedido por cualquier parte de un programa Java y puede ser modificado por las mismas (a no ser que el campo sea declarado como final).",
+            "C. Serialización. Esta facilidad posibilita que el estado del programa sea capturado y convertido en un byte stream que puede ser restaurado por la operación inversa, que es la deserialización.",
+            "D. La JVM en sí misma a menudo está escrita en C para una plataforma dada. Esto quiere decir que sin la atención cuidadosa a detalles de puesta en práctica, la JVM en sí misma es susceptible a problemas de desbordamiento."
+        ],
+        "answer": 0,
+        "explanation": "Es incorrecto decir que los campos privados o protegidos deberían ser públicamente accesibles. Precisamente esa encapsulación es una defensa contra accesos no autorizados y vulnerabilidades. - Examen Modelo C 01/2025"
     }
 ]
