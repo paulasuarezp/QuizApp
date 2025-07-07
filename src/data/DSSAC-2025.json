@@ -8,7 +8,7 @@
             "D. Concordante con leyes internacionales"
         ],
         "answer": 3,
-        "explanation": "El OSSTMM debe ser cuantificable, cosnsitente y repetible, válido más allá del período de tiempo actual, se debe de basar en el mérito del testador y analista (no en marcas comercialeS), exhaustivo y concordante con leyes individuales y locales y el derecho humano a la privacidad. Diapositivas Tema 10 - Examen Modelo A 01/2025."
+        "explanation": "<p>El <strong>OSSTMM</strong> establece que unas pruebas de seguridad deben ser:</p><ul><li>Cuantificables, consistentes y repetibles</li><li>Válidas más allá del período de tiempo actual</li><li>Basadas en el mérito del testador y analista (no en marcas comerciales)</li><li>Exhaustivas</li><li>Concordantes con leyes individuales, locales y el derecho humano a la privacidad</li></ul><p class='reference'><em>Diapositivas Tema 10 - Examen Modelo A 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta incorrecta. Entre los tipos de auditorías técnicas de seguridad tenemos:",
@@ -19,7 +19,7 @@
             "D. Ninguna de las anteriores"
         ],
         "answer": 0,
-        "explanation": "Las auditorías de seguridad internas no son un tipo técnico específico, sino una clasificación basada en el origen de la auditoría (interna vs externa), no en su objeto técnico. Diapositivas Tema Pág. 25 - Examen Modelo A 01/2025."
+        "explanation": "<p>Las <strong>auditorías de seguridad internas</strong> no constituyen un tipo técnico concreto, sino una clasificación según el origen de la auditoría (interna vs externa), no por su objeto técnico.</p><p class='reference'><em>Diapositivas Tema, Pág. 25 – Examen Modelo A 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. Una distinción que puede hacerse entre prueba de cumplimiento y prueba sustantiva es que la prueba de cumplimiento prueba:",
@@ -30,7 +30,7 @@
             "D. Para los requerimientos regulatorios, mientras que la prueba sustantiva prueba las validaciones"
         ],
         "answer": 1,
-        "explanation": "La prueba de cumplimiento verifica si los controles existen y son efectivos; la prueba sustantiva verifica los detalles, exactitud e integridad de los datos. Diapositivas Tema 8 Pág. 22 - Examen Modelo A 01/2025."
+        "explanation": "<p>La <strong>prueba de cumplimiento</strong> verifica si los controles existen y funcionan correctamente. En cambio, la <strong>prueba sustantiva</strong> valida detalles, exactitud e integridad de los datos.</p><p class='reference'><em>Diapositivas Tema 8, Pág. 22 – Examen Modelo A 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. Un auditor de SI está realizando una auditoria a un servidor de copias de respaldo administrado desde una ubicación remota. El auditor de SI revisa los logs de un día y descubre un caso en el cual el inicio de sesión en un servidor falló con el resultado de que no se puedo confirmar los reinicios de la copia de respaldo. ¿Qué debería hacer el auditor?",
@@ -41,7 +41,7 @@
             "D. Ampliar la muestra de logs revisados"
         ],
         "answer": 3,
-        "explanation": "Ante un hallazgo aislado, el auditor debe ampliar la muestra para confirmar si el hallazgo es representativo o excepcional. - Examen Modelo A 01/2025"
+        "explanation": "<p>Ante un hallazgo aislado en una auditoría, el auditor debe <strong>ampliar la muestra</strong> de análisis para comprobar si se trata de un caso representativo o excepcional.</p><p class='reference'><em>Examen Modelo A 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. Según Ron Weber, la auditoría de sistemas de información es:",
@@ -52,7 +52,7 @@
             "D. Todas las anteriores"
         ],
         "answer": 2,
-        "explanation": "La definición clásica de auditoría de SI de Ron Weber se centra en el análisis objetivo de la eficacia, integridad y seguridad de los sistemas. - Examen Modelo A 01/2025"
+        "explanation": "<p>La definición clásica de <strong>Ron Weber</strong> sobre auditoría de Sistemas de Información destaca:</p><ul><li>Salvaguarda de activos</li><li>Mantenimiento de la integridad de los datos</li><li>Soporte a los fines de la organización</li><li>Uso eficiente de los recursos</li></ul><p class='reference'><em>Examen Modelo A 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. En materia de Planes de Contingencia, y la auditoría de controles de seguridad en esta área, pueden considerarse como controles adecuados:",
@@ -63,7 +63,7 @@
             "D. Todas las anteriores afirmaciones son ciertas"
         ],
         "answer": 3,
-        "explanation": "Todos los puntos mencionados forman parte de un control adecuado en planes de contingencia según el DRP y el plan de continuidad del negocio. - Examen Modelo A y C 01/2025"
+        "explanation": "<p>Controles adecuados en planes de contingencia incluyen:</p><ul><li>Existencia de un plan de copias</li><li>Pruebas periódicas de contingencia</li><li>Procedimientos documentados para actuar ante crisis</li></ul><p class='reference'><em>Examen Modelo A y C 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. El desarrollo de software seguro y confiable requiere la adopción de un proceso sistemático que aborde la seguridad en cada fase de su ciclo de vida. Se debe integrar en el mismo dos tipos de actividades:",
@@ -74,7 +74,7 @@
             "D. Ninguna de las anteriores"
         ],
         "answer": 2,
-        "explanation": "El desarrollo seguro requiere integrar principios de diseño seguro y buenas prácticas de seguridad en todo el SDLC. - Examen Modelo A 01/2025"
+        "explanation": "<p>El desarrollo seguro de software debe integrar:</p><ul><li>Principios de diseño seguro</li><li>Buenas prácticas de seguridad</li></ul><p>Esto debe aplicarse en todas las fases del ciclo de vida del software (SDLC).</p><p class='reference'><em>Examen Modelo A 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. Cuando el software es capaz de resistir ataques recuperándose hasta un nivel mínimo de servicio preestablecido y sin violar la política de seguridad, se dice que exhibe:",
@@ -85,7 +85,7 @@
             "D. Robustez"
         ],
         "answer": 1,
-        "explanation": "La resiliencia implica resistencia y capacidad de recuperación ante ataques hasta un nivel mínimo de servicio aceptable - Examen Modelo A 01/2025."
+        "explanation": "<p><strong>Resiliencia</strong> es la capacidad del software para <strong>resistir y recuperarse de ataques</strong> hasta alcanzar un nivel mínimo de servicio aceptable, sin violar las políticas de seguridad.</p><p class='reference'><em>Examen Modelo A 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta incorrecta. Ejemplo de errores comunes al aplicar el principio de mínimo privilegio:",
@@ -96,7 +96,7 @@
             "D. Servicios y procesos con privilegios por tiempo definido"
         ],
         "answer": 3,
-        "explanation": "La opción D es incorrecta; asignar privilegios limitados temporalmente SÍ es una buena práctica. Las otras tres sí son errores comunes - Examen Modelo A 01/2025 y C 01/2023."
+        "explanation": "<p>Asignar privilegios <strong>por tiempo limitado</strong> (opción D) es una buena práctica. En cambio, las otras opciones (usuarios, servicios o aplicaciones con permisos de administrador) <strong>son errores comunes</strong> al aplicar el principio de mínimo privilegio.</p><p class='reference'><em>Examen Modelo A 01/2025 y C 01/2023</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. ¿Cuándo se da lugar, de forma general, un ataque de desbordamiento de búfer?",
@@ -107,7 +107,7 @@
             "D. Cuando un puntero es usado para acceder a memoria no apuntada por él"
         ],
         "answer": 3,
-        "explanation": "Un desbordamiento de búfer ocurre cuando se accede a memoria fuera de los límites del buffer, lo que puede implicar punteros mal gestionados - Examen Modelo A 01/2025"
+        "explanation": "<p>El <strong>desbordamiento de búfer</strong> ocurre cuando un puntero se usa para acceder a memoria fuera del límite asignado (por ejemplo, apuntando a zonas no reservadas o no válidas).</p><p class='reference'><em>Examen Modelo A 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta incorrecta. Los datos concretos a proteger según las normas PCI DSS son los siguientes:",
