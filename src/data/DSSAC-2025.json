@@ -118,7 +118,7 @@
             "D. Contenido completo de la pista (datos de la banda magnética o datos equivalentes que están en un chip)."
         ],
         "answer": 1,
-        "explanation": "Los datos que protege PCI DSS son el PAN (Primary Account Number), los datos del titular de la tarjeta y los datos confidenciales de autenticación, como el contenido de la pista de la banda magnética. No se incluyen los datos de la entidad receptora del pago - Examen Modelo B 01/2025"
+        "explanation": "<p>Los datos protegidos por <strong>PCI DSS</strong> incluyen:</p><ul><li>El <strong>PAN</strong> (Primary Account Number)</li><li>Datos del titular de la tarjeta</li><li>Datos confidenciales de autenticación, como los de la banda magnética o chip</li></ul><p>Los datos de la entidad receptora del pago <strong>no están incluidos</strong>.</p><p class='reference'><em>Examen Modelo B 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. Un objetivo de control puede estar cubierto por:",
@@ -129,7 +129,7 @@
             "D. Varias amenazas."
         ],
         "answer": 0,
-        "explanation": "Un mismo objetivo de control puede estar cubierto por múltiples controles, especialmente en sistemas complejos donde se requiere redundancia o defensa en profundidad - Examen Modelo B 01/2025."
+        "explanation": "<p>Un <strong>objetivo de control</strong> puede estar cubierto por <strong>varios controles</strong>, especialmente en entornos complejos donde se aplica el principio de defensa en profundidad.</p><p class='reference'><em>Examen Modelo B 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. Un departamento de auditoria interna, ¿de dónde tendría que colgar en el organigrama?",
@@ -140,7 +140,7 @@
             "D. De cualquier rama con tal de que se pueda demostrar su independencia en su trabajo y resultados."
         ],
         "answer": 3,
-        "explanation": "Lo esencial es la independencia. El departamento de auditoría debe reportar directamente al nivel más alto de la gerencia o comité de auditoría, pero no está obligado a depender de una rama específica siempre que se garantice la independencia. Tema 7 Pág. 9 - Examen Modelo B 01/2025"
+        "explanation": "<p>La <strong>independencia</strong> es esencial para un departamento de auditoría interna. Debe poder actuar con objetividad, independientemente de su ubicación en el organigrama.</p><p class='reference'><em>Tema 7 Pág. 9 – Examen Modelo B 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. Tienen los empleados responsabilidad sobre las acciones de auditoria interna.",
@@ -151,7 +151,7 @@
             "D. A y B son correctas."
         ],
         "answer": 1,
-        "explanation": "Todos los empleados tienen la responsabilidad de colaborar con la auditoría interna, proporcionando información y documentación necesaria durante cualquier auditoría, sin importar la gravedad del hallazgo.  - Examen Modelo B 01/2025"
+        "explanation": "<p>Los <strong>empleados tienen la responsabilidad</strong> de colaborar con la auditoría interna en todo momento, proporcionando información y acceso cuando sea requerido, sin importar la gravedad del hallazgo.</p><p class='reference'><em>Examen Modelo B 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. La auditoría de la seguridad operativa/técnica abarca los conceptos de:",
@@ -162,7 +162,7 @@
             "D. Todas la anteriores."
         ],
         "answer": 2,
-        "explanation": "Las auditorías técnicas de seguridad abarcan los aspectos de seguridad física (instalaciones, acceso), lógica (sistemas, aplicaciones, redes) y operaciones (procesos del CPD, backups, respuesta ante incidentes). Tema 9 Pág 4 - Examen Modelo B 01/2025"
+        "explanation": "<p>La auditoría de <strong>seguridad operativa/técnica</strong> abarca:</p><ul><li>Seguridad física (instalaciones, acceso)</li><li>Seguridad lógica (sistemas, redes, aplicaciones)</li><li>Operaciones (procesos, backups, incidentes)</li></ul><p class='reference'><em>Tema 9 Pág. 4 – Examen Modelo B 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. El objetivo de la reducción de la superficie de ataque es:",
@@ -173,7 +173,7 @@
             "D. Ninguna de las anteriores."
         ],
         "answer": 0,
-        "explanation": "Reducir la superficie de ataque consiste en disminuir los puntos de entrada y exposición que podrían ser utilizados por atacantes para comprometer un sistema  - Examen Modelo B y C 01/2025."
+        "explanation": "<p>Reducir la <strong>superficie de ataque</strong> implica minimizar los puntos accesibles que un atacante podría descubrir y explotar para comprometer un sistema.</p><p class='reference'><em>Examen Modelo B y C 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. La propiedad de las aplicaciones para resistir a los ataques que intentan modificar o alterar los datos de manera no autorizada se denomina:",
@@ -184,7 +184,7 @@
             "D. Autorización."
         ],
         "answer": 1,
-        "explanation": "La integridad garantiza que los datos no han sido alterados de forma no autorizada y se mantienen fieles a su estado original o autorizado. Confidencialidad (A) protege accesos no autorizados, y disponibilidad (C) asegura el acceso legítimo. - Examen Modelo B 01/2025"
+        "explanation": "<p>La <strong>integridad</strong> se refiere a la protección contra modificaciones no autorizadas de los datos, asegurando su fidelidad al estado original o autorizado.</p><p class='reference'><em>Examen Modelo B 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. La validación de un Checksum puede utilizarse para satisfacer los siguientes requisitos:",
@@ -195,7 +195,7 @@
             "D. Autenticación."
         ],
         "answer": 1,
-        "explanation": "Los checksums permiten verificar la integridad de los datos, asegurando que no han sido modificados o corrompidos durante la transmisión o almacenamiento - Examen Modelo B 01/2025"
+        "explanation": "<p>La validación mediante <strong>Checksum</strong> permite verificar la <strong>integridad</strong> de los datos, detectando alteraciones durante su transmisión o almacenamiento.</p><p class='reference'><em>Examen Modelo B 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. Los controles pueden NO estar por escrito:",
@@ -206,7 +206,7 @@
             "D. Los controles manuales son los únicos que no están por escrito"
         ],
         "answer": 1,
-        "explanation": "Para garantizar la trazabilidad, revisión y mejora continua, los controles deben estar documentados formalmente en procedimientos escritos - Examen Modelo B 01/2025"
+        "explanation": "<p>Los <strong>controles deben estar documentados</strong> formalmente en procedimientos escritos para garantizar su trazabilidad, auditoría y mejora continua.</p><p class='reference'><em>Examen Modelo B 01/2025</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. El sistema de Gestión de la Seguridad de la Información-SGSI. ¿Cuál tiene PDCA?",
@@ -217,7 +217,7 @@
             "D. Ninguna de las anteriores."
         ],
         "answer": 2,
-        "explanation": "La norma ISO/IEC 27001 está basada en el ciclo PDCA (Plan-Do-Check-Act). La ISO 27002 es un catálogo de buenas prácticas y proporciona controles, pero no es un SGSI ni sigue PDCA como estructura principal - Examen Modelo C 01/2025,  Examen Modelo B 01/2024"
+        "explanation": "<p>La norma <strong>ISO/IEC 27001</strong> está basada en el ciclo <strong>PDCA (Plan-Do-Check-Act)</strong>. En cambio, la ISO 27002 es un conjunto de buenas prácticas, pero no sigue el ciclo PDCA.</p><p class='reference'><em>Examen Modelo C 01/2025, Examen Modelo B 01/2024</em></p>"
     },
     {
         "question": "Señalar la respuesta correcta. Durante la auditoría de un plan de continuidad del negocio, un auditor de SI encontró que, a pesar de que todos los departamentos están alojados en el mismo edificio, cada departamento tenía un plan separado de continuidad del negocio. El auditor de SI recomendó que se reconciliaran los planes de continuidad del negocio. ¿Cuál de las áreas siguientes debería reconciliarse PRIMERO?",
