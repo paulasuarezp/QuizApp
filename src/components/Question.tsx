@@ -54,7 +54,11 @@ const QuestionComponent: React.FC<QuestionProps> = ({
                 ))}
             </ul>
             {showResults && question.explanation && (
-                <div className="explanation">{question.explanation}</div>
+                <div
+                    className="explanation"
+                    dangerouslySetInnerHTML={{ __html: question.explanation }}
+                />
+
             )}
         </div>
     );

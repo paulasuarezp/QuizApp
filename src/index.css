@@ -4,8 +4,8 @@
   --c-app2: #dddddd;
   --c-btn1: #007bff;
   --c-btn2: #0056b3;
-  --c-main1: #bfd6de;
-  --c-main2: #b5dae8;
+  --c-main1: #e8f0fe;   /* azul hielo */
+  --c-main2: #d2e3fc; 
   --c-correct: #5ce25c;
   --c-incorrect: #e25c5c;
   --c-background: #f4f4f4;
@@ -46,6 +46,7 @@ h1 {
   margin-top: 10px;
   padding-bottom: 5px;
   position: relative;
+  text-align: left;
 }
 
 .question::before {
@@ -71,6 +72,7 @@ h1 {
 
 .answer {
   display: flex;
+  text-align: left;
   align-items: center;
   margin-bottom: 10px;
   background-color: var(--c-main1);
@@ -118,6 +120,13 @@ h1 {
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
+  #root {
+    padding: 0.5rem;
+  }
+  #topic-selector {
+    max-width: 350px;
+  }
+
   #app {
     margin: 10px;
     padding: 10px;

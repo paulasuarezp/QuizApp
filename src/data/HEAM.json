@@ -657,7 +657,7 @@
       "\\x70\\x41\\x32\\x09"
     ],
     "answer": 2,
-    "explanation": "Little-endian almacena el byte menos significativo primero, por lo que 0x07142390 se guarda como \\x90\\x23\\x14\\x07."
+    "explanation": "<p>En una arquitectura <strong>Little-endian</strong>, los bytes se almacenan en orden inverso al que aparecen. La dirección <code>0x07142390</code> se descompone en bytes así: <code>0x07</code>, <code>0x14</code>, <code>0x23</code>, <code>0x90</code>. Al invertirlos para guardarlos en memoria, obtenemos <code>\\x90\\x23\\x14\\x07</code>.</p>"
   },
   {
     "question": "¿Qué realiza el comando “echo 0 > /proc/sys/kernel/randomize_va_space” en un sistema Linux?",
@@ -679,7 +679,7 @@
       "No es necesario."
     ],
     "answer": 1,
-    "explanation": "El número de columnas debe coincidir en una instrucción UNION ALL SELECT para que la consulta SQL no genere error."
+    "explanation": "<p><strong>Respuesta correcta:</strong> <code>Para el comando UNION ALL SELECT</code></p><p>Al realizar una inyección SQL con <code>UNION ALL SELECT</code>, es necesario que la consulta inyectada tenga el <strong>mismo número de columnas</strong> que la consulta original. Si el número de columnas no coincide, el motor de base de datos devolverá un error, impidiendo que se ejecute correctamente la inyección.</p>"
   },
   {
     "question": "Indica qué afirmación es cierta respecto al fuzzing:",
@@ -701,7 +701,7 @@
       "Hace muy difícil seguir la pista hasta el atacante."
     ],
     "answer": 2,
-    "explanation": "CSRF aprovecha que el navegador envía automáticamente cookies de sesión, explotando la confianza que el servidor tiene en el navegador."
+    "explanation": "<p><strong>CSRF</strong> son las siglas de <strong>Cross-Site Request Forgery</strong> (falsificación de petición en sitios cruzados). Esta vulnerabilidad se basa en que el navegador de una víctima autenticada puede ser manipulado para enviar peticiones maliciosas a un servidor en el que confía, sin que el usuario lo sepa. Es decir, <strong>aprovecha la confianza que tiene un navegador en un servidor web</strong>, ya que este asume que las peticiones provienen legítimamente del usuario autenticado.</p>"
   },
   {
     "question": "La pila...",

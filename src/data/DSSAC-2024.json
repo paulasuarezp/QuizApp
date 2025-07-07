@@ -62,8 +62,8 @@
             "EAL4",
             "EAL5"
         ],
-        "answer": 2,
-        "explanation": "EAL4 es considerado el nivel donde se exige evidencia de que la implementación cumple con lo documentado, incluyendo el diseño detallado y pruebas independientes. Diapositivas Tema 10 Pág 50 - Examen Modelo A 01/2024"
+        "answer": 0,
+        "explanation": "<p>Tema 10 Pág 43 - Examen Modelo A 01/2024 <strong>Respuesta correcta:</strong> <code>EAL1</code></p><p>Según la metodología <strong>Common Criteria (ISO 15408)</strong>, los niveles de garantía EAL indican el grado de confianza en la evaluación de un producto:</p><ul><li><strong>EAL1:</strong> Funcionalidad probada. Se verifica que la evaluación coincide con la documentación.</li><li><strong>EAL2:</strong> Estructuralmente probado. Se obtienen evidencias más detalladas de la funcionalidad.</li><li><strong>EAL3:</strong> Probado y verificado metódicamente. Incluye pruebas de caja gris.</li><li><strong>EAL4:</strong> Diseñado, probado y revisado metódicamente. Se identifican vulnerabilidades independientes.</li><li><strong>EAL5:</strong> Diseñado y probado semiformalmente. Se aplican técnicas avanzadas de seguridad.</li><li><strong>EAL6:</strong> Diseño verificado y probado semiformalmente. Se realiza un análisis apoyado en un diseño modular y una exposición ordenada de la implementación.</li><li><strong>EAL7:</strong> Diseño verificado y probado formalmente. Confirma de forma independiente y completa los resultados de pruebas de caja blanca realizadas por el desarrollador.</li></ul>"
     },
     {
         "question": "Señalar la respuesta correcta. Verificar que se está utilizando sistemas duplicados en los que se requiere muy alta disponibilidad se corresponde al área de la auditoría de un Plan de Recuperación ante Desastres:",
